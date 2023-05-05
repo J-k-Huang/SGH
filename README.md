@@ -10,10 +10,15 @@
 * Office-Home contains 15 500 images of 65 classes from four domains: Ar, Cl, Pr, and Rw. Office-Home dataset can be found [here](https://www.hemanthdv.org/officeHomeDataset.html)
 * VisDA-2017 is a simulation-to-real dataset for domain adaptation over 280 000 images across 12 categories. VisDA-2017 dataset can be found [here](https://github.com/VisionLearningGroup/taskcv-2017-public)
 ## Demo  
-Train on DomainNet 
+Train on CDAN on Digits dataset
 ```  
-cd Image_DMAL
-python main.py
+cd CDAN+SGH/demo_digital
+python train_mnistusps_CDAN.py
+```
+Train on CDAN on image dataset (Office-31/Office-home/VisDA-2017)
+```  
+cd CDAN+SGH/demo_images
+python train_image_AW.py
 ```
 ## Contact  
 If you have any problem about our code, feel free to contact jkhuang@cqu.edu.cn
