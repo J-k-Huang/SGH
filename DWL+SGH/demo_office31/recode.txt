@@ -1,0 +1,2302 @@
+1
+source_num
+4439
+target_num
+4365
+classes['Alarm_Clock', 'Backpack', 'Batteries', 'Bed', 'Bike', 'Bottle', 'Bucket', 'Calculator', 'Calendar', 'Candles', 'Chair', 'Clipboards', 'Computer', 'Couch', 'Curtains', 'Desk_Lamp', 'Drill', 'Eraser', 'Exit_Sign', 'Fan', 'File_Cabinet', 'Flipflops', 'Flowers', 'Folder', 'Fork', 'Glasses', 'Hammer', 'Helmet', 'Kettle', 'Keyboard', 'Knives', 'Lamp_Shade', 'Laptop', 'Marker', 'Monitor', 'Mop', 'Mouse', 'Mug', 'Notebook', 'Oven', 'Pan', 'Paper_Clip', 'Pen', 'Pencil', 'Postit_Notes', 'Printer', 'Push_Pin', 'Radio', 'Refrigerator', 'Ruler', 'Scissors', 'Screwdriver', 'Shelf', 'Sink', 'Sneakers', 'Soda', 'Speaker', 'Spoon', 'TV', 'Table', 'Telephone', 'ToothBrush', 'Toys', 'Trash_Can', 'Webcam']
+/home/ps/anaconda3/lib/python3.7/site-packages/torchvision/transforms/transforms.py:208: UserWarning: The use of the transforms.Scale transform is deprecated, please use transforms.Resize instead.
+  warnings.warn("The use of the transforms.Scale transform is deprecated, " +
+Train Ep: 1 [0/70000 (0%)]	Loss1: -0.151752	Loss2: 0.071106	Loss3: 11.831966	Loss4: 0.017883	Loss5: 0.017883
+main.py:237: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return torch.mean(torch.abs(F.softmax(out1) - F.softmax(out2)))
+main.py:670: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  data1, target1 = Variable(data2, volatile=True), Variable(target2)
+max_value is:
+0
+
+Test set: Average loss1: -0.0024, Average loss2: 0.0002, Accuracy C: 146/4432 (3.3%), Accuracy C1: 63/4432 (1.4%), Accuracy ensemble c2: 62/4432 (1.4)%, Accuracy ensemble c1c2: 51/4432 (1.2)%, Accuracy ensemble cc1c2: 123/4432 (2.8%)
+
+Train Ep: 1 [800/70000 (0%)]	Loss1: -0.146871	Loss2: 0.074568	Loss3: 9.411655	Loss4: 0.043975	Loss5: 0.043975
+Train Ep: 1 [1600/70000 (1%)]	Loss1: -0.135985	Loss2: 0.071158	Loss3: 7.738133	Loss4: 0.045507	Loss5: 0.045507
+Train Ep: 1 [2400/70000 (2%)]	Loss1: -0.137935	Loss2: 0.071426	Loss3: 6.103993	Loss4: 0.052585	Loss5: 0.052585
+Train Ep: 1 [3200/70000 (2%)]	Loss1: -0.137811	Loss2: 0.068622	Loss3: 6.548896	Loss4: 0.049256	Loss5: 0.049256
+Train Ep: 1 [4000/70000 (2%)]	Loss1: -0.149052	Loss2: 0.071474	Loss3: 5.745612	Loss4: 0.049720	Loss5: 0.049720
+Train Ep: 1 [4800/70000 (3%)]	Loss1: -0.148688	Loss2: 0.072466	Loss3: 3.852773	Loss4: 0.055259	Loss5: 0.055259
+Train Ep: 1 [5600/70000 (4%)]	Loss1: -0.142283	Loss2: 0.070749	Loss3: 3.307311	Loss4: 0.053480	Loss5: 0.053480
+Train Ep: 1 [6400/70000 (4%)]	Loss1: -0.143154	Loss2: 0.071041	Loss3: 3.057115	Loss4: 0.054351	Loss5: 0.054351
+Train Ep: 1 [7200/70000 (4%)]	Loss1: -0.145952	Loss2: 0.073886	Loss3: 3.001922	Loss4: 0.048676	Loss5: 0.048676
+Train Ep: 1 [8000/70000 (5%)]	Loss1: -0.139476	Loss2: 0.069355	Loss3: 3.465451	Loss4: 0.054951	Loss5: 0.054951
+Train Ep: 1 [8800/70000 (6%)]	Loss1: -0.140955	Loss2: 0.069821	Loss3: 1.321843	Loss4: 0.048665	Loss5: 0.048665
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.5566304060525673
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+1.0
+Train Ep: 2 [0/70000 (0%)]	Loss1: -0.139379	Loss2: 0.071004	Loss3: 1.626969	Loss4: 0.052191	Loss5: 0.052191
+max_value is:
+3.2942238267148016
+
+Test set: Average loss1: -0.8107, Average loss2: -0.3562, Accuracy C: 1461/4432 (33.0%), Accuracy C1: 1408/4432 (31.8%), Accuracy ensemble c2: 1378/4432 (31.1)%, Accuracy ensemble c1c2: 1408/4432 (31.8)%, Accuracy ensemble cc1c2: 1490/4432 (33.6%)
+
+Train Ep: 2 [800/70000 (0%)]	Loss1: -0.129392	Loss2: 0.068830	Loss3: 2.062946	Loss4: 0.046221	Loss5: 0.046221
+Train Ep: 2 [1600/70000 (1%)]	Loss1: -0.137306	Loss2: 0.070461	Loss3: 1.889754	Loss4: 0.055034	Loss5: 0.055034
+Train Ep: 2 [2400/70000 (2%)]	Loss1: -0.136485	Loss2: 0.069323	Loss3: 2.421236	Loss4: 0.042670	Loss5: 0.042670
+Train Ep: 2 [3200/70000 (2%)]	Loss1: -0.140040	Loss2: 0.070815	Loss3: 1.322995	Loss4: 0.050856	Loss5: 0.050856
+Train Ep: 2 [4000/70000 (2%)]	Loss1: -0.137484	Loss2: 0.069259	Loss3: 1.436562	Loss4: 0.047105	Loss5: 0.047105
+Train Ep: 2 [4800/70000 (3%)]	Loss1: -0.138743	Loss2: 0.069233	Loss3: 0.797647	Loss4: 0.050885	Loss5: 0.050885
+Train Ep: 2 [5600/70000 (4%)]	Loss1: -0.139233	Loss2: 0.069015	Loss3: 1.050449	Loss4: 0.048327	Loss5: 0.048327
+Train Ep: 2 [6400/70000 (4%)]	Loss1: -0.140734	Loss2: 0.069665	Loss3: 1.694846	Loss4: 0.042298	Loss5: 0.042298
+Train Ep: 2 [7200/70000 (4%)]	Loss1: -0.140222	Loss2: 0.069393	Loss3: 0.950488	Loss4: 0.044237	Loss5: 0.044237
+Train Ep: 2 [8000/70000 (5%)]	Loss1: -0.139956	Loss2: 0.069246	Loss3: 0.543545	Loss4: 0.034840	Loss5: 0.034840
+Train Ep: 2 [8800/70000 (6%)]	Loss1: -0.138908	Loss2: 0.069122	Loss3: 0.521532	Loss4: 0.036862	Loss5: 0.036862
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.6862977836457833
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.873591480059195
+Train Ep: 3 [0/70000 (0%)]	Loss1: -0.139129	Loss2: 0.070433	Loss3: 0.345372	Loss4: 0.041189	Loss5: 0.041189
+max_value is:
+33.61913357400722
+
+Test set: Average loss1: -0.8827, Average loss2: -0.5667, Accuracy C: 1492/4432 (33.7%), Accuracy C1: 1501/4432 (33.9%), Accuracy ensemble c2: 1503/4432 (33.9)%, Accuracy ensemble c1c2: 1514/4432 (34.2)%, Accuracy ensemble cc1c2: 1530/4432 (34.5%)
+
+Train Ep: 3 [800/70000 (0%)]	Loss1: -0.137049	Loss2: 0.070110	Loss3: 0.416918	Loss4: 0.051872	Loss5: 0.051872
+Train Ep: 3 [1600/70000 (1%)]	Loss1: -0.137852	Loss2: 0.068933	Loss3: 0.516542	Loss4: 0.041169	Loss5: 0.041169
+Train Ep: 3 [2400/70000 (2%)]	Loss1: -0.139137	Loss2: 0.070344	Loss3: 0.809408	Loss4: 0.044234	Loss5: 0.044234
+Train Ep: 3 [3200/70000 (2%)]	Loss1: -0.139997	Loss2: 0.070050	Loss3: 0.837414	Loss4: 0.052123	Loss5: 0.052123
+Train Ep: 3 [4000/70000 (2%)]	Loss1: -0.139483	Loss2: 0.069847	Loss3: 0.433412	Loss4: 0.048559	Loss5: 0.048559
+Train Ep: 3 [4800/70000 (3%)]	Loss1: -0.139731	Loss2: 0.069507	Loss3: 0.341197	Loss4: 0.042417	Loss5: 0.042417
+Train Ep: 3 [5600/70000 (4%)]	Loss1: -0.140668	Loss2: 0.069591	Loss3: 0.670251	Loss4: 0.042082	Loss5: 0.042082
+Train Ep: 3 [6400/70000 (4%)]	Loss1: -0.139795	Loss2: 0.071559	Loss3: 0.182277	Loss4: 0.043413	Loss5: 0.043413
+Train Ep: 3 [7200/70000 (4%)]	Loss1: -0.140061	Loss2: 0.069243	Loss3: 0.347280	Loss4: 0.045431	Loss5: 0.045431
+Train Ep: 3 [8000/70000 (5%)]	Loss1: -0.138993	Loss2: 0.069946	Loss3: 0.448293	Loss4: 0.034144	Loss5: 0.034144
+Train Ep: 3 [8800/70000 (6%)]	Loss1: -0.139797	Loss2: 0.070244	Loss3: 0.277961	Loss4: 0.035403	Loss5: 0.035403
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.4821466594383282
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.8323232160993604
+Train Ep: 4 [0/70000 (0%)]	Loss1: -0.139911	Loss2: 0.069954	Loss3: 0.494943	Loss4: 0.043916	Loss5: 0.043916
+max_value is:
+34.521660649819495
+
+Test set: Average loss1: -1.0655, Average loss2: -0.7492, Accuracy C: 1717/4432 (38.7%), Accuracy C1: 1664/4432 (37.5%), Accuracy ensemble c2: 1639/4432 (37.0)%, Accuracy ensemble c1c2: 1659/4432 (37.4)%, Accuracy ensemble cc1c2: 1695/4432 (38.2%)
+
+Train Ep: 4 [800/70000 (0%)]	Loss1: -0.140391	Loss2: 0.069223	Loss3: 0.096774	Loss4: 0.039303	Loss5: 0.039303
+Train Ep: 4 [1600/70000 (1%)]	Loss1: -0.138454	Loss2: 0.069512	Loss3: 0.319402	Loss4: 0.048691	Loss5: 0.048691
+Train Ep: 4 [2400/70000 (2%)]	Loss1: -0.138351	Loss2: 0.070397	Loss3: 0.656603	Loss4: 0.038349	Loss5: 0.038349
+Train Ep: 4 [3200/70000 (2%)]	Loss1: -0.139587	Loss2: 0.069689	Loss3: 0.268690	Loss4: 0.056258	Loss5: 0.056258
+Train Ep: 4 [4000/70000 (2%)]	Loss1: -0.139005	Loss2: 0.068985	Loss3: 0.587209	Loss4: 0.036555	Loss5: 0.036555
+Train Ep: 4 [4800/70000 (3%)]	Loss1: -0.139270	Loss2: 0.070759	Loss3: 0.301010	Loss4: 0.051210	Loss5: 0.051210
+Train Ep: 4 [5600/70000 (4%)]	Loss1: -0.139249	Loss2: 0.069781	Loss3: 0.338791	Loss4: 0.046542	Loss5: 0.046542
+Train Ep: 4 [6400/70000 (4%)]	Loss1: -0.137277	Loss2: 0.068904	Loss3: 0.252834	Loss4: 0.035035	Loss5: 0.035035
+Train Ep: 4 [7200/70000 (4%)]	Loss1: -0.139983	Loss2: 0.069523	Loss3: 0.216361	Loss4: 0.045175	Loss5: 0.045175
+Train Ep: 4 [8000/70000 (5%)]	Loss1: -0.138852	Loss2: 0.070218	Loss3: 0.114508	Loss4: 0.043487	Loss5: 0.043487
+Train Ep: 4 [8800/70000 (6%)]	Loss1: -0.139360	Loss2: 0.069965	Loss3: 0.311107	Loss4: 0.031624	Loss5: 0.031624
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.4623662813674373
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.7786048534058848
+Train Ep: 5 [0/70000 (0%)]	Loss1: -0.141030	Loss2: 0.070115	Loss3: 0.284183	Loss4: 0.031171	Loss5: 0.031171
+max_value is:
+38.74097472924188
+
+Test set: Average loss1: -1.0519, Average loss2: -0.7910, Accuracy C: 1714/4432 (38.7%), Accuracy C1: 1695/4432 (38.2%), Accuracy ensemble c2: 1696/4432 (38.3)%, Accuracy ensemble c1c2: 1699/4432 (38.3)%, Accuracy ensemble cc1c2: 1727/4432 (39.0%)
+
+Train Ep: 5 [800/70000 (0%)]	Loss1: -0.138880	Loss2: 0.069449	Loss3: 0.153532	Loss4: 0.041492	Loss5: 0.041492
+Train Ep: 5 [1600/70000 (1%)]	Loss1: -0.140511	Loss2: 0.070087	Loss3: 0.196254	Loss4: 0.039378	Loss5: 0.039378
+Train Ep: 5 [2400/70000 (2%)]	Loss1: -0.140993	Loss2: 0.069774	Loss3: 0.314272	Loss4: 0.041945	Loss5: 0.041945
+Train Ep: 5 [3200/70000 (2%)]	Loss1: -0.140307	Loss2: 0.070091	Loss3: 0.311267	Loss4: 0.049860	Loss5: 0.049860
+Train Ep: 5 [4000/70000 (2%)]	Loss1: -0.139263	Loss2: 0.069260	Loss3: 0.212186	Loss4: 0.040400	Loss5: 0.040400
+Train Ep: 5 [4800/70000 (3%)]	Loss1: -0.141220	Loss2: 0.070168	Loss3: 0.195328	Loss4: 0.047504	Loss5: 0.047504
+Train Ep: 5 [5600/70000 (4%)]	Loss1: -0.139642	Loss2: 0.069385	Loss3: 0.090103	Loss4: 0.040930	Loss5: 0.040930
+Train Ep: 5 [6400/70000 (4%)]	Loss1: -0.139081	Loss2: 0.070197	Loss3: 0.383030	Loss4: 0.049484	Loss5: 0.049484
+Train Ep: 5 [7200/70000 (4%)]	Loss1: -0.139427	Loss2: 0.069813	Loss3: 0.136116	Loss4: 0.042841	Loss5: 0.042841
+Train Ep: 5 [8000/70000 (5%)]	Loss1: -0.140331	Loss2: 0.070918	Loss3: 0.445975	Loss4: 0.025573	Loss5: 0.025573
+Train Ep: 5 [8800/70000 (6%)]	Loss1: -0.139353	Loss2: 0.069570	Loss3: 0.300800	Loss4: 0.030404	Loss5: 0.030404
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.6330053633972865
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.7697116803897996
+Train Ep: 6 [0/70000 (0%)]	Loss1: -0.140433	Loss2: 0.070178	Loss3: 0.528773	Loss4: 0.037639	Loss5: 0.037639
+max_value is:
+38.96660649819495
+
+ max_record buff: Accuracy C:(38.7%), Accuracy C1:(38.2%), Accuracy c2:(38.3)%, Accuracy ensemble c1c2:(38.3)%, Accuracy ensemble cc1c2:(39.0%)
+
+Train Ep: 6 [800/70000 (0%)]	Loss1: -0.139927	Loss2: 0.069286	Loss3: 0.463550	Loss4: 0.037206	Loss5: 0.037206
+Train Ep: 6 [1600/70000 (1%)]	Loss1: -0.139306	Loss2: 0.069733	Loss3: 0.096472	Loss4: 0.034432	Loss5: 0.034432
+Train Ep: 6 [2400/70000 (2%)]	Loss1: -0.139990	Loss2: 0.070104	Loss3: 0.182266	Loss4: 0.041792	Loss5: 0.041792
+Train Ep: 6 [3200/70000 (2%)]	Loss1: -0.139347	Loss2: 0.069228	Loss3: 0.115926	Loss4: 0.045609	Loss5: 0.045609
+Train Ep: 6 [4000/70000 (2%)]	Loss1: -0.140126	Loss2: 0.069501	Loss3: 0.202416	Loss4: 0.044827	Loss5: 0.044827
+Train Ep: 6 [4800/70000 (3%)]	Loss1: -0.139012	Loss2: 0.069491	Loss3: 0.100995	Loss4: 0.029938	Loss5: 0.029938
+Train Ep: 6 [5600/70000 (4%)]	Loss1: -0.139040	Loss2: 0.069896	Loss3: 0.125393	Loss4: 0.030817	Loss5: 0.030817
+Train Ep: 6 [6400/70000 (4%)]	Loss1: -0.139014	Loss2: 0.069404	Loss3: 0.059617	Loss4: 0.025923	Loss5: 0.025923
+Train Ep: 6 [7200/70000 (4%)]	Loss1: -0.139454	Loss2: 0.069647	Loss3: 0.070116	Loss4: 0.042032	Loss5: 0.042032
+Train Ep: 6 [8000/70000 (5%)]	Loss1: -0.140399	Loss2: 0.069970	Loss3: 0.372489	Loss4: 0.051989	Loss5: 0.051989
+Train Ep: 6 [8800/70000 (6%)]	Loss1: -0.139455	Loss2: 0.069732	Loss3: 0.499206	Loss4: 0.035306	Loss5: 0.035306
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.5533598574124415
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.7437349491464611
+Train Ep: 7 [0/70000 (0%)]	Loss1: -0.138837	Loss2: 0.069453	Loss3: 0.388184	Loss4: 0.043161	Loss5: 0.043161
+max_value is:
+38.96660649819495
+
+ max_record buff: Accuracy C:(38.7%), Accuracy C1:(38.2%), Accuracy c2:(38.3)%, Accuracy ensemble c1c2:(38.3)%, Accuracy ensemble cc1c2:(39.0%)
+
+Train Ep: 7 [800/70000 (0%)]	Loss1: -0.139496	Loss2: 0.069199	Loss3: 0.232817	Loss4: 0.047264	Loss5: 0.047264
+Train Ep: 7 [1600/70000 (1%)]	Loss1: -0.139127	Loss2: 0.069567	Loss3: 0.387153	Loss4: 0.039184	Loss5: 0.039184
+Train Ep: 7 [2400/70000 (2%)]	Loss1: -0.139699	Loss2: 0.069403	Loss3: 0.173437	Loss4: 0.034299	Loss5: 0.034299
+Train Ep: 7 [3200/70000 (2%)]	Loss1: -0.139526	Loss2: 0.069504	Loss3: 0.130623	Loss4: 0.025897	Loss5: 0.025897
+Train Ep: 7 [4000/70000 (2%)]	Loss1: -0.138786	Loss2: 0.070049	Loss3: 0.106812	Loss4: 0.038449	Loss5: 0.038449
+Train Ep: 7 [4800/70000 (3%)]	Loss1: -0.139801	Loss2: 0.069416	Loss3: 0.199829	Loss4: 0.042785	Loss5: 0.042785
+Train Ep: 7 [5600/70000 (4%)]	Loss1: -0.138573	Loss2: 0.069653	Loss3: 0.070235	Loss4: 0.048340	Loss5: 0.048340
+Train Ep: 7 [6400/70000 (4%)]	Loss1: -0.139036	Loss2: 0.069354	Loss3: 0.047944	Loss4: 0.036006	Loss5: 0.036006
+Train Ep: 7 [7200/70000 (4%)]	Loss1: -0.138792	Loss2: 0.070169	Loss3: 0.032172	Loss4: 0.033603	Loss5: 0.033603
+Train Ep: 7 [8000/70000 (5%)]	Loss1: -0.138681	Loss2: 0.069348	Loss3: 0.062639	Loss4: 0.035733	Loss5: 0.035733
+Train Ep: 7 [8800/70000 (6%)]	Loss1: -0.139523	Loss2: 0.069287	Loss3: 0.131130	Loss4: 0.034770	Loss5: 0.034770
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.38491495339473264
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.7142912101368906
+Train Ep: 8 [0/70000 (0%)]	Loss1: -0.140347	Loss2: 0.069820	Loss3: 0.061283	Loss4: 0.033972	Loss5: 0.033972
+max_value is:
+38.96660649819495
+
+ max_record buff: Accuracy C:(38.7%), Accuracy C1:(38.2%), Accuracy c2:(38.3)%, Accuracy ensemble c1c2:(38.3)%, Accuracy ensemble cc1c2:(39.0%)
+
+Train Ep: 8 [800/70000 (0%)]	Loss1: -0.139606	Loss2: 0.069699	Loss3: 0.025908	Loss4: 0.048369	Loss5: 0.048369
+Train Ep: 8 [1600/70000 (1%)]	Loss1: -0.139618	Loss2: 0.069540	Loss3: 0.172903	Loss4: 0.048764	Loss5: 0.048764
+Train Ep: 8 [2400/70000 (2%)]	Loss1: -0.138523	Loss2: 0.069893	Loss3: 0.091874	Loss4: 0.044617	Loss5: 0.044617
+Train Ep: 8 [3200/70000 (2%)]	Loss1: -0.138813	Loss2: 0.069193	Loss3: 0.283900	Loss4: 0.038269	Loss5: 0.038269
+Train Ep: 8 [4000/70000 (2%)]	Loss1: -0.139264	Loss2: 0.069364	Loss3: 0.120417	Loss4: 0.039032	Loss5: 0.039032
+Train Ep: 8 [4800/70000 (3%)]	Loss1: -0.140114	Loss2: 0.069517	Loss3: 0.024063	Loss4: 0.049655	Loss5: 0.049655
+Train Ep: 8 [5600/70000 (4%)]	Loss1: -0.139320	Loss2: 0.069509	Loss3: 0.038710	Loss4: 0.048591	Loss5: 0.048591
+Train Ep: 8 [6400/70000 (4%)]	Loss1: -0.139333	Loss2: 0.069109	Loss3: 0.071052	Loss4: 0.044326	Loss5: 0.044326
+Train Ep: 8 [7200/70000 (4%)]	Loss1: -0.139977	Loss2: 0.069672	Loss3: 0.284934	Loss4: 0.041155	Loss5: 0.041155
+Train Ep: 8 [8000/70000 (5%)]	Loss1: -0.138385	Loss2: 0.069577	Loss3: 0.292634	Loss4: 0.024815	Loss5: 0.024815
+Train Ep: 8 [8800/70000 (6%)]	Loss1: -0.139741	Loss2: 0.069868	Loss3: 0.058812	Loss4: 0.032845	Loss5: 0.032845
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.5337158689302784
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.6955305496219634
+Train Ep: 9 [0/70000 (0%)]	Loss1: -0.138936	Loss2: 0.069516	Loss3: 0.256898	Loss4: 0.037394	Loss5: 0.037394
+max_value is:
+38.96660649819495
+
+Test set: Average loss1: -1.1080, Average loss2: -1.0166, Accuracy C: 1753/4432 (39.6%), Accuracy C1: 1753/4432 (39.6%), Accuracy ensemble c2: 1749/4432 (39.5)%, Accuracy ensemble c1c2: 1760/4432 (39.7)%, Accuracy ensemble cc1c2: 1762/4432 (39.8%)
+
+Train Ep: 9 [800/70000 (0%)]	Loss1: -0.138912	Loss2: 0.069431	Loss3: 0.220157	Loss4: 0.035257	Loss5: 0.035257
+Train Ep: 9 [1600/70000 (1%)]	Loss1: -0.139961	Loss2: 0.069482	Loss3: 0.038023	Loss4: 0.037187	Loss5: 0.037187
+Train Ep: 9 [2400/70000 (2%)]	Loss1: -0.139098	Loss2: 0.069495	Loss3: 0.255398	Loss4: 0.036248	Loss5: 0.036248
+Train Ep: 9 [3200/70000 (2%)]	Loss1: -0.139740	Loss2: 0.069686	Loss3: 0.002988	Loss4: 0.041860	Loss5: 0.041860
+Train Ep: 9 [4000/70000 (2%)]	Loss1: -0.138676	Loss2: 0.069566	Loss3: 0.039122	Loss4: 0.039719	Loss5: 0.039719
+Train Ep: 9 [4800/70000 (3%)]	Loss1: -0.138980	Loss2: 0.069548	Loss3: 0.072366	Loss4: 0.037538	Loss5: 0.037538
+Train Ep: 9 [5600/70000 (4%)]	Loss1: -0.139504	Loss2: 0.069670	Loss3: 0.052417	Loss4: 0.023465	Loss5: 0.023465
+Train Ep: 9 [6400/70000 (4%)]	Loss1: -0.138245	Loss2: 0.069814	Loss3: 0.006536	Loss4: 0.040436	Loss5: 0.040436
+Train Ep: 9 [7200/70000 (4%)]	Loss1: -0.139343	Loss2: 0.069735	Loss3: 0.131554	Loss4: 0.030736	Loss5: 0.030736
+Train Ep: 9 [8000/70000 (5%)]	Loss1: -0.138753	Loss2: 0.069462	Loss3: 0.123285	Loss4: 0.034492	Loss5: 0.034492
+Train Ep: 9 [8800/70000 (6%)]	Loss1: -0.139128	Loss2: 0.069426	Loss3: 0.011607	Loss4: 0.030415	Loss5: 0.030415
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.37942828708864546
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.6662894522099455
+Train Ep: 10 [0/70000 (0%)]	Loss1: -0.139277	Loss2: 0.069501	Loss3: 0.021717	Loss4: 0.024193	Loss5: 0.024193
+max_value is:
+39.75631768953068
+
+ max_record buff: Accuracy C:(39.6%), Accuracy C1:(39.6%), Accuracy c2:(39.5)%, Accuracy ensemble c1c2:(39.7)%, Accuracy ensemble cc1c2:(39.8%)
+
+Train Ep: 10 [800/70000 (0%)]	Loss1: -0.138871	Loss2: 0.069490	Loss3: 0.047992	Loss4: 0.028789	Loss5: 0.028789
+Train Ep: 10 [1600/70000 (1%)]	Loss1: -0.138877	Loss2: 0.069656	Loss3: 0.068552	Loss4: 0.024961	Loss5: 0.024961
+Train Ep: 10 [2400/70000 (2%)]	Loss1: -0.138718	Loss2: 0.069401	Loss3: 0.171373	Loss4: 0.044232	Loss5: 0.044232
+Train Ep: 10 [3200/70000 (2%)]	Loss1: -0.139224	Loss2: 0.069730	Loss3: 0.131401	Loss4: 0.036586	Loss5: 0.036586
+Train Ep: 10 [4000/70000 (2%)]	Loss1: -0.138809	Loss2: 0.069572	Loss3: 0.093269	Loss4: 0.033337	Loss5: 0.033337
+Train Ep: 10 [4800/70000 (3%)]	Loss1: -0.138496	Loss2: 0.069550	Loss3: 0.163120	Loss4: 0.026064	Loss5: 0.026064
+Train Ep: 10 [5600/70000 (4%)]	Loss1: -0.138682	Loss2: 0.069403	Loss3: 0.056493	Loss4: 0.034006	Loss5: 0.034006
+Train Ep: 10 [6400/70000 (4%)]	Loss1: -0.138576	Loss2: 0.069491	Loss3: 0.033708	Loss4: 0.044682	Loss5: 0.044682
+Train Ep: 10 [7200/70000 (4%)]	Loss1: -0.139146	Loss2: 0.069653	Loss3: 0.163563	Loss4: 0.028945	Loss5: 0.028945
+Train Ep: 10 [8000/70000 (5%)]	Loss1: -0.139000	Loss2: 0.069495	Loss3: 0.115453	Loss4: 0.030740	Loss5: 0.030740
+Train Ep: 10 [8800/70000 (6%)]	Loss1: -0.139240	Loss2: 0.069612	Loss3: 0.105615	Loss4: 0.030863	Loss5: 0.030863
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.4078301996688034
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.6522196427036945
+Train Ep: 11 [0/70000 (0%)]	Loss1: -0.139187	Loss2: 0.069892	Loss3: -0.001585	Loss4: 0.023891	Loss5: 0.023891
+max_value is:
+39.75631768953068
+
+Test set: Average loss1: -1.0798, Average loss2: -0.9906, Accuracy C: 1801/4432 (40.6%), Accuracy C1: 1790/4432 (40.4%), Accuracy ensemble c2: 1797/4432 (40.5)%, Accuracy ensemble c1c2: 1811/4432 (40.9)%, Accuracy ensemble cc1c2: 1811/4432 (40.9%)
+
+Train Ep: 11 [800/70000 (0%)]	Loss1: -0.138720	Loss2: 0.069321	Loss3: 0.143613	Loss4: 0.040431	Loss5: 0.040431
+Train Ep: 11 [1600/70000 (1%)]	Loss1: -0.138922	Loss2: 0.069286	Loss3: 0.085552	Loss4: 0.033120	Loss5: 0.033120
+Train Ep: 11 [2400/70000 (2%)]	Loss1: -0.138973	Loss2: 0.069445	Loss3: 0.018048	Loss4: 0.042010	Loss5: 0.042010
+Train Ep: 11 [3200/70000 (2%)]	Loss1: -0.138560	Loss2: 0.069325	Loss3: 0.137410	Loss4: 0.024965	Loss5: 0.024965
+Train Ep: 11 [4000/70000 (2%)]	Loss1: -0.139047	Loss2: 0.069480	Loss3: 0.094863	Loss4: 0.037607	Loss5: 0.037607
+Train Ep: 11 [4800/70000 (3%)]	Loss1: -0.138839	Loss2: 0.069201	Loss3: 0.022766	Loss4: 0.024565	Loss5: 0.024565
+Train Ep: 11 [5600/70000 (4%)]	Loss1: -0.139098	Loss2: 0.069273	Loss3: 0.055844	Loss4: 0.025550	Loss5: 0.025550
+Train Ep: 11 [6400/70000 (4%)]	Loss1: -0.138797	Loss2: 0.069473	Loss3: -0.000202	Loss4: 0.033645	Loss5: 0.033645
+Train Ep: 11 [7200/70000 (4%)]	Loss1: -0.139762	Loss2: 0.069726	Loss3: 0.056217	Loss4: 0.029597	Loss5: 0.029597
+Train Ep: 11 [8000/70000 (5%)]	Loss1: -0.138950	Loss2: 0.069598	Loss3: 0.280586	Loss4: 0.027161	Loss5: 0.027161
+Train Ep: 11 [8800/70000 (6%)]	Loss1: -0.139005	Loss2: 0.069326	Loss3: 0.054502	Loss4: 0.031413	Loss5: 0.031413
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.3511576885601251
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.5910110874144892
+Train Ep: 12 [0/70000 (0%)]	Loss1: -0.139145	Loss2: 0.069535	Loss3: 0.044866	Loss4: 0.036913	Loss5: 0.036913
+max_value is:
+40.861913357400724
+
+Test set: Average loss1: -1.1285, Average loss2: -1.1023, Accuracy C: 1910/4432 (43.1%), Accuracy C1: 1890/4432 (42.6%), Accuracy ensemble c2: 1911/4432 (43.1)%, Accuracy ensemble c1c2: 1920/4432 (43.3)%, Accuracy ensemble cc1c2: 1919/4432 (43.3%)
+
+Train Ep: 12 [800/70000 (0%)]	Loss1: -0.139214	Loss2: 0.069383	Loss3: 0.127405	Loss4: 0.031019	Loss5: 0.031019
+Train Ep: 12 [1600/70000 (1%)]	Loss1: -0.138535	Loss2: 0.069595	Loss3: 0.008394	Loss4: 0.043837	Loss5: 0.043837
+Train Ep: 12 [2400/70000 (2%)]	Loss1: -0.139100	Loss2: 0.069352	Loss3: 0.048201	Loss4: 0.016123	Loss5: 0.016123
+Train Ep: 12 [3200/70000 (2%)]	Loss1: -0.138913	Loss2: 0.069288	Loss3: 0.347504	Loss4: 0.038664	Loss5: 0.038664
+Train Ep: 12 [4000/70000 (2%)]	Loss1: -0.139076	Loss2: 0.069410	Loss3: -0.001438	Loss4: 0.024525	Loss5: 0.024525
+Train Ep: 12 [4800/70000 (3%)]	Loss1: -0.138521	Loss2: 0.069737	Loss3: 0.015642	Loss4: 0.027903	Loss5: 0.027903
+Train Ep: 12 [5600/70000 (4%)]	Loss1: -0.139237	Loss2: 0.069418	Loss3: 0.072301	Loss4: 0.046470	Loss5: 0.046470
+Train Ep: 12 [6400/70000 (4%)]	Loss1: -0.138681	Loss2: 0.069463	Loss3: 0.038091	Loss4: 0.029172	Loss5: 0.029172
+Train Ep: 12 [7200/70000 (4%)]	Loss1: -0.138478	Loss2: 0.069418	Loss3: 0.077163	Loss4: 0.028646	Loss5: 0.028646
+Train Ep: 12 [8000/70000 (5%)]	Loss1: -0.139518	Loss2: 0.069309	Loss3: 0.110807	Loss4: 0.030601	Loss5: 0.030601
+Train Ep: 12 [8800/70000 (6%)]	Loss1: -0.139301	Loss2: 0.069440	Loss3: 0.046726	Loss4: 0.044127	Loss5: 0.044127
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.36889516875213724
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.5680776627655798
+Train Ep: 13 [0/70000 (0%)]	Loss1: -0.139204	Loss2: 0.069537	Loss3: 0.069857	Loss4: 0.022857	Loss5: 0.022857
+max_value is:
+43.32129963898917
+
+ max_record buff: Accuracy C:(43.1%), Accuracy C1:(42.6%), Accuracy c2:(43.1)%, Accuracy ensemble c1c2:(43.3)%, Accuracy ensemble cc1c2:(43.3%)
+
+Train Ep: 13 [800/70000 (0%)]	Loss1: -0.138722	Loss2: 0.069407	Loss3: 0.066101	Loss4: 0.029053	Loss5: 0.029053
+Train Ep: 13 [1600/70000 (1%)]	Loss1: -0.138603	Loss2: 0.069453	Loss3: 0.011492	Loss4: 0.041939	Loss5: 0.041939
+Train Ep: 13 [2400/70000 (2%)]	Loss1: -0.139690	Loss2: 0.069461	Loss3: 0.091866	Loss4: 0.032736	Loss5: 0.032736
+Train Ep: 13 [3200/70000 (2%)]	Loss1: -0.138829	Loss2: 0.069497	Loss3: 0.146325	Loss4: 0.041314	Loss5: 0.041314
+Train Ep: 13 [4000/70000 (2%)]	Loss1: -0.138988	Loss2: 0.069281	Loss3: 0.125900	Loss4: 0.031868	Loss5: 0.031868
+Train Ep: 13 [4800/70000 (3%)]	Loss1: -0.138508	Loss2: 0.069426	Loss3: 0.028522	Loss4: 0.019120	Loss5: 0.019120
+Train Ep: 13 [5600/70000 (4%)]	Loss1: -0.139052	Loss2: 0.069714	Loss3: 0.058780	Loss4: 0.040083	Loss5: 0.040083
+Train Ep: 13 [6400/70000 (4%)]	Loss1: -0.139241	Loss2: 0.069346	Loss3: 0.018395	Loss4: 0.030453	Loss5: 0.030453
+Train Ep: 13 [7200/70000 (4%)]	Loss1: -0.139022	Loss2: 0.069356	Loss3: 0.164240	Loss4: 0.026916	Loss5: 0.026916
+Train Ep: 13 [8000/70000 (5%)]	Loss1: -0.138832	Loss2: 0.069466	Loss3: -0.001207	Loss4: 0.029993	Loss5: 0.029993
+Train Ep: 13 [8800/70000 (6%)]	Loss1: -0.138843	Loss2: 0.069702	Loss3: 0.014296	Loss4: 0.024196	Loss5: 0.024196
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.3778305277601701
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.5560137337038773
+Train Ep: 14 [0/70000 (0%)]	Loss1: -0.138808	Loss2: 0.069399	Loss3: 0.006326	Loss4: 0.029070	Loss5: 0.029070
+max_value is:
+43.32129963898917
+
+ max_record buff: Accuracy C:(43.1%), Accuracy C1:(42.6%), Accuracy c2:(43.1)%, Accuracy ensemble c1c2:(43.3)%, Accuracy ensemble cc1c2:(43.3%)
+
+Train Ep: 14 [800/70000 (0%)]	Loss1: -0.138807	Loss2: 0.069370	Loss3: 0.021989	Loss4: 0.043314	Loss5: 0.043314
+Train Ep: 14 [1600/70000 (1%)]	Loss1: -0.138867	Loss2: 0.069431	Loss3: 0.040759	Loss4: 0.028522	Loss5: 0.028522
+Train Ep: 14 [2400/70000 (2%)]	Loss1: -0.138867	Loss2: 0.069398	Loss3: 0.033799	Loss4: 0.030677	Loss5: 0.030677
+Train Ep: 14 [3200/70000 (2%)]	Loss1: -0.138839	Loss2: 0.069790	Loss3: 0.179445	Loss4: 0.026944	Loss5: 0.026944
+Train Ep: 14 [4000/70000 (2%)]	Loss1: -0.138903	Loss2: 0.069596	Loss3: 0.114691	Loss4: 0.019412	Loss5: 0.019412
+Train Ep: 14 [4800/70000 (3%)]	Loss1: -0.138703	Loss2: 0.069352	Loss3: 0.005202	Loss4: 0.039430	Loss5: 0.039430
+Train Ep: 14 [5600/70000 (4%)]	Loss1: -0.138983	Loss2: 0.069545	Loss3: 0.094953	Loss4: 0.034255	Loss5: 0.034255
+Train Ep: 14 [6400/70000 (4%)]	Loss1: -0.138712	Loss2: 0.069496	Loss3: 0.427069	Loss4: 0.032237	Loss5: 0.032237
+Train Ep: 14 [7200/70000 (4%)]	Loss1: -0.138776	Loss2: 0.069476	Loss3: 0.027743	Loss4: 0.031396	Loss5: 0.031396
+Train Ep: 14 [8000/70000 (5%)]	Loss1: -0.138880	Loss2: 0.069403	Loss3: 0.062478	Loss4: 0.026143	Loss5: 0.026143
+Train Ep: 14 [8800/70000 (6%)]	Loss1: -0.139042	Loss2: 0.069609	Loss3: 0.025616	Loss4: 0.031625	Loss5: 0.031625
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.37993311150539816
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.5282627540806285
+Train Ep: 15 [0/70000 (0%)]	Loss1: -0.138916	Loss2: 0.069311	Loss3: 0.126493	Loss4: 0.029640	Loss5: 0.029640
+max_value is:
+43.32129963898917
+
+Test set: Average loss1: -1.0857, Average loss2: -1.1183, Accuracy C: 1934/4432 (43.6%), Accuracy C1: 1922/4432 (43.4%), Accuracy ensemble c2: 1920/4432 (43.3)%, Accuracy ensemble c1c2: 1922/4432 (43.4)%, Accuracy ensemble cc1c2: 1919/4432 (43.3%)
+
+Train Ep: 15 [800/70000 (0%)]	Loss1: -0.138794	Loss2: 0.069441	Loss3: 0.089027	Loss4: 0.029168	Loss5: 0.029168
+Train Ep: 15 [1600/70000 (1%)]	Loss1: -0.138710	Loss2: 0.069450	Loss3: 0.022550	Loss4: 0.033877	Loss5: 0.033877
+Train Ep: 15 [2400/70000 (2%)]	Loss1: -0.139087	Loss2: 0.069683	Loss3: 0.054612	Loss4: 0.018719	Loss5: 0.018719
+Train Ep: 15 [3200/70000 (2%)]	Loss1: -0.138865	Loss2: 0.069357	Loss3: 0.051871	Loss4: 0.027882	Loss5: 0.027882
+Train Ep: 15 [4000/70000 (2%)]	Loss1: -0.138975	Loss2: 0.069414	Loss3: 0.034262	Loss4: 0.022953	Loss5: 0.022953
+Train Ep: 15 [4800/70000 (3%)]	Loss1: -0.138663	Loss2: 0.069377	Loss3: 0.016360	Loss4: 0.037765	Loss5: 0.037765
+Train Ep: 15 [5600/70000 (4%)]	Loss1: -0.138779	Loss2: 0.069541	Loss3: 0.009496	Loss4: 0.030369	Loss5: 0.030369
+Train Ep: 15 [6400/70000 (4%)]	Loss1: -0.139045	Loss2: 0.069632	Loss3: 0.074639	Loss4: 0.034313	Loss5: 0.034313
+Train Ep: 15 [7200/70000 (4%)]	Loss1: -0.138923	Loss2: 0.069459	Loss3: 0.106301	Loss4: 0.023850	Loss5: 0.023850
+Train Ep: 15 [8000/70000 (5%)]	Loss1: -0.139009	Loss2: 0.069341	Loss3: -0.008482	Loss4: 0.030904	Loss5: 0.030904
+Train Ep: 15 [8800/70000 (6%)]	Loss1: -0.138798	Loss2: 0.069501	Loss3: 0.041943	Loss4: 0.013988	Loss5: 0.013988
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.3907188742297122
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.5263755186236296
+Train Ep: 16 [0/70000 (0%)]	Loss1: -0.138964	Loss2: 0.069286	Loss3: 0.026020	Loss4: 0.029409	Loss5: 0.029409
+max_value is:
+43.63718411552347
+
+ max_record buff: Accuracy C:(43.6%), Accuracy C1:(43.4%), Accuracy c2:(43.3)%, Accuracy ensemble c1c2:(43.4)%, Accuracy ensemble cc1c2:(43.3%)
+
+Train Ep: 16 [800/70000 (0%)]	Loss1: -0.139496	Loss2: 0.069605	Loss3: 0.005770	Loss4: 0.033346	Loss5: 0.033346
+Train Ep: 16 [1600/70000 (1%)]	Loss1: -0.138963	Loss2: 0.069484	Loss3: 0.014271	Loss4: 0.035183	Loss5: 0.035183
+Train Ep: 16 [2400/70000 (2%)]	Loss1: -0.139093	Loss2: 0.069555	Loss3: -0.004423	Loss4: 0.041985	Loss5: 0.041985
+Train Ep: 16 [3200/70000 (2%)]	Loss1: -0.139193	Loss2: 0.069340	Loss3: 0.173320	Loss4: 0.023812	Loss5: 0.023812
+Train Ep: 16 [4000/70000 (2%)]	Loss1: -0.138570	Loss2: 0.069635	Loss3: 0.010922	Loss4: 0.029440	Loss5: 0.029440
+Train Ep: 16 [4800/70000 (3%)]	Loss1: -0.139274	Loss2: 0.069430	Loss3: 0.036440	Loss4: 0.033114	Loss5: 0.033114
+Train Ep: 16 [5600/70000 (4%)]	Loss1: -0.138741	Loss2: 0.069468	Loss3: 0.010390	Loss4: 0.018227	Loss5: 0.018227
+Train Ep: 16 [6400/70000 (4%)]	Loss1: -0.138581	Loss2: 0.069408	Loss3: 0.020886	Loss4: 0.028583	Loss5: 0.028583
+Train Ep: 16 [7200/70000 (4%)]	Loss1: -0.138858	Loss2: 0.069294	Loss3: 0.044607	Loss4: 0.033590	Loss5: 0.033590
+Train Ep: 16 [8000/70000 (5%)]	Loss1: -0.138791	Loss2: 0.069430	Loss3: 0.099234	Loss4: 0.018723	Loss5: 0.018723
+Train Ep: 16 [8800/70000 (6%)]	Loss1: -0.138744	Loss2: 0.069330	Loss3: 0.014041	Loss4: 0.032688	Loss5: 0.032688
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.31826197629012987
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.5185504830277445
+Train Ep: 17 [0/70000 (0%)]	Loss1: -0.138812	Loss2: 0.069608	Loss3: 0.128161	Loss4: 0.030058	Loss5: 0.030058
+max_value is:
+43.63718411552347
+
+ max_record buff: Accuracy C:(43.6%), Accuracy C1:(43.4%), Accuracy c2:(43.3)%, Accuracy ensemble c1c2:(43.4)%, Accuracy ensemble cc1c2:(43.3%)
+
+Train Ep: 17 [800/70000 (0%)]	Loss1: -0.138865	Loss2: 0.069486	Loss3: 0.057524	Loss4: 0.024230	Loss5: 0.024230
+Train Ep: 17 [1600/70000 (1%)]	Loss1: -0.139860	Loss2: 0.069386	Loss3: 0.028439	Loss4: 0.046283	Loss5: 0.046283
+Train Ep: 17 [2400/70000 (2%)]	Loss1: -0.138886	Loss2: 0.069423	Loss3: 0.016817	Loss4: 0.014374	Loss5: 0.014374
+Train Ep: 17 [3200/70000 (2%)]	Loss1: -0.139102	Loss2: 0.069545	Loss3: 0.008804	Loss4: 0.039467	Loss5: 0.039467
+Train Ep: 17 [4000/70000 (2%)]	Loss1: -0.139084	Loss2: 0.069445	Loss3: 0.019021	Loss4: 0.024784	Loss5: 0.024784
+Train Ep: 17 [4800/70000 (3%)]	Loss1: -0.138791	Loss2: 0.069374	Loss3: 0.008504	Loss4: 0.032451	Loss5: 0.032451
+Train Ep: 17 [5600/70000 (4%)]	Loss1: -0.138645	Loss2: 0.069579	Loss3: 0.338222	Loss4: 0.022499	Loss5: 0.022499
+Train Ep: 17 [6400/70000 (4%)]	Loss1: -0.139009	Loss2: 0.069353	Loss3: 0.014162	Loss4: 0.013599	Loss5: 0.013599
+Train Ep: 17 [7200/70000 (4%)]	Loss1: -0.138694	Loss2: 0.069377	Loss3: 0.015490	Loss4: 0.026827	Loss5: 0.026827
+Train Ep: 17 [8000/70000 (5%)]	Loss1: -0.138954	Loss2: 0.069431	Loss3: 0.075353	Loss4: 0.037012	Loss5: 0.037012
+Train Ep: 17 [8800/70000 (6%)]	Loss1: -0.138734	Loss2: 0.069318	Loss3: 0.074571	Loss4: 0.037022	Loss5: 0.037022
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.3711183199582651
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.491892283404582
+Train Ep: 18 [0/70000 (0%)]	Loss1: -0.138669	Loss2: 0.069378	Loss3: 0.002433	Loss4: 0.024270	Loss5: 0.024270
+max_value is:
+43.63718411552347
+
+Test set: Average loss1: -1.0887, Average loss2: -1.2169, Accuracy C: 1938/4432 (43.7%), Accuracy C1: 1948/4432 (44.0%), Accuracy ensemble c2: 1953/4432 (44.1)%, Accuracy ensemble c1c2: 1953/4432 (44.1)%, Accuracy ensemble cc1c2: 1950/4432 (44.0%)
+
+Train Ep: 18 [800/70000 (0%)]	Loss1: -0.138853	Loss2: 0.069860	Loss3: 0.001327	Loss4: 0.033960	Loss5: 0.033960
+Train Ep: 18 [1600/70000 (1%)]	Loss1: -0.138689	Loss2: 0.069335	Loss3: 0.042128	Loss4: 0.036556	Loss5: 0.036556
+Train Ep: 18 [2400/70000 (2%)]	Loss1: -0.138877	Loss2: 0.069491	Loss3: 0.010100	Loss4: 0.016779	Loss5: 0.016779
+Train Ep: 18 [3200/70000 (2%)]	Loss1: -0.138820	Loss2: 0.069472	Loss3: 0.044794	Loss4: 0.028346	Loss5: 0.028346
+Train Ep: 18 [4000/70000 (2%)]	Loss1: -0.138870	Loss2: 0.069451	Loss3: 0.030963	Loss4: 0.030217	Loss5: 0.030217
+Train Ep: 18 [4800/70000 (3%)]	Loss1: -0.138901	Loss2: 0.069353	Loss3: 0.007614	Loss4: 0.028006	Loss5: 0.028006
+Train Ep: 18 [5600/70000 (4%)]	Loss1: -0.138844	Loss2: 0.069392	Loss3: 0.243198	Loss4: 0.033479	Loss5: 0.033479
+Train Ep: 18 [6400/70000 (4%)]	Loss1: -0.139137	Loss2: 0.069277	Loss3: 0.070567	Loss4: 0.031657	Loss5: 0.031657
+Train Ep: 18 [7200/70000 (4%)]	Loss1: -0.138619	Loss2: 0.069411	Loss3: 0.067125	Loss4: 0.021476	Loss5: 0.021476
+Train Ep: 18 [8000/70000 (5%)]	Loss1: -0.138722	Loss2: 0.069458	Loss3: 0.020551	Loss4: 0.028605	Loss5: 0.028605
+Train Ep: 18 [8800/70000 (6%)]	Loss1: -0.138862	Loss2: 0.069392	Loss3: 0.019427	Loss4: 0.026384	Loss5: 0.026384
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.4411475829512938
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.4876831001877473
+Train Ep: 19 [0/70000 (0%)]	Loss1: -0.138919	Loss2: 0.069606	Loss3: 0.001978	Loss4: 0.038659	Loss5: 0.038659
+max_value is:
+44.06588447653429
+
+Test set: Average loss1: -1.0691, Average loss2: -1.2598, Accuracy C: 2041/4432 (46.1%), Accuracy C1: 2033/4432 (45.9%), Accuracy ensemble c2: 2044/4432 (46.1)%, Accuracy ensemble c1c2: 2046/4432 (46.2)%, Accuracy ensemble cc1c2: 2054/4432 (46.3%)
+
+Train Ep: 19 [800/70000 (0%)]	Loss1: -0.138866	Loss2: 0.069429	Loss3: -0.006680	Loss4: 0.033472	Loss5: 0.033472
+Train Ep: 19 [1600/70000 (1%)]	Loss1: -0.139063	Loss2: 0.069442	Loss3: 0.056012	Loss4: 0.033025	Loss5: 0.033025
+Train Ep: 19 [2400/70000 (2%)]	Loss1: -0.138766	Loss2: 0.069463	Loss3: 0.018951	Loss4: 0.022955	Loss5: 0.022955
+Train Ep: 19 [3200/70000 (2%)]	Loss1: -0.138871	Loss2: 0.069404	Loss3: 0.190588	Loss4: 0.018694	Loss5: 0.018694
+Train Ep: 19 [4000/70000 (2%)]	Loss1: -0.139089	Loss2: 0.069451	Loss3: 0.004642	Loss4: 0.031052	Loss5: 0.031052
+Train Ep: 19 [4800/70000 (3%)]	Loss1: -0.138518	Loss2: 0.069395	Loss3: -0.002037	Loss4: 0.033184	Loss5: 0.033184
+Train Ep: 19 [5600/70000 (4%)]	Loss1: -0.138781	Loss2: 0.069730	Loss3: 0.024163	Loss4: 0.017194	Loss5: 0.017194
+Train Ep: 19 [6400/70000 (4%)]	Loss1: -0.138694	Loss2: 0.069542	Loss3: 0.132290	Loss4: 0.025203	Loss5: 0.025203
+Train Ep: 19 [7200/70000 (4%)]	Loss1: -0.139031	Loss2: 0.069371	Loss3: -0.002007	Loss4: 0.020125	Loss5: 0.020125
+Train Ep: 19 [8000/70000 (5%)]	Loss1: -0.139133	Loss2: 0.069359	Loss3: 0.015950	Loss4: 0.031543	Loss5: 0.031543
+Train Ep: 19 [8800/70000 (6%)]	Loss1: -0.138966	Loss2: 0.069413	Loss3: 0.000794	Loss4: 0.018871	Loss5: 0.018871
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.27534878302809673
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.4462281236825557
+Train Ep: 20 [0/70000 (0%)]	Loss1: -0.138730	Loss2: 0.069494	Loss3: 0.078694	Loss4: 0.029168	Loss5: 0.029168
+max_value is:
+46.34476534296029
+
+ max_record buff: Accuracy C:(46.1%), Accuracy C1:(45.9%), Accuracy c2:(46.1)%, Accuracy ensemble c1c2:(46.2)%, Accuracy ensemble cc1c2:(46.3%)
+
+Train Ep: 20 [800/70000 (0%)]	Loss1: -0.139045	Loss2: 0.069489	Loss3: 0.025367	Loss4: 0.016561	Loss5: 0.016561
+Train Ep: 20 [1600/70000 (1%)]	Loss1: -0.138727	Loss2: 0.069427	Loss3: 0.005530	Loss4: 0.034306	Loss5: 0.034306
+Train Ep: 20 [2400/70000 (2%)]	Loss1: -0.138868	Loss2: 0.069369	Loss3: 0.031515	Loss4: 0.026355	Loss5: 0.026355
+Train Ep: 20 [3200/70000 (2%)]	Loss1: -0.138648	Loss2: 0.069322	Loss3: -0.005563	Loss4: 0.027693	Loss5: 0.027693
+Train Ep: 20 [4000/70000 (2%)]	Loss1: -0.138804	Loss2: 0.069427	Loss3: 0.048591	Loss4: 0.016777	Loss5: 0.016777
+Train Ep: 20 [4800/70000 (3%)]	Loss1: -0.139169	Loss2: 0.069414	Loss3: 0.001275	Loss4: 0.010276	Loss5: 0.010276
+Train Ep: 20 [5600/70000 (4%)]	Loss1: -0.138866	Loss2: 0.069337	Loss3: 0.030950	Loss4: 0.016185	Loss5: 0.016185
+Train Ep: 20 [6400/70000 (4%)]	Loss1: -0.138924	Loss2: 0.069425	Loss3: 0.008908	Loss4: 0.033175	Loss5: 0.033175
+Train Ep: 20 [7200/70000 (4%)]	Loss1: -0.138641	Loss2: 0.069359	Loss3: 0.069812	Loss4: 0.014242	Loss5: 0.014242
+Train Ep: 20 [8000/70000 (5%)]	Loss1: -0.138966	Loss2: 0.069464	Loss3: 0.015452	Loss4: 0.010632	Loss5: 0.010632
+Train Ep: 20 [8800/70000 (6%)]	Loss1: -0.138678	Loss2: 0.069339	Loss3: 0.246522	Loss4: 0.024583	Loss5: 0.024583
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.4161281929743185
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.4247090117235808
+Train Ep: 21 [0/70000 (0%)]	Loss1: -0.139313	Loss2: 0.069327	Loss3: -0.005469	Loss4: 0.027223	Loss5: 0.027223
+max_value is:
+46.34476534296029
+
+ max_record buff: Accuracy C:(46.1%), Accuracy C1:(45.9%), Accuracy c2:(46.1)%, Accuracy ensemble c1c2:(46.2)%, Accuracy ensemble cc1c2:(46.3%)
+
+Train Ep: 21 [800/70000 (0%)]	Loss1: -0.138683	Loss2: 0.069396	Loss3: 0.021195	Loss4: 0.018012	Loss5: 0.018012
+Train Ep: 21 [1600/70000 (1%)]	Loss1: -0.138843	Loss2: 0.069519	Loss3: -0.003506	Loss4: 0.017608	Loss5: 0.017608
+Train Ep: 21 [2400/70000 (2%)]	Loss1: -0.138851	Loss2: 0.069382	Loss3: 0.029413	Loss4: 0.015624	Loss5: 0.015624
+Train Ep: 21 [3200/70000 (2%)]	Loss1: -0.138704	Loss2: 0.069454	Loss3: 0.032733	Loss4: 0.019305	Loss5: 0.019305
+Train Ep: 21 [4000/70000 (2%)]	Loss1: -0.138553	Loss2: 0.069477	Loss3: -0.003746	Loss4: 0.016319	Loss5: 0.016319
+Train Ep: 21 [4800/70000 (3%)]	Loss1: -0.138971	Loss2: 0.069365	Loss3: 0.026078	Loss4: 0.019176	Loss5: 0.019176
+Train Ep: 21 [5600/70000 (4%)]	Loss1: -0.138743	Loss2: 0.069466	Loss3: 0.035397	Loss4: 0.026371	Loss5: 0.026371
+Train Ep: 21 [6400/70000 (4%)]	Loss1: -0.138705	Loss2: 0.069493	Loss3: -0.001081	Loss4: 0.025676	Loss5: 0.025676
+Train Ep: 21 [7200/70000 (4%)]	Loss1: -0.138736	Loss2: 0.069474	Loss3: 0.214548	Loss4: 0.023617	Loss5: 0.023617
+Train Ep: 21 [8000/70000 (5%)]	Loss1: -0.139224	Loss2: 0.069327	Loss3: 0.010815	Loss4: 0.021612	Loss5: 0.021612
+Train Ep: 21 [8800/70000 (6%)]	Loss1: -0.138759	Loss2: 0.069477	Loss3: 0.089670	Loss4: 0.035357	Loss5: 0.035357
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.30314275035630595
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.40938583794685657
+Train Ep: 22 [0/70000 (0%)]	Loss1: -0.138736	Loss2: 0.069407	Loss3: -0.000803	Loss4: 0.011898	Loss5: 0.011898
+max_value is:
+46.34476534296029
+
+ max_record buff: Accuracy C:(46.1%), Accuracy C1:(45.9%), Accuracy c2:(46.1)%, Accuracy ensemble c1c2:(46.2)%, Accuracy ensemble cc1c2:(46.3%)
+
+Train Ep: 22 [800/70000 (0%)]	Loss1: -0.139187	Loss2: 0.069458	Loss3: 0.018864	Loss4: 0.022611	Loss5: 0.022611
+Train Ep: 22 [1600/70000 (1%)]	Loss1: -0.138752	Loss2: 0.069443	Loss3: 0.034659	Loss4: 0.019326	Loss5: 0.019326
+Train Ep: 22 [2400/70000 (2%)]	Loss1: -0.138690	Loss2: 0.069484	Loss3: -0.001793	Loss4: 0.036466	Loss5: 0.036466
+Train Ep: 22 [3200/70000 (2%)]	Loss1: -0.138967	Loss2: 0.069319	Loss3: 0.015650	Loss4: 0.012284	Loss5: 0.012284
+Train Ep: 22 [4000/70000 (2%)]	Loss1: -0.138836	Loss2: 0.069428	Loss3: 0.086383	Loss4: 0.023667	Loss5: 0.023667
+Train Ep: 22 [4800/70000 (3%)]	Loss1: -0.138850	Loss2: 0.069527	Loss3: -0.004221	Loss4: 0.025068	Loss5: 0.025068
+Train Ep: 22 [5600/70000 (4%)]	Loss1: -0.138628	Loss2: 0.069413	Loss3: 0.017566	Loss4: 0.020312	Loss5: 0.020312
+Train Ep: 22 [6400/70000 (4%)]	Loss1: -0.138881	Loss2: 0.069418	Loss3: 0.038919	Loss4: 0.010033	Loss5: 0.010033
+Train Ep: 22 [7200/70000 (4%)]	Loss1: -0.138840	Loss2: 0.069461	Loss3: 0.005656	Loss4: 0.018467	Loss5: 0.018467
+Train Ep: 22 [8000/70000 (5%)]	Loss1: -0.138913	Loss2: 0.069423	Loss3: 0.009252	Loss4: 0.035409	Loss5: 0.035409
+Train Ep: 22 [8800/70000 (6%)]	Loss1: -0.138661	Loss2: 0.069377	Loss3: 0.000563	Loss4: 0.011785	Loss5: 0.011785
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.4204127326611799
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.399250520945198
+Train Ep: 23 [0/70000 (0%)]	Loss1: -0.138864	Loss2: 0.069520	Loss3: 0.013832	Loss4: 0.023390	Loss5: 0.023390
+max_value is:
+46.34476534296029
+
+ max_record buff: Accuracy C:(46.1%), Accuracy C1:(45.9%), Accuracy c2:(46.1)%, Accuracy ensemble c1c2:(46.2)%, Accuracy ensemble cc1c2:(46.3%)
+
+Train Ep: 23 [800/70000 (0%)]	Loss1: -0.138729	Loss2: 0.069356	Loss3: 0.031277	Loss4: 0.021685	Loss5: 0.021685
+Train Ep: 23 [1600/70000 (1%)]	Loss1: -0.138715	Loss2: 0.069343	Loss3: 0.038150	Loss4: 0.037104	Loss5: 0.037104
+Train Ep: 23 [2400/70000 (2%)]	Loss1: -0.138981	Loss2: 0.069484	Loss3: 0.025332	Loss4: 0.013327	Loss5: 0.013327
+Train Ep: 23 [3200/70000 (2%)]	Loss1: -0.138887	Loss2: 0.069401	Loss3: 0.039216	Loss4: 0.032393	Loss5: 0.032393
+Train Ep: 23 [4000/70000 (2%)]	Loss1: -0.138880	Loss2: 0.069347	Loss3: 0.056641	Loss4: 0.013321	Loss5: 0.013321
+Train Ep: 23 [4800/70000 (3%)]	Loss1: -0.138700	Loss2: 0.069423	Loss3: 0.054668	Loss4: 0.035024	Loss5: 0.035024
+Train Ep: 23 [5600/70000 (4%)]	Loss1: -0.138692	Loss2: 0.069353	Loss3: -0.003064	Loss4: 0.029836	Loss5: 0.029836
+Train Ep: 23 [6400/70000 (4%)]	Loss1: -0.138778	Loss2: 0.069391	Loss3: -0.004210	Loss4: 0.015954	Loss5: 0.015954
+Train Ep: 23 [7200/70000 (4%)]	Loss1: -0.138635	Loss2: 0.069381	Loss3: 0.004068	Loss4: 0.017245	Loss5: 0.017245
+Train Ep: 23 [8000/70000 (5%)]	Loss1: -0.138817	Loss2: 0.069371	Loss3: 0.158702	Loss4: 0.023425	Loss5: 0.023425
+Train Ep: 23 [8800/70000 (6%)]	Loss1: -0.138723	Loss2: 0.069422	Loss3: -0.011790	Loss4: 0.042250	Loss5: 0.042250
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.3375421892858215
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.37893461276471196
+Train Ep: 24 [0/70000 (0%)]	Loss1: -0.138869	Loss2: 0.069394	Loss3: -0.003481	Loss4: 0.028987	Loss5: 0.028987
+max_value is:
+46.34476534296029
+
+ max_record buff: Accuracy C:(46.1%), Accuracy C1:(45.9%), Accuracy c2:(46.1)%, Accuracy ensemble c1c2:(46.2)%, Accuracy ensemble cc1c2:(46.3%)
+
+Train Ep: 24 [800/70000 (0%)]	Loss1: -0.138566	Loss2: 0.069406	Loss3: 0.054372	Loss4: 0.002003	Loss5: 0.002003
+Train Ep: 24 [1600/70000 (1%)]	Loss1: -0.138806	Loss2: 0.069405	Loss3: 0.073831	Loss4: 0.019316	Loss5: 0.019316
+Train Ep: 24 [2400/70000 (2%)]	Loss1: -0.138871	Loss2: 0.069384	Loss3: 0.016293	Loss4: 0.027045	Loss5: 0.027045
+Train Ep: 24 [3200/70000 (2%)]	Loss1: -0.138670	Loss2: 0.069455	Loss3: -0.002100	Loss4: 0.016899	Loss5: 0.016899
+Train Ep: 24 [4000/70000 (2%)]	Loss1: -0.138817	Loss2: 0.069328	Loss3: 0.045768	Loss4: 0.018065	Loss5: 0.018065
+Train Ep: 24 [4800/70000 (3%)]	Loss1: -0.138806	Loss2: 0.069392	Loss3: 0.001112	Loss4: 0.026347	Loss5: 0.026347
+Train Ep: 24 [5600/70000 (4%)]	Loss1: -0.138681	Loss2: 0.069563	Loss3: 0.017504	Loss4: 0.025276	Loss5: 0.025276
+Train Ep: 24 [6400/70000 (4%)]	Loss1: -0.138804	Loss2: 0.069342	Loss3: 0.008907	Loss4: 0.032815	Loss5: 0.032815
+Train Ep: 24 [7200/70000 (4%)]	Loss1: -0.138958	Loss2: 0.069412	Loss3: 0.008663	Loss4: 0.028562	Loss5: 0.028562
+Train Ep: 24 [8000/70000 (5%)]	Loss1: -0.138782	Loss2: 0.069349	Loss3: 0.023155	Loss4: 0.017623	Loss5: 0.017623
+Train Ep: 24 [8800/70000 (6%)]	Loss1: -0.138809	Loss2: 0.069287	Loss3: 0.019099	Loss4: 0.025217	Loss5: 0.025217
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.4088477426029124
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.3888753426761544
+Train Ep: 25 [0/70000 (0%)]	Loss1: -0.138894	Loss2: 0.069452	Loss3: -0.000010	Loss4: 0.020385	Loss5: 0.020385
+max_value is:
+46.34476534296029
+
+ max_record buff: Accuracy C:(46.1%), Accuracy C1:(45.9%), Accuracy c2:(46.1)%, Accuracy ensemble c1c2:(46.2)%, Accuracy ensemble cc1c2:(46.3%)
+
+Train Ep: 25 [800/70000 (0%)]	Loss1: -0.138837	Loss2: 0.069394	Loss3: 0.015641	Loss4: 0.017306	Loss5: 0.017306
+Train Ep: 25 [1600/70000 (1%)]	Loss1: -0.138698	Loss2: 0.069357	Loss3: 0.031463	Loss4: 0.022675	Loss5: 0.022675
+Train Ep: 25 [2400/70000 (2%)]	Loss1: -0.138786	Loss2: 0.069323	Loss3: 0.034256	Loss4: 0.020711	Loss5: 0.020711
+Train Ep: 25 [3200/70000 (2%)]	Loss1: -0.138931	Loss2: 0.069402	Loss3: -0.000446	Loss4: 0.026269	Loss5: 0.026269
+Train Ep: 25 [4000/70000 (2%)]	Loss1: -0.138685	Loss2: 0.069277	Loss3: 0.014068	Loss4: 0.018149	Loss5: 0.018149
+Train Ep: 25 [4800/70000 (3%)]	Loss1: -0.139034	Loss2: 0.069321	Loss3: 0.000822	Loss4: 0.026986	Loss5: 0.026986
+Train Ep: 25 [5600/70000 (4%)]	Loss1: -0.138736	Loss2: 0.069385	Loss3: 0.004467	Loss4: 0.017204	Loss5: 0.017204
+Train Ep: 25 [6400/70000 (4%)]	Loss1: -0.138722	Loss2: 0.069512	Loss3: 0.010244	Loss4: 0.027236	Loss5: 0.027236
+Train Ep: 25 [7200/70000 (4%)]	Loss1: -0.138812	Loss2: 0.069336	Loss3: 0.000764	Loss4: 0.008896	Loss5: 0.008896
+Train Ep: 25 [8000/70000 (5%)]	Loss1: -0.138646	Loss2: 0.069291	Loss3: 0.006041	Loss4: 0.005451	Loss5: 0.005451
+Train Ep: 25 [8800/70000 (6%)]	Loss1: -0.138644	Loss2: 0.069576	Loss3: -0.000529	Loss4: 0.012939	Loss5: 0.012939
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.3029991971318837
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.3832574553786111
+Train Ep: 26 [0/70000 (0%)]	Loss1: -0.138749	Loss2: 0.069416	Loss3: 0.029100	Loss4: 0.015725	Loss5: 0.015725
+max_value is:
+46.34476534296029
+
+ max_record buff: Accuracy C:(46.1%), Accuracy C1:(45.9%), Accuracy c2:(46.1)%, Accuracy ensemble c1c2:(46.2)%, Accuracy ensemble cc1c2:(46.3%)
+
+Train Ep: 26 [800/70000 (0%)]	Loss1: -0.138653	Loss2: 0.069357	Loss3: 0.000928	Loss4: 0.022076	Loss5: 0.022076
+Train Ep: 26 [1600/70000 (1%)]	Loss1: -0.138728	Loss2: 0.069283	Loss3: 0.092175	Loss4: 0.017928	Loss5: 0.017928
+Train Ep: 26 [2400/70000 (2%)]	Loss1: -0.138777	Loss2: 0.069304	Loss3: 0.000822	Loss4: 0.029402	Loss5: 0.029402
+Train Ep: 26 [3200/70000 (2%)]	Loss1: -0.138696	Loss2: 0.069386	Loss3: 0.012023	Loss4: 0.021972	Loss5: 0.021972
+Train Ep: 26 [4000/70000 (2%)]	Loss1: -0.138879	Loss2: 0.069361	Loss3: 0.016819	Loss4: 0.010260	Loss5: 0.010260
+Train Ep: 26 [4800/70000 (3%)]	Loss1: -0.138677	Loss2: 0.069321	Loss3: 0.003535	Loss4: 0.012801	Loss5: 0.012801
+Train Ep: 26 [5600/70000 (4%)]	Loss1: -0.138773	Loss2: 0.069367	Loss3: 0.025248	Loss4: 0.015063	Loss5: 0.015063
+Train Ep: 26 [6400/70000 (4%)]	Loss1: -0.138911	Loss2: 0.069313	Loss3: -0.003186	Loss4: 0.019124	Loss5: 0.019124
+Train Ep: 26 [7200/70000 (4%)]	Loss1: -0.138883	Loss2: 0.069364	Loss3: 0.008678	Loss4: 0.023659	Loss5: 0.023659
+Train Ep: 26 [8000/70000 (5%)]	Loss1: -0.138772	Loss2: 0.069445	Loss3: 0.010784	Loss4: 0.024185	Loss5: 0.024185
+Train Ep: 26 [8800/70000 (6%)]	Loss1: -0.138971	Loss2: 0.069462	Loss3: 0.022936	Loss4: 0.009239	Loss5: 0.009239
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2640497068393423
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.34447016916707174
+Train Ep: 27 [0/70000 (0%)]	Loss1: -0.138919	Loss2: 0.069438	Loss3: 0.009302	Loss4: 0.025278	Loss5: 0.025278
+max_value is:
+46.34476534296029
+
+Test set: Average loss1: -0.9901, Average loss2: -1.2475, Accuracy C: 2073/4432 (46.8%), Accuracy C1: 2058/4432 (46.4%), Accuracy ensemble c2: 2064/4432 (46.6)%, Accuracy ensemble c1c2: 2071/4432 (46.7)%, Accuracy ensemble cc1c2: 2063/4432 (46.5%)
+
+Train Ep: 27 [800/70000 (0%)]	Loss1: -0.138926	Loss2: 0.069354	Loss3: 0.001545	Loss4: 0.010062	Loss5: 0.010062
+Train Ep: 27 [1600/70000 (1%)]	Loss1: -0.138886	Loss2: 0.069419	Loss3: -0.007856	Loss4: 0.022000	Loss5: 0.022000
+Train Ep: 27 [2400/70000 (2%)]	Loss1: -0.138715	Loss2: 0.069338	Loss3: 0.076008	Loss4: 0.014635	Loss5: 0.014635
+Train Ep: 27 [3200/70000 (2%)]	Loss1: -0.138894	Loss2: 0.069323	Loss3: -0.001158	Loss4: 0.016771	Loss5: 0.016771
+Train Ep: 27 [4000/70000 (2%)]	Loss1: -0.138771	Loss2: 0.069452	Loss3: -0.004878	Loss4: 0.027157	Loss5: 0.027157
+Train Ep: 27 [4800/70000 (3%)]	Loss1: -0.138662	Loss2: 0.069341	Loss3: 0.082949	Loss4: 0.014603	Loss5: 0.014603
+Train Ep: 27 [5600/70000 (4%)]	Loss1: -0.138620	Loss2: 0.069451	Loss3: 0.001416	Loss4: 0.013653	Loss5: 0.013653
+Train Ep: 27 [6400/70000 (4%)]	Loss1: -0.138871	Loss2: 0.069322	Loss3: 0.044931	Loss4: 0.021458	Loss5: 0.021458
+Train Ep: 27 [7200/70000 (4%)]	Loss1: -0.138757	Loss2: 0.069384	Loss3: 0.000097	Loss4: 0.012994	Loss5: 0.012994
+Train Ep: 27 [8000/70000 (5%)]	Loss1: -0.138902	Loss2: 0.069462	Loss3: 0.002311	Loss4: 0.004224	Loss5: 0.004224
+Train Ep: 27 [8800/70000 (6%)]	Loss1: -0.138560	Loss2: 0.069349	Loss3: 0.013336	Loss4: 0.013658	Loss5: 0.013658
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.3094306102815876
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.35060210561324934
+Train Ep: 28 [0/70000 (0%)]	Loss1: -0.138813	Loss2: 0.069343	Loss3: 0.045605	Loss4: 0.013317	Loss5: 0.013317
+max_value is:
+46.77346570397112
+
+ max_record buff: Accuracy C:(46.8%), Accuracy C1:(46.4%), Accuracy c2:(46.6)%, Accuracy ensemble c1c2:(46.7)%, Accuracy ensemble cc1c2:(46.5%)
+
+Train Ep: 28 [800/70000 (0%)]	Loss1: -0.138782	Loss2: 0.069406	Loss3: 0.034782	Loss4: 0.006061	Loss5: 0.006061
+Train Ep: 28 [1600/70000 (1%)]	Loss1: -0.138753	Loss2: 0.069400	Loss3: 0.005435	Loss4: 0.008572	Loss5: 0.008572
+Train Ep: 28 [2400/70000 (2%)]	Loss1: -0.138684	Loss2: 0.069376	Loss3: 0.037526	Loss4: 0.021932	Loss5: 0.021932
+Train Ep: 28 [3200/70000 (2%)]	Loss1: -0.138600	Loss2: 0.069379	Loss3: 0.000938	Loss4: 0.027023	Loss5: 0.027023
+Train Ep: 28 [4000/70000 (2%)]	Loss1: -0.138702	Loss2: 0.069421	Loss3: 0.006531	Loss4: 0.022221	Loss5: 0.022221
+Train Ep: 28 [4800/70000 (3%)]	Loss1: -0.138859	Loss2: 0.069403	Loss3: -0.000865	Loss4: 0.020027	Loss5: 0.020027
+Train Ep: 28 [5600/70000 (4%)]	Loss1: -0.138693	Loss2: 0.069396	Loss3: 0.028527	Loss4: 0.007831	Loss5: 0.007831
+Train Ep: 28 [6400/70000 (4%)]	Loss1: -0.138747	Loss2: 0.069381	Loss3: 0.031379	Loss4: 0.017841	Loss5: 0.017841
+Train Ep: 28 [7200/70000 (4%)]	Loss1: -0.138757	Loss2: 0.069414	Loss3: 0.016535	Loss4: 0.008472	Loss5: 0.008472
+Train Ep: 28 [8000/70000 (5%)]	Loss1: -0.138828	Loss2: 0.069333	Loss3: 0.015429	Loss4: 0.016965	Loss5: 0.016965
+Train Ep: 28 [8800/70000 (6%)]	Loss1: -0.138784	Loss2: 0.069362	Loss3: 0.000285	Loss4: 0.010214	Loss5: 0.010214
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.24147619340697524
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.35336740214548024
+Train Ep: 29 [0/70000 (0%)]	Loss1: -0.138942	Loss2: 0.069346	Loss3: 0.017038	Loss4: 0.031575	Loss5: 0.031575
+max_value is:
+46.77346570397112
+
+ max_record buff: Accuracy C:(46.8%), Accuracy C1:(46.4%), Accuracy c2:(46.6)%, Accuracy ensemble c1c2:(46.7)%, Accuracy ensemble cc1c2:(46.5%)
+
+Train Ep: 29 [800/70000 (0%)]	Loss1: -0.139145	Loss2: 0.069391	Loss3: 0.039775	Loss4: 0.009440	Loss5: 0.009440
+Train Ep: 29 [1600/70000 (1%)]	Loss1: -0.139032	Loss2: 0.069330	Loss3: 0.000251	Loss4: 0.023327	Loss5: 0.023327
+Train Ep: 29 [2400/70000 (2%)]	Loss1: -0.138783	Loss2: 0.069394	Loss3: 0.003650	Loss4: 0.032314	Loss5: 0.032314
+Train Ep: 29 [3200/70000 (2%)]	Loss1: -0.138682	Loss2: 0.069457	Loss3: 0.014149	Loss4: 0.020326	Loss5: 0.020326
+Train Ep: 29 [4000/70000 (2%)]	Loss1: -0.138686	Loss2: 0.069344	Loss3: 0.006133	Loss4: 0.015706	Loss5: 0.015706
+Train Ep: 29 [4800/70000 (3%)]	Loss1: -0.138842	Loss2: 0.069331	Loss3: 0.004750	Loss4: 0.013535	Loss5: 0.013535
+Train Ep: 29 [5600/70000 (4%)]	Loss1: -0.138745	Loss2: 0.069319	Loss3: 0.001110	Loss4: 0.015203	Loss5: 0.015203
+Train Ep: 29 [6400/70000 (4%)]	Loss1: -0.138714	Loss2: 0.069333	Loss3: 0.003116	Loss4: 0.013233	Loss5: 0.013233
+Train Ep: 29 [7200/70000 (4%)]	Loss1: -0.138776	Loss2: 0.069316	Loss3: 0.077548	Loss4: 0.017879	Loss5: 0.017879
+Train Ep: 29 [8000/70000 (5%)]	Loss1: -0.138750	Loss2: 0.069364	Loss3: 0.022799	Loss4: 0.017995	Loss5: 0.017995
+Train Ep: 29 [8800/70000 (6%)]	Loss1: -0.138671	Loss2: 0.069348	Loss3: 0.046023	Loss4: 0.027943	Loss5: 0.027943
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2878334537641809
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.29857418307699257
+Train Ep: 30 [0/70000 (0%)]	Loss1: -0.139017	Loss2: 0.069392	Loss3: 0.019532	Loss4: 0.009854	Loss5: 0.009854
+max_value is:
+46.77346570397112
+
+Test set: Average loss1: -0.9261, Average loss2: -1.2251, Accuracy C: 2053/4432 (46.3%), Accuracy C1: 2075/4432 (46.8%), Accuracy ensemble c2: 2058/4432 (46.4)%, Accuracy ensemble c1c2: 2072/4432 (46.8)%, Accuracy ensemble cc1c2: 2067/4432 (46.6%)
+
+Train Ep: 30 [800/70000 (0%)]	Loss1: -0.138759	Loss2: 0.069348	Loss3: -0.003868	Loss4: 0.019838	Loss5: 0.019838
+Train Ep: 30 [1600/70000 (1%)]	Loss1: -0.138684	Loss2: 0.069380	Loss3: 0.025986	Loss4: 0.016678	Loss5: 0.016678
+Train Ep: 30 [2400/70000 (2%)]	Loss1: -0.138588	Loss2: 0.069345	Loss3: 0.132210	Loss4: 0.030393	Loss5: 0.030393
+Train Ep: 30 [3200/70000 (2%)]	Loss1: -0.138648	Loss2: 0.069424	Loss3: 0.007191	Loss4: 0.031893	Loss5: 0.031893
+Train Ep: 30 [4000/70000 (2%)]	Loss1: -0.138777	Loss2: 0.069353	Loss3: 0.055916	Loss4: 0.026472	Loss5: 0.026472
+Train Ep: 30 [4800/70000 (3%)]	Loss1: -0.138771	Loss2: 0.069355	Loss3: 0.013966	Loss4: 0.016737	Loss5: 0.016737
+Train Ep: 30 [5600/70000 (4%)]	Loss1: -0.138711	Loss2: 0.069421	Loss3: 0.015995	Loss4: 0.018419	Loss5: 0.018419
+Train Ep: 30 [6400/70000 (4%)]	Loss1: -0.138671	Loss2: 0.069302	Loss3: 0.055528	Loss4: 0.011223	Loss5: 0.011223
+Train Ep: 30 [7200/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069325	Loss3: 0.036354	Loss4: 0.008843	Loss5: 0.008843
+Train Ep: 30 [8000/70000 (5%)]	Loss1: -0.138649	Loss2: 0.069347	Loss3: 0.014886	Loss4: 0.016114	Loss5: 0.016114
+Train Ep: 30 [8800/70000 (6%)]	Loss1: -0.138742	Loss2: 0.069326	Loss3: 0.011940	Loss4: 0.018760	Loss5: 0.018760
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.34077004115977755
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.29514619006353826
+Train Ep: 31 [0/70000 (0%)]	Loss1: -0.138727	Loss2: 0.069374	Loss3: -0.004193	Loss4: 0.013910	Loss5: 0.013910
+max_value is:
+46.818592057761734
+
+ max_record buff: Accuracy C:(46.3%), Accuracy C1:(46.8%), Accuracy c2:(46.4)%, Accuracy ensemble c1c2:(46.8)%, Accuracy ensemble cc1c2:(46.6%)
+
+Train Ep: 31 [800/70000 (0%)]	Loss1: -0.138717	Loss2: 0.069379	Loss3: 0.037705	Loss4: 0.019914	Loss5: 0.019914
+Train Ep: 31 [1600/70000 (1%)]	Loss1: -0.138621	Loss2: 0.069446	Loss3: 0.013945	Loss4: 0.022256	Loss5: 0.022256
+Train Ep: 31 [2400/70000 (2%)]	Loss1: -0.138727	Loss2: 0.069317	Loss3: 0.025102	Loss4: 0.006114	Loss5: 0.006114
+Train Ep: 31 [3200/70000 (2%)]	Loss1: -0.138885	Loss2: 0.069338	Loss3: 0.004508	Loss4: 0.004862	Loss5: 0.004862
+Train Ep: 31 [4000/70000 (2%)]	Loss1: -0.138808	Loss2: 0.069416	Loss3: 0.002571	Loss4: 0.016748	Loss5: 0.016748
+Train Ep: 31 [4800/70000 (3%)]	Loss1: -0.138893	Loss2: 0.069328	Loss3: 0.006377	Loss4: 0.023689	Loss5: 0.023689
+Train Ep: 31 [5600/70000 (4%)]	Loss1: -0.138732	Loss2: 0.069325	Loss3: 0.007790	Loss4: 0.006796	Loss5: 0.006796
+Train Ep: 31 [6400/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069318	Loss3: -0.000386	Loss4: 0.013439	Loss5: 0.013439
+Train Ep: 31 [7200/70000 (4%)]	Loss1: -0.138694	Loss2: 0.069287	Loss3: 0.014977	Loss4: 0.023454	Loss5: 0.023454
+Train Ep: 31 [8000/70000 (5%)]	Loss1: -0.138706	Loss2: 0.069305	Loss3: 0.094476	Loss4: 0.014913	Loss5: 0.014913
+Train Ep: 31 [8800/70000 (6%)]	Loss1: -0.138766	Loss2: 0.069351	Loss3: 0.009044	Loss4: 0.007185	Loss5: 0.007185
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.25905153312506646
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.2925026045891518
+Train Ep: 32 [0/70000 (0%)]	Loss1: -0.138836	Loss2: 0.069409	Loss3: 0.008898	Loss4: 0.031723	Loss5: 0.031723
+max_value is:
+46.818592057761734
+
+ max_record buff: Accuracy C:(46.3%), Accuracy C1:(46.8%), Accuracy c2:(46.4)%, Accuracy ensemble c1c2:(46.8)%, Accuracy ensemble cc1c2:(46.6%)
+
+Train Ep: 32 [800/70000 (0%)]	Loss1: -0.138808	Loss2: 0.069337	Loss3: -0.001219	Loss4: 0.018564	Loss5: 0.018564
+Train Ep: 32 [1600/70000 (1%)]	Loss1: -0.138689	Loss2: 0.069369	Loss3: 0.000531	Loss4: 0.021558	Loss5: 0.021558
+Train Ep: 32 [2400/70000 (2%)]	Loss1: -0.138758	Loss2: 0.069433	Loss3: 0.007022	Loss4: 0.019728	Loss5: 0.019728
+Train Ep: 32 [3200/70000 (2%)]	Loss1: -0.138735	Loss2: 0.069342	Loss3: 0.013167	Loss4: 0.013564	Loss5: 0.013564
+Train Ep: 32 [4000/70000 (2%)]	Loss1: -0.138638	Loss2: 0.069315	Loss3: 0.002760	Loss4: 0.012702	Loss5: 0.012702
+Train Ep: 32 [4800/70000 (3%)]	Loss1: -0.138899	Loss2: 0.069357	Loss3: 0.026307	Loss4: 0.017534	Loss5: 0.017534
+Train Ep: 32 [5600/70000 (4%)]	Loss1: -0.138671	Loss2: 0.069437	Loss3: 0.044937	Loss4: 0.008050	Loss5: 0.008050
+Train Ep: 32 [6400/70000 (4%)]	Loss1: -0.138695	Loss2: 0.069407	Loss3: 0.002581	Loss4: 0.033310	Loss5: 0.033310
+Train Ep: 32 [7200/70000 (4%)]	Loss1: -0.138753	Loss2: 0.069368	Loss3: 0.011498	Loss4: 0.014391	Loss5: 0.014391
+Train Ep: 32 [8000/70000 (5%)]	Loss1: -0.138731	Loss2: 0.069355	Loss3: 0.003772	Loss4: 0.023837	Loss5: 0.023837
+Train Ep: 32 [8800/70000 (6%)]	Loss1: -0.138714	Loss2: 0.069346	Loss3: 0.017031	Loss4: 0.007821	Loss5: 0.007821
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2448833596183549
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.2698965694793597
+Train Ep: 33 [0/70000 (0%)]	Loss1: -0.138606	Loss2: 0.069341	Loss3: 0.016873	Loss4: 0.023872	Loss5: 0.023872
+max_value is:
+46.818592057761734
+
+Test set: Average loss1: -0.8823, Average loss2: -1.1535, Accuracy C: 2085/4432 (47.0%), Accuracy C1: 2081/4432 (47.0%), Accuracy ensemble c2: 2082/4432 (47.0)%, Accuracy ensemble c1c2: 2088/4432 (47.1)%, Accuracy ensemble cc1c2: 2088/4432 (47.1%)
+
+Train Ep: 33 [800/70000 (0%)]	Loss1: -0.138697	Loss2: 0.069381	Loss3: 0.007434	Loss4: 0.028956	Loss5: 0.028956
+Train Ep: 33 [1600/70000 (1%)]	Loss1: -0.138591	Loss2: 0.069387	Loss3: 0.007669	Loss4: 0.016118	Loss5: 0.016118
+Train Ep: 33 [2400/70000 (2%)]	Loss1: -0.138670	Loss2: 0.069303	Loss3: 0.002921	Loss4: 0.008798	Loss5: 0.008798
+Train Ep: 33 [3200/70000 (2%)]	Loss1: -0.138899	Loss2: 0.069348	Loss3: 0.001178	Loss4: 0.016327	Loss5: 0.016327
+Train Ep: 33 [4000/70000 (2%)]	Loss1: -0.138725	Loss2: 0.069351	Loss3: 0.026919	Loss4: 0.010937	Loss5: 0.010937
+Train Ep: 33 [4800/70000 (3%)]	Loss1: -0.138664	Loss2: 0.069399	Loss3: 0.010151	Loss4: 0.024760	Loss5: 0.024760
+Train Ep: 33 [5600/70000 (4%)]	Loss1: -0.138675	Loss2: 0.069390	Loss3: 0.038564	Loss4: 0.016024	Loss5: 0.016024
+Train Ep: 33 [6400/70000 (4%)]	Loss1: -0.138754	Loss2: 0.069329	Loss3: -0.008781	Loss4: 0.027588	Loss5: 0.027588
+Train Ep: 33 [7200/70000 (4%)]	Loss1: -0.138630	Loss2: 0.069347	Loss3: -0.001873	Loss4: 0.026793	Loss5: 0.026793
+Train Ep: 33 [8000/70000 (5%)]	Loss1: -0.138757	Loss2: 0.069381	Loss3: -0.000145	Loss4: 0.017063	Loss5: 0.017063
+Train Ep: 33 [8800/70000 (6%)]	Loss1: -0.138736	Loss2: 0.069415	Loss3: 0.035726	Loss4: 0.032433	Loss5: 0.032433
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.43612041741081836
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.25855791155344265
+Train Ep: 34 [0/70000 (0%)]	Loss1: -0.138734	Loss2: 0.069352	Loss3: 0.030684	Loss4: 0.011568	Loss5: 0.011568
+max_value is:
+47.111913357400724
+
+ max_record buff: Accuracy C:(47.0%), Accuracy C1:(47.0%), Accuracy c2:(47.0)%, Accuracy ensemble c1c2:(47.1)%, Accuracy ensemble cc1c2:(47.1%)
+
+Train Ep: 34 [800/70000 (0%)]	Loss1: -0.138620	Loss2: 0.069374	Loss3: 0.003503	Loss4: 0.016188	Loss5: 0.016188
+Train Ep: 34 [1600/70000 (1%)]	Loss1: -0.138719	Loss2: 0.069349	Loss3: -0.001538	Loss4: 0.015904	Loss5: 0.015904
+Train Ep: 34 [2400/70000 (2%)]	Loss1: -0.138817	Loss2: 0.069427	Loss3: 0.024660	Loss4: 0.029357	Loss5: 0.029357
+Train Ep: 34 [3200/70000 (2%)]	Loss1: -0.138675	Loss2: 0.069362	Loss3: -0.000252	Loss4: 0.014705	Loss5: 0.014705
+Train Ep: 34 [4000/70000 (2%)]	Loss1: -0.138672	Loss2: 0.069372	Loss3: 0.001367	Loss4: 0.033941	Loss5: 0.033941
+Train Ep: 34 [4800/70000 (3%)]	Loss1: -0.138754	Loss2: 0.069339	Loss3: 0.002736	Loss4: 0.008389	Loss5: 0.008389
+Train Ep: 34 [5600/70000 (4%)]	Loss1: -0.138611	Loss2: 0.069379	Loss3: -0.001111	Loss4: 0.028640	Loss5: 0.028640
+Train Ep: 34 [6400/70000 (4%)]	Loss1: -0.138804	Loss2: 0.069357	Loss3: 0.030703	Loss4: 0.009558	Loss5: 0.009558
+Train Ep: 34 [7200/70000 (4%)]	Loss1: -0.138657	Loss2: 0.069375	Loss3: 0.003733	Loss4: 0.011579	Loss5: 0.011579
+Train Ep: 34 [8000/70000 (5%)]	Loss1: -0.138768	Loss2: 0.069366	Loss3: 0.012995	Loss4: 0.011640	Loss5: 0.011640
+Train Ep: 34 [8800/70000 (6%)]	Loss1: -0.138761	Loss2: 0.069320	Loss3: 0.044988	Loss4: 0.016911	Loss5: 0.016911
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.33752313501383824
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.267103880953076
+Train Ep: 35 [0/70000 (0%)]	Loss1: -0.138669	Loss2: 0.069488	Loss3: 0.021177	Loss4: 0.026567	Loss5: 0.026567
+max_value is:
+47.111913357400724
+
+ max_record buff: Accuracy C:(47.0%), Accuracy C1:(47.0%), Accuracy c2:(47.0)%, Accuracy ensemble c1c2:(47.1)%, Accuracy ensemble cc1c2:(47.1%)
+
+Train Ep: 35 [800/70000 (0%)]	Loss1: -0.138693	Loss2: 0.069378	Loss3: 0.011918	Loss4: 0.026684	Loss5: 0.026684
+Train Ep: 35 [1600/70000 (1%)]	Loss1: -0.138622	Loss2: 0.069335	Loss3: 0.024321	Loss4: 0.015770	Loss5: 0.015770
+Train Ep: 35 [2400/70000 (2%)]	Loss1: -0.138681	Loss2: 0.069338	Loss3: -0.000159	Loss4: 0.013840	Loss5: 0.013840
+Train Ep: 35 [3200/70000 (2%)]	Loss1: -0.138680	Loss2: 0.069359	Loss3: 0.008854	Loss4: 0.003724	Loss5: 0.003724
+Train Ep: 35 [4000/70000 (2%)]	Loss1: -0.138638	Loss2: 0.069363	Loss3: -0.001026	Loss4: 0.013661	Loss5: 0.013661
+Train Ep: 35 [4800/70000 (3%)]	Loss1: -0.138887	Loss2: 0.069319	Loss3: -0.000093	Loss4: 0.027264	Loss5: 0.027264
+Train Ep: 35 [5600/70000 (4%)]	Loss1: -0.138757	Loss2: 0.069400	Loss3: -0.002689	Loss4: 0.023771	Loss5: 0.023771
+Train Ep: 35 [6400/70000 (4%)]	Loss1: -0.138687	Loss2: 0.069341	Loss3: 0.003422	Loss4: 0.009402	Loss5: 0.009402
+Train Ep: 35 [7200/70000 (4%)]	Loss1: -0.138597	Loss2: 0.069291	Loss3: -0.009923	Loss4: 0.027626	Loss5: 0.027626
+Train Ep: 35 [8000/70000 (5%)]	Loss1: -0.138698	Loss2: 0.069358	Loss3: 0.041836	Loss4: 0.009963	Loss5: 0.009963
+Train Ep: 35 [8800/70000 (6%)]	Loss1: -0.138777	Loss2: 0.069342	Loss3: 0.021984	Loss4: 0.018586	Loss5: 0.018586
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.25168878004596207
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.2491475422502908
+Train Ep: 36 [0/70000 (0%)]	Loss1: -0.138706	Loss2: 0.069329	Loss3: 0.002654	Loss4: 0.024218	Loss5: 0.024218
+max_value is:
+47.111913357400724
+
+ max_record buff: Accuracy C:(47.0%), Accuracy C1:(47.0%), Accuracy c2:(47.0)%, Accuracy ensemble c1c2:(47.1)%, Accuracy ensemble cc1c2:(47.1%)
+
+Train Ep: 36 [800/70000 (0%)]	Loss1: -0.138678	Loss2: 0.069316	Loss3: 0.053659	Loss4: 0.025860	Loss5: 0.025860
+Train Ep: 36 [1600/70000 (1%)]	Loss1: -0.138830	Loss2: 0.069376	Loss3: 0.003592	Loss4: 0.013233	Loss5: 0.013233
+Train Ep: 36 [2400/70000 (2%)]	Loss1: -0.138708	Loss2: 0.069322	Loss3: 0.032223	Loss4: 0.028061	Loss5: 0.028061
+Train Ep: 36 [3200/70000 (2%)]	Loss1: -0.138691	Loss2: 0.069380	Loss3: 0.019931	Loss4: 0.003304	Loss5: 0.003304
+Train Ep: 36 [4000/70000 (2%)]	Loss1: -0.138727	Loss2: 0.069388	Loss3: 0.057405	Loss4: 0.015544	Loss5: 0.015544
+Train Ep: 36 [4800/70000 (3%)]	Loss1: -0.138664	Loss2: 0.069317	Loss3: 0.015091	Loss4: 0.012083	Loss5: 0.012083
+Train Ep: 36 [5600/70000 (4%)]	Loss1: -0.138678	Loss2: 0.069328	Loss3: 0.019760	Loss4: 0.021042	Loss5: 0.021042
+Train Ep: 36 [6400/70000 (4%)]	Loss1: -0.138647	Loss2: 0.069324	Loss3: 0.052758	Loss4: 0.013190	Loss5: 0.013190
+Train Ep: 36 [7200/70000 (4%)]	Loss1: -0.138686	Loss2: 0.069345	Loss3: 0.013084	Loss4: 0.018627	Loss5: 0.018627
+Train Ep: 36 [8000/70000 (5%)]	Loss1: -0.138749	Loss2: 0.069332	Loss3: 0.008284	Loss4: 0.022120	Loss5: 0.022120
+Train Ep: 36 [8800/70000 (6%)]	Loss1: -0.138673	Loss2: 0.069383	Loss3: 0.037681	Loss4: 0.015124	Loss5: 0.015124
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2609387736236906
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.21889538518465512
+Train Ep: 37 [0/70000 (0%)]	Loss1: -0.138736	Loss2: 0.069312	Loss3: 0.121312	Loss4: 0.011989	Loss5: 0.011989
+max_value is:
+47.111913357400724
+
+ max_record buff: Accuracy C:(47.0%), Accuracy C1:(47.0%), Accuracy c2:(47.0)%, Accuracy ensemble c1c2:(47.1)%, Accuracy ensemble cc1c2:(47.1%)
+
+Train Ep: 37 [800/70000 (0%)]	Loss1: -0.138585	Loss2: 0.069327	Loss3: 0.018080	Loss4: 0.024880	Loss5: 0.024880
+Train Ep: 37 [1600/70000 (1%)]	Loss1: -0.138678	Loss2: 0.069345	Loss3: 0.011177	Loss4: 0.017146	Loss5: 0.017146
+Train Ep: 37 [2400/70000 (2%)]	Loss1: -0.138726	Loss2: 0.069345	Loss3: -0.001147	Loss4: 0.017816	Loss5: 0.017816
+Train Ep: 37 [3200/70000 (2%)]	Loss1: -0.138772	Loss2: 0.069488	Loss3: -0.002125	Loss4: 0.015931	Loss5: 0.015931
+Train Ep: 37 [4000/70000 (2%)]	Loss1: -0.138804	Loss2: 0.069332	Loss3: 0.011409	Loss4: 0.027356	Loss5: 0.027356
+Train Ep: 37 [4800/70000 (3%)]	Loss1: -0.138739	Loss2: 0.069352	Loss3: 0.010816	Loss4: 0.014021	Loss5: 0.014021
+Train Ep: 37 [5600/70000 (4%)]	Loss1: -0.138719	Loss2: 0.069329	Loss3: 0.004517	Loss4: 0.009281	Loss5: 0.009281
+Train Ep: 37 [6400/70000 (4%)]	Loss1: -0.138675	Loss2: 0.069351	Loss3: -0.010828	Loss4: 0.025641	Loss5: 0.025641
+Train Ep: 37 [7200/70000 (4%)]	Loss1: -0.138644	Loss2: 0.069397	Loss3: 0.032409	Loss4: 0.009741	Loss5: 0.009741
+Train Ep: 37 [8000/70000 (5%)]	Loss1: -0.138675	Loss2: 0.069380	Loss3: 0.001512	Loss4: 0.017119	Loss5: 0.017119
+Train Ep: 37 [8800/70000 (6%)]	Loss1: -0.138652	Loss2: 0.069349	Loss3: 0.044802	Loss4: 0.013312	Loss5: 0.013312
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2827526286954136
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.23522443942590243
+Train Ep: 38 [0/70000 (0%)]	Loss1: -0.138656	Loss2: 0.069306	Loss3: 0.030935	Loss4: 0.012513	Loss5: 0.012513
+max_value is:
+47.111913357400724
+
+ max_record buff: Accuracy C:(47.0%), Accuracy C1:(47.0%), Accuracy c2:(47.0)%, Accuracy ensemble c1c2:(47.1)%, Accuracy ensemble cc1c2:(47.1%)
+
+Train Ep: 38 [800/70000 (0%)]	Loss1: -0.138644	Loss2: 0.069361	Loss3: 0.099535	Loss4: 0.020066	Loss5: 0.020066
+Train Ep: 38 [1600/70000 (1%)]	Loss1: -0.138693	Loss2: 0.069376	Loss3: 0.073118	Loss4: 0.011599	Loss5: 0.011599
+Train Ep: 38 [2400/70000 (2%)]	Loss1: -0.138711	Loss2: 0.069317	Loss3: 0.004153	Loss4: 0.028261	Loss5: 0.028261
+Train Ep: 38 [3200/70000 (2%)]	Loss1: -0.138653	Loss2: 0.069341	Loss3: 0.009726	Loss4: 0.013422	Loss5: 0.013422
+Train Ep: 38 [4000/70000 (2%)]	Loss1: -0.138643	Loss2: 0.069356	Loss3: 0.015506	Loss4: 0.014748	Loss5: 0.014748
+Train Ep: 38 [4800/70000 (3%)]	Loss1: -0.138647	Loss2: 0.069351	Loss3: -0.002875	Loss4: 0.024770	Loss5: 0.024770
+Train Ep: 38 [5600/70000 (4%)]	Loss1: -0.138654	Loss2: 0.069359	Loss3: 0.040600	Loss4: 0.024831	Loss5: 0.024831
+Train Ep: 38 [6400/70000 (4%)]	Loss1: -0.138657	Loss2: 0.069391	Loss3: 0.008473	Loss4: 0.019318	Loss5: 0.019318
+Train Ep: 38 [7200/70000 (4%)]	Loss1: -0.138685	Loss2: 0.069309	Loss3: 0.002365	Loss4: 0.019650	Loss5: 0.019650
+Train Ep: 38 [8000/70000 (5%)]	Loss1: -0.138733	Loss2: 0.069316	Loss3: 0.207183	Loss4: 0.018929	Loss5: 0.018929
+Train Ep: 38 [8800/70000 (6%)]	Loss1: -0.138690	Loss2: 0.069377	Loss3: 0.086631	Loss4: 0.013778	Loss5: 0.013778
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.47023987529436195
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.2584670836706324
+Train Ep: 39 [0/70000 (0%)]	Loss1: -0.138683	Loss2: 0.069295	Loss3: 0.005329	Loss4: 0.004083	Loss5: 0.004083
+max_value is:
+47.111913357400724
+
+Test set: Average loss1: -0.8904, Average loss2: -1.2369, Accuracy C: 2107/4432 (47.5%), Accuracy C1: 2093/4432 (47.2%), Accuracy ensemble c2: 2093/4432 (47.2)%, Accuracy ensemble c1c2: 2097/4432 (47.3)%, Accuracy ensemble cc1c2: 2096/4432 (47.3%)
+
+Train Ep: 39 [800/70000 (0%)]	Loss1: -0.138629	Loss2: 0.069330	Loss3: -0.000537	Loss4: 0.011155	Loss5: 0.011155
+Train Ep: 39 [1600/70000 (1%)]	Loss1: -0.138661	Loss2: 0.069381	Loss3: 0.060919	Loss4: 0.004850	Loss5: 0.004850
+Train Ep: 39 [2400/70000 (2%)]	Loss1: -0.138697	Loss2: 0.069352	Loss3: 0.017286	Loss4: 0.011957	Loss5: 0.011957
+Train Ep: 39 [3200/70000 (2%)]	Loss1: -0.138642	Loss2: 0.069336	Loss3: 0.049910	Loss4: 0.027632	Loss5: 0.027632
+Train Ep: 39 [4000/70000 (2%)]	Loss1: -0.138625	Loss2: 0.069325	Loss3: 0.070841	Loss4: 0.019011	Loss5: 0.019011
+Train Ep: 39 [4800/70000 (3%)]	Loss1: -0.138724	Loss2: 0.069352	Loss3: 0.004210	Loss4: 0.009736	Loss5: 0.009736
+Train Ep: 39 [5600/70000 (4%)]	Loss1: -0.138685	Loss2: 0.069328	Loss3: 0.008540	Loss4: 0.005131	Loss5: 0.005131
+Train Ep: 39 [6400/70000 (4%)]	Loss1: -0.138661	Loss2: 0.069309	Loss3: 0.000758	Loss4: 0.007988	Loss5: 0.007988
+Train Ep: 39 [7200/70000 (4%)]	Loss1: -0.138687	Loss2: 0.069352	Loss3: 0.004888	Loss4: 0.024193	Loss5: 0.024193
+Train Ep: 39 [8000/70000 (5%)]	Loss1: -0.138652	Loss2: 0.069338	Loss3: -0.000097	Loss4: 0.020100	Loss5: 0.020100
+Train Ep: 39 [8800/70000 (6%)]	Loss1: -0.138672	Loss2: 0.069378	Loss3: 0.021709	Loss4: 0.014223	Loss5: 0.014223
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.31790365225937023
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.24548027250544624
+Train Ep: 40 [0/70000 (0%)]	Loss1: -0.138734	Loss2: 0.069323	Loss3: 0.058215	Loss4: 0.011808	Loss5: 0.011808
+max_value is:
+47.54061371841155
+
+ max_record buff: Accuracy C:(47.5%), Accuracy C1:(47.2%), Accuracy c2:(47.2)%, Accuracy ensemble c1c2:(47.3)%, Accuracy ensemble cc1c2:(47.3%)
+
+Train Ep: 40 [800/70000 (0%)]	Loss1: -0.138759	Loss2: 0.069324	Loss3: 0.028847	Loss4: 0.024658	Loss5: 0.024658
+Train Ep: 40 [1600/70000 (1%)]	Loss1: -0.138932	Loss2: 0.069333	Loss3: 0.019900	Loss4: 0.010544	Loss5: 0.010544
+Train Ep: 40 [2400/70000 (2%)]	Loss1: -0.138727	Loss2: 0.069327	Loss3: 0.005049	Loss4: 0.015923	Loss5: 0.015923
+Train Ep: 40 [3200/70000 (2%)]	Loss1: -0.138666	Loss2: 0.069368	Loss3: 0.005008	Loss4: 0.019603	Loss5: 0.019603
+Train Ep: 40 [4000/70000 (2%)]	Loss1: -0.138769	Loss2: 0.069363	Loss3: 0.001720	Loss4: 0.010118	Loss5: 0.010118
+Train Ep: 40 [4800/70000 (3%)]	Loss1: -0.138623	Loss2: 0.069332	Loss3: 0.036172	Loss4: 0.018411	Loss5: 0.018411
+Train Ep: 40 [5600/70000 (4%)]	Loss1: -0.138669	Loss2: 0.069322	Loss3: 0.030163	Loss4: 0.013649	Loss5: 0.013649
+Train Ep: 40 [6400/70000 (4%)]	Loss1: -0.138690	Loss2: 0.069315	Loss3: 0.004714	Loss4: 0.015198	Loss5: 0.015198
+Train Ep: 40 [7200/70000 (4%)]	Loss1: -0.138743	Loss2: 0.069310	Loss3: 0.015841	Loss4: 0.006182	Loss5: 0.006182
+Train Ep: 40 [8000/70000 (5%)]	Loss1: -0.138664	Loss2: 0.069307	Loss3: 0.004463	Loss4: 0.012443	Loss5: 0.012443
+Train Ep: 40 [8800/70000 (6%)]	Loss1: -0.138612	Loss2: 0.069313	Loss3: 0.001536	Loss4: 0.010485	Loss5: 0.010485
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2622526622087539
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.2430526057722886
+Train Ep: 41 [0/70000 (0%)]	Loss1: -0.138661	Loss2: 0.069315	Loss3: 0.015129	Loss4: 0.011424	Loss5: 0.011424
+max_value is:
+47.54061371841155
+
+ max_record buff: Accuracy C:(47.5%), Accuracy C1:(47.2%), Accuracy c2:(47.2)%, Accuracy ensemble c1c2:(47.3)%, Accuracy ensemble cc1c2:(47.3%)
+
+Train Ep: 41 [800/70000 (0%)]	Loss1: -0.138810	Loss2: 0.069334	Loss3: 0.008091	Loss4: 0.007893	Loss5: 0.007893
+Train Ep: 41 [1600/70000 (1%)]	Loss1: -0.138641	Loss2: 0.069363	Loss3: 0.003530	Loss4: 0.013013	Loss5: 0.013013
+Train Ep: 41 [2400/70000 (2%)]	Loss1: -0.138754	Loss2: 0.069352	Loss3: 0.023474	Loss4: 0.020118	Loss5: 0.020118
+Train Ep: 41 [3200/70000 (2%)]	Loss1: -0.138717	Loss2: 0.069367	Loss3: 0.162745	Loss4: 0.021802	Loss5: 0.021802
+Train Ep: 41 [4000/70000 (2%)]	Loss1: -0.138649	Loss2: 0.069382	Loss3: 0.052021	Loss4: 0.015709	Loss5: 0.015709
+Train Ep: 41 [4800/70000 (3%)]	Loss1: -0.138675	Loss2: 0.069324	Loss3: 0.007974	Loss4: 0.007960	Loss5: 0.007960
+Train Ep: 41 [5600/70000 (4%)]	Loss1: -0.138647	Loss2: 0.069388	Loss3: 0.005809	Loss4: 0.011002	Loss5: 0.011002
+Train Ep: 41 [6400/70000 (4%)]	Loss1: -0.138717	Loss2: 0.069335	Loss3: -0.003656	Loss4: 0.011235	Loss5: 0.011235
+Train Ep: 41 [7200/70000 (4%)]	Loss1: -0.138687	Loss2: 0.069335	Loss3: 0.011536	Loss4: 0.007711	Loss5: 0.007711
+Train Ep: 41 [8000/70000 (5%)]	Loss1: -0.138659	Loss2: 0.069348	Loss3: 0.004213	Loss4: 0.005516	Loss5: 0.005516
+Train Ep: 41 [8800/70000 (6%)]	Loss1: -0.138816	Loss2: 0.069333	Loss3: -0.006326	Loss4: 0.018777	Loss5: 0.018777
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.21981200226673048
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.18481209982305447
+Train Ep: 42 [0/70000 (0%)]	Loss1: -0.138803	Loss2: 0.069363	Loss3: 0.010568	Loss4: 0.003839	Loss5: 0.003839
+max_value is:
+47.54061371841155
+
+Test set: Average loss1: -0.8451, Average loss2: -1.2292, Accuracy C: 2098/4432 (47.3%), Accuracy C1: 2109/4432 (47.6%), Accuracy ensemble c2: 2097/4432 (47.3)%, Accuracy ensemble c1c2: 2109/4432 (47.6)%, Accuracy ensemble cc1c2: 2112/4432 (47.7%)
+
+Train Ep: 42 [800/70000 (0%)]	Loss1: -0.138662	Loss2: 0.069344	Loss3: 0.008414	Loss4: 0.004578	Loss5: 0.004578
+Train Ep: 42 [1600/70000 (1%)]	Loss1: -0.138692	Loss2: 0.069348	Loss3: 0.043695	Loss4: 0.023230	Loss5: 0.023230
+Train Ep: 42 [2400/70000 (2%)]	Loss1: -0.138658	Loss2: 0.069310	Loss3: 0.012769	Loss4: 0.002549	Loss5: 0.002549
+Train Ep: 42 [3200/70000 (2%)]	Loss1: -0.138646	Loss2: 0.069344	Loss3: 0.004507	Loss4: 0.022038	Loss5: 0.022038
+Train Ep: 42 [4000/70000 (2%)]	Loss1: -0.138655	Loss2: 0.069340	Loss3: 0.002258	Loss4: 0.016068	Loss5: 0.016068
+Train Ep: 42 [4800/70000 (3%)]	Loss1: -0.138678	Loss2: 0.069321	Loss3: 0.001899	Loss4: 0.013199	Loss5: 0.013199
+Train Ep: 42 [5600/70000 (4%)]	Loss1: -0.138650	Loss2: 0.069336	Loss3: 0.027496	Loss4: 0.007919	Loss5: 0.007919
+Train Ep: 42 [6400/70000 (4%)]	Loss1: -0.138712	Loss2: 0.069312	Loss3: 0.010796	Loss4: 0.018394	Loss5: 0.018394
+Train Ep: 42 [7200/70000 (4%)]	Loss1: -0.138679	Loss2: 0.069310	Loss3: 0.010125	Loss4: 0.025995	Loss5: 0.025995
+Train Ep: 42 [8000/70000 (5%)]	Loss1: -0.138647	Loss2: 0.069354	Loss3: 0.001560	Loss4: 0.012473	Loss5: 0.012473
+Train Ep: 42 [8800/70000 (6%)]	Loss1: -0.138719	Loss2: 0.069359	Loss3: 0.059424	Loss4: 0.006572	Loss5: 0.006572
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2841132679948756
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.2206429007001388
+Train Ep: 43 [0/70000 (0%)]	Loss1: -0.138739	Loss2: 0.069336	Loss3: 0.000039	Loss4: 0.019171	Loss5: 0.019171
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 43 [800/70000 (0%)]	Loss1: -0.138755	Loss2: 0.069363	Loss3: 0.004036	Loss4: 0.021513	Loss5: 0.021513
+Train Ep: 43 [1600/70000 (1%)]	Loss1: -0.138634	Loss2: 0.069313	Loss3: 0.012104	Loss4: 0.019256	Loss5: 0.019256
+Train Ep: 43 [2400/70000 (2%)]	Loss1: -0.138667	Loss2: 0.069342	Loss3: 0.060901	Loss4: 0.003395	Loss5: 0.003395
+Train Ep: 43 [3200/70000 (2%)]	Loss1: -0.138649	Loss2: 0.069328	Loss3: 0.050496	Loss4: 0.007500	Loss5: 0.007500
+Train Ep: 43 [4000/70000 (2%)]	Loss1: -0.138699	Loss2: 0.069333	Loss3: -0.000456	Loss4: 0.014674	Loss5: 0.014674
+Train Ep: 43 [4800/70000 (3%)]	Loss1: -0.138681	Loss2: 0.069390	Loss3: 0.000515	Loss4: 0.012552	Loss5: 0.012552
+Train Ep: 43 [5600/70000 (4%)]	Loss1: -0.138667	Loss2: 0.069341	Loss3: 0.037029	Loss4: 0.008079	Loss5: 0.008079
+Train Ep: 43 [6400/70000 (4%)]	Loss1: -0.138713	Loss2: 0.069360	Loss3: 0.003897	Loss4: 0.006747	Loss5: 0.006747
+Train Ep: 43 [7200/70000 (4%)]	Loss1: -0.138698	Loss2: 0.069319	Loss3: 0.072150	Loss4: 0.008619	Loss5: 0.008619
+Train Ep: 43 [8000/70000 (5%)]	Loss1: -0.138690	Loss2: 0.069380	Loss3: 0.041712	Loss4: 0.012103	Loss5: 0.012103
+Train Ep: 43 [8800/70000 (6%)]	Loss1: -0.138667	Loss2: 0.069343	Loss3: 0.013156	Loss4: 0.009624	Loss5: 0.009624
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.3882091489740895
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.215520594745361
+Train Ep: 44 [0/70000 (0%)]	Loss1: -0.138688	Loss2: 0.069325	Loss3: 0.005887	Loss4: 0.010317	Loss5: 0.010317
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 44 [800/70000 (0%)]	Loss1: -0.138688	Loss2: 0.069359	Loss3: 0.023030	Loss4: 0.008862	Loss5: 0.008862
+Train Ep: 44 [1600/70000 (1%)]	Loss1: -0.138623	Loss2: 0.069360	Loss3: 0.004380	Loss4: 0.008244	Loss5: 0.008244
+Train Ep: 44 [2400/70000 (2%)]	Loss1: -0.138697	Loss2: 0.069340	Loss3: -0.000147	Loss4: 0.021636	Loss5: 0.021636
+Train Ep: 44 [3200/70000 (2%)]	Loss1: -0.138681	Loss2: 0.069329	Loss3: 0.016449	Loss4: 0.009559	Loss5: 0.009559
+Train Ep: 44 [4000/70000 (2%)]	Loss1: -0.138544	Loss2: 0.069317	Loss3: 0.004407	Loss4: 0.011272	Loss5: 0.011272
+Train Ep: 44 [4800/70000 (3%)]	Loss1: -0.138675	Loss2: 0.069324	Loss3: 0.005836	Loss4: 0.010838	Loss5: 0.010838
+Train Ep: 44 [5600/70000 (4%)]	Loss1: -0.138740	Loss2: 0.069342	Loss3: 0.004973	Loss4: 0.011964	Loss5: 0.011964
+Train Ep: 44 [6400/70000 (4%)]	Loss1: -0.138684	Loss2: 0.069346	Loss3: 0.001595	Loss4: 0.014702	Loss5: 0.014702
+Train Ep: 44 [7200/70000 (4%)]	Loss1: -0.138652	Loss2: 0.069322	Loss3: -0.004689	Loss4: 0.011833	Loss5: 0.011833
+Train Ep: 44 [8000/70000 (5%)]	Loss1: -0.138654	Loss2: 0.069331	Loss3: 0.033403	Loss4: 0.023963	Loss5: 0.023963
+Train Ep: 44 [8800/70000 (6%)]	Loss1: -0.138684	Loss2: 0.069335	Loss3: 0.020184	Loss4: 0.018041	Loss5: 0.018041
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.23817582857489944
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.19335806012544443
+Train Ep: 45 [0/70000 (0%)]	Loss1: -0.138814	Loss2: 0.069326	Loss3: -0.009213	Loss4: 0.026177	Loss5: 0.026177
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 45 [800/70000 (0%)]	Loss1: -0.138663	Loss2: 0.069328	Loss3: 0.019617	Loss4: 0.004583	Loss5: 0.004583
+Train Ep: 45 [1600/70000 (1%)]	Loss1: -0.138640	Loss2: 0.069331	Loss3: 0.060156	Loss4: 0.007817	Loss5: 0.007817
+Train Ep: 45 [2400/70000 (2%)]	Loss1: -0.138669	Loss2: 0.069340	Loss3: -0.004360	Loss4: 0.013118	Loss5: 0.013118
+Train Ep: 45 [3200/70000 (2%)]	Loss1: -0.138680	Loss2: 0.069356	Loss3: 0.005310	Loss4: 0.008690	Loss5: 0.008690
+Train Ep: 45 [4000/70000 (2%)]	Loss1: -0.138650	Loss2: 0.069327	Loss3: 0.005260	Loss4: 0.016606	Loss5: 0.016606
+Train Ep: 45 [4800/70000 (3%)]	Loss1: -0.138679	Loss2: 0.069392	Loss3: 0.016532	Loss4: 0.005840	Loss5: 0.005840
+Train Ep: 45 [5600/70000 (4%)]	Loss1: -0.138712	Loss2: 0.069353	Loss3: 0.014143	Loss4: 0.007922	Loss5: 0.007922
+Train Ep: 45 [6400/70000 (4%)]	Loss1: -0.138664	Loss2: 0.069321	Loss3: 0.010014	Loss4: 0.027469	Loss5: 0.027469
+Train Ep: 45 [7200/70000 (4%)]	Loss1: -0.138682	Loss2: 0.069335	Loss3: 0.099556	Loss4: 0.013017	Loss5: 0.013017
+Train Ep: 45 [8000/70000 (5%)]	Loss1: -0.138688	Loss2: 0.069327	Loss3: 0.010092	Loss4: 0.014750	Loss5: 0.014750
+Train Ep: 45 [8800/70000 (6%)]	Loss1: -0.138673	Loss2: 0.069334	Loss3: 0.007219	Loss4: 0.017302	Loss5: 0.017302
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.28271306922630324
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.22718244508848107
+Train Ep: 46 [0/70000 (0%)]	Loss1: -0.138677	Loss2: 0.069332	Loss3: 0.003879	Loss4: 0.022493	Loss5: 0.022493
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 46 [800/70000 (0%)]	Loss1: -0.138673	Loss2: 0.069374	Loss3: 0.012638	Loss4: 0.009926	Loss5: 0.009926
+Train Ep: 46 [1600/70000 (1%)]	Loss1: -0.138756	Loss2: 0.069415	Loss3: 0.005060	Loss4: 0.008896	Loss5: 0.008896
+Train Ep: 46 [2400/70000 (2%)]	Loss1: -0.138708	Loss2: 0.069368	Loss3: 0.009730	Loss4: 0.011320	Loss5: 0.011320
+Train Ep: 46 [3200/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069347	Loss3: 0.009812	Loss4: 0.007250	Loss5: 0.007250
+Train Ep: 46 [4000/70000 (2%)]	Loss1: -0.138622	Loss2: 0.069348	Loss3: 0.001376	Loss4: 0.010889	Loss5: 0.010889
+Train Ep: 46 [4800/70000 (3%)]	Loss1: -0.138657	Loss2: 0.069313	Loss3: 0.011930	Loss4: 0.019105	Loss5: 0.019105
+Train Ep: 46 [5600/70000 (4%)]	Loss1: -0.138686	Loss2: 0.069318	Loss3: 0.089972	Loss4: 0.014363	Loss5: 0.014363
+Train Ep: 46 [6400/70000 (4%)]	Loss1: -0.138642	Loss2: 0.069328	Loss3: 0.011844	Loss4: 0.003243	Loss5: 0.003243
+Train Ep: 46 [7200/70000 (4%)]	Loss1: -0.138702	Loss2: 0.069375	Loss3: 0.019903	Loss4: 0.011541	Loss5: 0.011541
+Train Ep: 46 [8000/70000 (5%)]	Loss1: -0.138645	Loss2: 0.069327	Loss3: 0.029690	Loss4: 0.012643	Loss5: 0.012643
+Train Ep: 46 [8800/70000 (6%)]	Loss1: -0.138666	Loss2: 0.069337	Loss3: 0.235235	Loss4: 0.010765	Loss5: 0.010765
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.1976003061913531
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.19539405195287185
+Train Ep: 47 [0/70000 (0%)]	Loss1: -0.138680	Loss2: 0.069361	Loss3: 0.013776	Loss4: 0.020958	Loss5: 0.020958
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 47 [800/70000 (0%)]	Loss1: -0.138639	Loss2: 0.069355	Loss3: 0.002854	Loss4: 0.012622	Loss5: 0.012622
+Train Ep: 47 [1600/70000 (1%)]	Loss1: -0.138722	Loss2: 0.069328	Loss3: 0.085809	Loss4: 0.006710	Loss5: 0.006710
+Train Ep: 47 [2400/70000 (2%)]	Loss1: -0.138656	Loss2: 0.069327	Loss3: 0.011407	Loss4: 0.008875	Loss5: 0.008875
+Train Ep: 47 [3200/70000 (2%)]	Loss1: -0.138645	Loss2: 0.069376	Loss3: 0.008749	Loss4: 0.011209	Loss5: 0.011209
+Train Ep: 47 [4000/70000 (2%)]	Loss1: -0.138703	Loss2: 0.069328	Loss3: 0.013532	Loss4: 0.015986	Loss5: 0.015986
+Train Ep: 47 [4800/70000 (3%)]	Loss1: -0.138618	Loss2: 0.069343	Loss3: 0.006147	Loss4: 0.015840	Loss5: 0.015840
+Train Ep: 47 [5600/70000 (4%)]	Loss1: -0.138686	Loss2: 0.069364	Loss3: 0.043805	Loss4: 0.006715	Loss5: 0.006715
+Train Ep: 47 [6400/70000 (4%)]	Loss1: -0.138651	Loss2: 0.069321	Loss3: 0.019618	Loss4: 0.014810	Loss5: 0.014810
+Train Ep: 47 [7200/70000 (4%)]	Loss1: -0.138714	Loss2: 0.069325	Loss3: 0.002071	Loss4: 0.015132	Loss5: 0.015132
+Train Ep: 47 [8000/70000 (5%)]	Loss1: -0.138632	Loss2: 0.069330	Loss3: 0.051097	Loss4: 0.014557	Loss5: 0.014557
+Train Ep: 47 [8800/70000 (6%)]	Loss1: -0.138620	Loss2: 0.069356	Loss3: 0.029398	Loss4: 0.011732	Loss5: 0.011732
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2960374393168367
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.20411291636366247
+Train Ep: 48 [0/70000 (0%)]	Loss1: -0.138604	Loss2: 0.069305	Loss3: 0.002732	Loss4: 0.010096	Loss5: 0.010096
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 48 [800/70000 (0%)]	Loss1: -0.138684	Loss2: 0.069329	Loss3: 0.008096	Loss4: 0.008798	Loss5: 0.008798
+Train Ep: 48 [1600/70000 (1%)]	Loss1: -0.138656	Loss2: 0.069324	Loss3: 0.003493	Loss4: 0.025651	Loss5: 0.025651
+Train Ep: 48 [2400/70000 (2%)]	Loss1: -0.138612	Loss2: 0.069338	Loss3: -0.001448	Loss4: 0.015445	Loss5: 0.015445
+Train Ep: 48 [3200/70000 (2%)]	Loss1: -0.138683	Loss2: 0.069328	Loss3: 0.010576	Loss4: 0.008770	Loss5: 0.008770
+Train Ep: 48 [4000/70000 (2%)]	Loss1: -0.138658	Loss2: 0.069319	Loss3: 0.025309	Loss4: 0.009555	Loss5: 0.009555
+Train Ep: 48 [4800/70000 (3%)]	Loss1: -0.138673	Loss2: 0.069364	Loss3: -0.000739	Loss4: 0.014626	Loss5: 0.014626
+Train Ep: 48 [5600/70000 (4%)]	Loss1: -0.138688	Loss2: 0.069343	Loss3: 0.060287	Loss4: 0.001528	Loss5: 0.001528
+Train Ep: 48 [6400/70000 (4%)]	Loss1: -0.138679	Loss2: 0.069347	Loss3: 0.026016	Loss4: 0.010172	Loss5: 0.010172
+Train Ep: 48 [7200/70000 (4%)]	Loss1: -0.138680	Loss2: 0.069372	Loss3: 0.002453	Loss4: 0.014443	Loss5: 0.014443
+Train Ep: 48 [8000/70000 (5%)]	Loss1: -0.138644	Loss2: 0.069304	Loss3: 0.004194	Loss4: 0.012409	Loss5: 0.012409
+Train Ep: 48 [8800/70000 (6%)]	Loss1: -0.138652	Loss2: 0.069335	Loss3: 0.007969	Loss4: 0.003623	Loss5: 0.003623
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.31961218040179157
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.19949854516622068
+Train Ep: 49 [0/70000 (0%)]	Loss1: -0.138666	Loss2: 0.069352	Loss3: -0.005209	Loss4: 0.018930	Loss5: 0.018930
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 49 [800/70000 (0%)]	Loss1: -0.138645	Loss2: 0.069339	Loss3: 0.001047	Loss4: 0.023325	Loss5: 0.023325
+Train Ep: 49 [1600/70000 (1%)]	Loss1: -0.138712	Loss2: 0.069351	Loss3: 0.003898	Loss4: 0.012809	Loss5: 0.012809
+Train Ep: 49 [2400/70000 (2%)]	Loss1: -0.138645	Loss2: 0.069333	Loss3: 0.019406	Loss4: 0.015503	Loss5: 0.015503
+Train Ep: 49 [3200/70000 (2%)]	Loss1: -0.138642	Loss2: 0.069302	Loss3: 0.030879	Loss4: 0.001902	Loss5: 0.001902
+Train Ep: 49 [4000/70000 (2%)]	Loss1: -0.138656	Loss2: 0.069332	Loss3: 0.007039	Loss4: 0.001260	Loss5: 0.001260
+Train Ep: 49 [4800/70000 (3%)]	Loss1: -0.138686	Loss2: 0.069323	Loss3: -0.005409	Loss4: 0.024053	Loss5: 0.024053
+Train Ep: 49 [5600/70000 (4%)]	Loss1: -0.138657	Loss2: 0.069303	Loss3: 0.013074	Loss4: 0.011038	Loss5: 0.011038
+Train Ep: 49 [6400/70000 (4%)]	Loss1: -0.138657	Loss2: 0.069350	Loss3: 0.004884	Loss4: 0.006778	Loss5: 0.006778
+Train Ep: 49 [7200/70000 (4%)]	Loss1: -0.138730	Loss2: 0.069343	Loss3: 0.008537	Loss4: 0.014585	Loss5: 0.014585
+Train Ep: 49 [8000/70000 (5%)]	Loss1: -0.138652	Loss2: 0.069363	Loss3: 0.084996	Loss4: 0.013872	Loss5: 0.013872
+Train Ep: 49 [8800/70000 (6%)]	Loss1: -0.138627	Loss2: 0.069316	Loss3: 0.002748	Loss4: 0.010406	Loss5: 0.010406
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.8016387627084082
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.18167097323511394
+Train Ep: 50 [0/70000 (0%)]	Loss1: -0.138630	Loss2: 0.069324	Loss3: 0.005123	Loss4: 0.001970	Loss5: 0.001970
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 50 [800/70000 (0%)]	Loss1: -0.138725	Loss2: 0.069341	Loss3: -0.001720	Loss4: 0.007850	Loss5: 0.007850
+Train Ep: 50 [1600/70000 (1%)]	Loss1: -0.138687	Loss2: 0.069365	Loss3: 0.006090	Loss4: 0.001645	Loss5: 0.001645
+Train Ep: 50 [2400/70000 (2%)]	Loss1: -0.138644	Loss2: 0.069360	Loss3: 0.031141	Loss4: 0.005285	Loss5: 0.005285
+Train Ep: 50 [3200/70000 (2%)]	Loss1: -0.138649	Loss2: 0.069322	Loss3: 0.004299	Loss4: 0.011721	Loss5: 0.011721
+Train Ep: 50 [4000/70000 (2%)]	Loss1: -0.138708	Loss2: 0.069339	Loss3: 0.027079	Loss4: 0.004797	Loss5: 0.004797
+Train Ep: 50 [4800/70000 (3%)]	Loss1: -0.138707	Loss2: 0.069325	Loss3: -0.001840	Loss4: 0.015074	Loss5: 0.015074
+Train Ep: 50 [5600/70000 (4%)]	Loss1: -0.138668	Loss2: 0.069319	Loss3: 0.020557	Loss4: 0.015106	Loss5: 0.015106
+Train Ep: 50 [6400/70000 (4%)]	Loss1: -0.138622	Loss2: 0.069315	Loss3: 0.015947	Loss4: 0.012287	Loss5: 0.012287
+Train Ep: 50 [7200/70000 (4%)]	Loss1: -0.138677	Loss2: 0.069323	Loss3: 0.001829	Loss4: 0.010141	Loss5: 0.010141
+Train Ep: 50 [8000/70000 (5%)]	Loss1: -0.138673	Loss2: 0.069322	Loss3: 0.005921	Loss4: 0.011592	Loss5: 0.011592
+Train Ep: 50 [8800/70000 (6%)]	Loss1: -0.138686	Loss2: 0.069323	Loss3: 0.043778	Loss4: 0.006185	Loss5: 0.006185
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.276942793287323
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.18912361381978127
+Train Ep: 51 [0/70000 (0%)]	Loss1: -0.138663	Loss2: 0.069342	Loss3: -0.002220	Loss4: 0.003532	Loss5: 0.003532
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 51 [800/70000 (0%)]	Loss1: -0.138664	Loss2: 0.069337	Loss3: 0.015000	Loss4: 0.011822	Loss5: 0.011822
+Train Ep: 51 [1600/70000 (1%)]	Loss1: -0.138684	Loss2: 0.069338	Loss3: 0.007857	Loss4: 0.002248	Loss5: 0.002248
+Train Ep: 51 [2400/70000 (2%)]	Loss1: -0.138628	Loss2: 0.069317	Loss3: 0.021832	Loss4: 0.008426	Loss5: 0.008426
+Train Ep: 51 [3200/70000 (2%)]	Loss1: -0.138656	Loss2: 0.069314	Loss3: 0.002813	Loss4: 0.006812	Loss5: 0.006812
+Train Ep: 51 [4000/70000 (2%)]	Loss1: -0.138630	Loss2: 0.069337	Loss3: 0.029637	Loss4: 0.013801	Loss5: 0.013801
+Train Ep: 51 [4800/70000 (3%)]	Loss1: -0.138686	Loss2: 0.069329	Loss3: -0.005485	Loss4: 0.028863	Loss5: 0.028863
+Train Ep: 51 [5600/70000 (4%)]	Loss1: -0.138725	Loss2: 0.069347	Loss3: 0.012263	Loss4: 0.017406	Loss5: 0.017406
+Train Ep: 51 [6400/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069320	Loss3: 0.045782	Loss4: 0.009086	Loss5: 0.009086
+Train Ep: 51 [7200/70000 (4%)]	Loss1: -0.138652	Loss2: 0.069329	Loss3: 0.001713	Loss4: 0.008670	Loss5: 0.008670
+Train Ep: 51 [8000/70000 (5%)]	Loss1: -0.138642	Loss2: 0.069331	Loss3: 0.032164	Loss4: 0.010373	Loss5: 0.010373
+Train Ep: 51 [8800/70000 (6%)]	Loss1: -0.138660	Loss2: 0.069319	Loss3: 0.020003	Loss4: 0.010288	Loss5: 0.010288
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.1798131884035907
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.17967777413566866
+Train Ep: 52 [0/70000 (0%)]	Loss1: -0.138633	Loss2: 0.069352	Loss3: 0.002744	Loss4: 0.005306	Loss5: 0.005306
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 52 [800/70000 (0%)]	Loss1: -0.138696	Loss2: 0.069335	Loss3: -0.000684	Loss4: 0.012196	Loss5: 0.012196
+Train Ep: 52 [1600/70000 (1%)]	Loss1: -0.138660	Loss2: 0.069330	Loss3: 0.004188	Loss4: 0.010915	Loss5: 0.010915
+Train Ep: 52 [2400/70000 (2%)]	Loss1: -0.138659	Loss2: 0.069341	Loss3: 0.008159	Loss4: 0.001710	Loss5: 0.001710
+Train Ep: 52 [3200/70000 (2%)]	Loss1: -0.138664	Loss2: 0.069324	Loss3: 0.001607	Loss4: 0.008630	Loss5: 0.008630
+Train Ep: 52 [4000/70000 (2%)]	Loss1: -0.138654	Loss2: 0.069310	Loss3: 0.034415	Loss4: 0.013722	Loss5: 0.013722
+Train Ep: 52 [4800/70000 (3%)]	Loss1: -0.138625	Loss2: 0.069332	Loss3: 0.019764	Loss4: 0.012826	Loss5: 0.012826
+Train Ep: 52 [5600/70000 (4%)]	Loss1: -0.138650	Loss2: 0.069367	Loss3: 0.030555	Loss4: 0.006392	Loss5: 0.006392
+Train Ep: 52 [6400/70000 (4%)]	Loss1: -0.138622	Loss2: 0.069335	Loss3: 0.033936	Loss4: 0.014331	Loss5: 0.014331
+Train Ep: 52 [7200/70000 (4%)]	Loss1: -0.138713	Loss2: 0.069351	Loss3: 0.015450	Loss4: 0.004894	Loss5: 0.004894
+Train Ep: 52 [8000/70000 (5%)]	Loss1: -0.138666	Loss2: 0.069323	Loss3: 0.009496	Loss4: 0.007755	Loss5: 0.007755
+Train Ep: 52 [8800/70000 (6%)]	Loss1: -0.138650	Loss2: 0.069342	Loss3: 0.019254	Loss4: 0.014493	Loss5: 0.014493
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.1419020281931834
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.14752294768472052
+Train Ep: 53 [0/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069324	Loss3: 0.020356	Loss4: 0.012414	Loss5: 0.012414
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 53 [800/70000 (0%)]	Loss1: -0.138670	Loss2: 0.069324	Loss3: -0.009401	Loss4: 0.023233	Loss5: 0.023233
+Train Ep: 53 [1600/70000 (1%)]	Loss1: -0.138673	Loss2: 0.069324	Loss3: 0.005895	Loss4: 0.016937	Loss5: 0.016937
+Train Ep: 53 [2400/70000 (2%)]	Loss1: -0.138678	Loss2: 0.069336	Loss3: 0.007854	Loss4: 0.002953	Loss5: 0.002953
+Train Ep: 53 [3200/70000 (2%)]	Loss1: -0.138667	Loss2: 0.069323	Loss3: 0.001735	Loss4: 0.012246	Loss5: 0.012246
+Train Ep: 53 [4000/70000 (2%)]	Loss1: -0.138669	Loss2: 0.069323	Loss3: 0.041010	Loss4: 0.015677	Loss5: 0.015677
+Train Ep: 53 [4800/70000 (3%)]	Loss1: -0.138658	Loss2: 0.069345	Loss3: 0.011888	Loss4: 0.006092	Loss5: 0.006092
+Train Ep: 53 [5600/70000 (4%)]	Loss1: -0.138662	Loss2: 0.069327	Loss3: 0.160481	Loss4: 0.008044	Loss5: 0.008044
+Train Ep: 53 [6400/70000 (4%)]	Loss1: -0.138650	Loss2: 0.069341	Loss3: 0.000760	Loss4: 0.009752	Loss5: 0.009752
+Train Ep: 53 [7200/70000 (4%)]	Loss1: -0.138678	Loss2: 0.069321	Loss3: 0.003326	Loss4: 0.002413	Loss5: 0.002413
+Train Ep: 53 [8000/70000 (5%)]	Loss1: -0.138705	Loss2: 0.069331	Loss3: 0.004551	Loss4: 0.021764	Loss5: 0.021764
+Train Ep: 53 [8800/70000 (6%)]	Loss1: -0.138667	Loss2: 0.069323	Loss3: 0.006149	Loss4: 0.000562	Loss5: 0.000562
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.22467983908087139
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.15795529902585792
+Train Ep: 54 [0/70000 (0%)]	Loss1: -0.138656	Loss2: 0.069347	Loss3: 0.027759	Loss4: 0.004507	Loss5: 0.004507
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 54 [800/70000 (0%)]	Loss1: -0.138649	Loss2: 0.069309	Loss3: 0.036496	Loss4: 0.006502	Loss5: 0.006502
+Train Ep: 54 [1600/70000 (1%)]	Loss1: -0.138665	Loss2: 0.069327	Loss3: 0.015738	Loss4: 0.010035	Loss5: 0.010035
+Train Ep: 54 [2400/70000 (2%)]	Loss1: -0.138655	Loss2: 0.069328	Loss3: 0.097289	Loss4: 0.020299	Loss5: 0.020299
+Train Ep: 54 [3200/70000 (2%)]	Loss1: -0.138770	Loss2: 0.069325	Loss3: 0.001308	Loss4: 0.010111	Loss5: 0.010111
+Train Ep: 54 [4000/70000 (2%)]	Loss1: -0.138652	Loss2: 0.069308	Loss3: 0.006806	Loss4: 0.004073	Loss5: 0.004073
+Train Ep: 54 [4800/70000 (3%)]	Loss1: -0.138636	Loss2: 0.069328	Loss3: 0.020995	Loss4: 0.009513	Loss5: 0.009513
+Train Ep: 54 [5600/70000 (4%)]	Loss1: -0.138658	Loss2: 0.069324	Loss3: 0.009672	Loss4: 0.008124	Loss5: 0.008124
+Train Ep: 54 [6400/70000 (4%)]	Loss1: -0.138643	Loss2: 0.069328	Loss3: 0.045984	Loss4: 0.012462	Loss5: 0.012462
+Train Ep: 54 [7200/70000 (4%)]	Loss1: -0.138717	Loss2: 0.069318	Loss3: 0.005208	Loss4: 0.011945	Loss5: 0.011945
+Train Ep: 54 [8000/70000 (5%)]	Loss1: -0.138645	Loss2: 0.069344	Loss3: 0.010564	Loss4: 0.008345	Loss5: 0.008345
+Train Ep: 54 [8800/70000 (6%)]	Loss1: -0.138636	Loss2: 0.069333	Loss3: 0.038145	Loss4: 0.008495	Loss5: 0.008495
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.27885881272887586
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.13977869958752964
+Train Ep: 55 [0/70000 (0%)]	Loss1: -0.138684	Loss2: 0.069335	Loss3: 0.004303	Loss4: 0.008101	Loss5: 0.008101
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 55 [800/70000 (0%)]	Loss1: -0.138698	Loss2: 0.069326	Loss3: 0.009895	Loss4: 0.012542	Loss5: 0.012542
+Train Ep: 55 [1600/70000 (1%)]	Loss1: -0.138649	Loss2: 0.069341	Loss3: -0.001265	Loss4: 0.009880	Loss5: 0.009880
+Train Ep: 55 [2400/70000 (2%)]	Loss1: -0.138635	Loss2: 0.069316	Loss3: 0.003789	Loss4: 0.016604	Loss5: 0.016604
+Train Ep: 55 [3200/70000 (2%)]	Loss1: -0.138647	Loss2: 0.069337	Loss3: 0.014124	Loss4: 0.009127	Loss5: 0.009127
+Train Ep: 55 [4000/70000 (2%)]	Loss1: -0.138681	Loss2: 0.069366	Loss3: 0.011719	Loss4: 0.030608	Loss5: 0.030608
+Train Ep: 55 [4800/70000 (3%)]	Loss1: -0.138676	Loss2: 0.069329	Loss3: 0.006200	Loss4: 0.013132	Loss5: 0.013132
+Train Ep: 55 [5600/70000 (4%)]	Loss1: -0.138656	Loss2: 0.069327	Loss3: 0.107450	Loss4: 0.015092	Loss5: 0.015092
+Train Ep: 55 [6400/70000 (4%)]	Loss1: -0.138675	Loss2: 0.069323	Loss3: 0.010363	Loss4: 0.017537	Loss5: 0.017537
+Train Ep: 55 [7200/70000 (4%)]	Loss1: -0.138648	Loss2: 0.069321	Loss3: 0.009485	Loss4: 0.008435	Loss5: 0.008435
+Train Ep: 55 [8000/70000 (5%)]	Loss1: -0.138619	Loss2: 0.069346	Loss3: 0.026286	Loss4: 0.000907	Loss5: 0.000907
+Train Ep: 55 [8800/70000 (6%)]	Loss1: -0.138636	Loss2: 0.069321	Loss3: 0.000508	Loss4: 0.010751	Loss5: 0.010751
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2513384317378928
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.13391794841514348
+Train Ep: 56 [0/70000 (0%)]	Loss1: -0.138657	Loss2: 0.069348	Loss3: 0.012119	Loss4: 0.012921	Loss5: 0.012921
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 56 [800/70000 (0%)]	Loss1: -0.138720	Loss2: 0.069355	Loss3: 0.013640	Loss4: 0.021609	Loss5: 0.021609
+Train Ep: 56 [1600/70000 (1%)]	Loss1: -0.138709	Loss2: 0.069338	Loss3: -0.001159	Loss4: 0.012386	Loss5: 0.012386
+Train Ep: 56 [2400/70000 (2%)]	Loss1: -0.138688	Loss2: 0.069327	Loss3: -0.001825	Loss4: 0.014916	Loss5: 0.014916
+Train Ep: 56 [3200/70000 (2%)]	Loss1: -0.138675	Loss2: 0.069322	Loss3: 0.004261	Loss4: 0.012647	Loss5: 0.012647
+Train Ep: 56 [4000/70000 (2%)]	Loss1: -0.138656	Loss2: 0.069342	Loss3: 0.006240	Loss4: 0.002187	Loss5: 0.002187
+Train Ep: 56 [4800/70000 (3%)]	Loss1: -0.138658	Loss2: 0.069344	Loss3: 0.002709	Loss4: 0.004227	Loss5: 0.004227
+Train Ep: 56 [5600/70000 (4%)]	Loss1: -0.138732	Loss2: 0.069343	Loss3: 0.000453	Loss4: 0.015889	Loss5: 0.015889
+Train Ep: 56 [6400/70000 (4%)]	Loss1: -0.138675	Loss2: 0.069319	Loss3: 0.002487	Loss4: 0.023626	Loss5: 0.023626
+Train Ep: 56 [7200/70000 (4%)]	Loss1: -0.138662	Loss2: 0.069335	Loss3: 0.006435	Loss4: 0.019133	Loss5: 0.019133
+Train Ep: 56 [8000/70000 (5%)]	Loss1: -0.138695	Loss2: 0.069345	Loss3: 0.019426	Loss4: 0.007954	Loss5: 0.007954
+Train Ep: 56 [8800/70000 (6%)]	Loss1: -0.138602	Loss2: 0.069322	Loss3: 0.007281	Loss4: 0.012171	Loss5: 0.012171
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.10843444414108837
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.12524886908129784
+Train Ep: 57 [0/70000 (0%)]	Loss1: -0.138654	Loss2: 0.069340	Loss3: 0.018775	Loss4: 0.012792	Loss5: 0.012792
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 57 [800/70000 (0%)]	Loss1: -0.138651	Loss2: 0.069334	Loss3: 0.041079	Loss4: 0.005408	Loss5: 0.005408
+Train Ep: 57 [1600/70000 (1%)]	Loss1: -0.138635	Loss2: 0.069323	Loss3: 0.006257	Loss4: 0.010479	Loss5: 0.010479
+Train Ep: 57 [2400/70000 (2%)]	Loss1: -0.138625	Loss2: 0.069315	Loss3: 0.005828	Loss4: 0.009394	Loss5: 0.009394
+Train Ep: 57 [3200/70000 (2%)]	Loss1: -0.138643	Loss2: 0.069319	Loss3: 0.026512	Loss4: 0.014262	Loss5: 0.014262
+Train Ep: 57 [4000/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069327	Loss3: 0.003220	Loss4: 0.003980	Loss5: 0.003980
+Train Ep: 57 [4800/70000 (3%)]	Loss1: -0.138784	Loss2: 0.069338	Loss3: 0.032362	Loss4: 0.014666	Loss5: 0.014666
+Train Ep: 57 [5600/70000 (4%)]	Loss1: -0.138687	Loss2: 0.069324	Loss3: 0.002119	Loss4: 0.018390	Loss5: 0.018390
+Train Ep: 57 [6400/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069315	Loss3: 0.013449	Loss4: 0.016539	Loss5: 0.016539
+Train Ep: 57 [7200/70000 (4%)]	Loss1: -0.138639	Loss2: 0.069329	Loss3: 0.003595	Loss4: 0.011167	Loss5: 0.011167
+Train Ep: 57 [8000/70000 (5%)]	Loss1: -0.138679	Loss2: 0.069319	Loss3: 0.010419	Loss4: 0.001262	Loss5: 0.001262
+Train Ep: 57 [8800/70000 (6%)]	Loss1: -0.138670	Loss2: 0.069324	Loss3: 0.020562	Loss4: 0.005818	Loss5: 0.005818
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.17609047940186168
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.16910836866683687
+Train Ep: 58 [0/70000 (0%)]	Loss1: -0.138659	Loss2: 0.069312	Loss3: 0.007679	Loss4: 0.010401	Loss5: 0.010401
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 58 [800/70000 (0%)]	Loss1: -0.138643	Loss2: 0.069326	Loss3: 0.078333	Loss4: 0.003625	Loss5: 0.003625
+Train Ep: 58 [1600/70000 (1%)]	Loss1: -0.138651	Loss2: 0.069321	Loss3: 0.010599	Loss4: 0.005399	Loss5: 0.005399
+Train Ep: 58 [2400/70000 (2%)]	Loss1: -0.138639	Loss2: 0.069329	Loss3: -0.000546	Loss4: 0.012834	Loss5: 0.012834
+Train Ep: 58 [3200/70000 (2%)]	Loss1: -0.138641	Loss2: 0.069309	Loss3: 0.009054	Loss4: 0.011437	Loss5: 0.011437
+Train Ep: 58 [4000/70000 (2%)]	Loss1: -0.138660	Loss2: 0.069337	Loss3: 0.006301	Loss4: 0.007717	Loss5: 0.007717
+Train Ep: 58 [4800/70000 (3%)]	Loss1: -0.138654	Loss2: 0.069338	Loss3: 0.017431	Loss4: 0.002337	Loss5: 0.002337
+Train Ep: 58 [5600/70000 (4%)]	Loss1: -0.138740	Loss2: 0.069333	Loss3: 0.010615	Loss4: 0.010826	Loss5: 0.010826
+Train Ep: 58 [6400/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069334	Loss3: 0.015214	Loss4: 0.009702	Loss5: 0.009702
+Train Ep: 58 [7200/70000 (4%)]	Loss1: -0.138708	Loss2: 0.069317	Loss3: 0.003917	Loss4: 0.010751	Loss5: 0.010751
+Train Ep: 58 [8000/70000 (5%)]	Loss1: -0.138657	Loss2: 0.069320	Loss3: 0.008782	Loss4: 0.019977	Loss5: 0.019977
+Train Ep: 58 [8800/70000 (6%)]	Loss1: -0.138663	Loss2: 0.069364	Loss3: 0.006940	Loss4: 0.002925	Loss5: 0.002925
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.14892817738723063
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.13142622513811375
+Train Ep: 59 [0/70000 (0%)]	Loss1: -0.138673	Loss2: 0.069329	Loss3: 0.008027	Loss4: 0.003871	Loss5: 0.003871
+max_value is:
+47.65342960288809
+
+ max_record buff: Accuracy C:(47.3%), Accuracy C1:(47.6%), Accuracy c2:(47.3)%, Accuracy ensemble c1c2:(47.6)%, Accuracy ensemble cc1c2:(47.7%)
+
+Train Ep: 59 [800/70000 (0%)]	Loss1: -0.138659	Loss2: 0.069330	Loss3: 0.014672	Loss4: 0.009585	Loss5: 0.009585
+Train Ep: 59 [1600/70000 (1%)]	Loss1: -0.138636	Loss2: 0.069342	Loss3: 0.053149	Loss4: 0.010515	Loss5: 0.010515
+Train Ep: 59 [2400/70000 (2%)]	Loss1: -0.138644	Loss2: 0.069315	Loss3: 0.006439	Loss4: 0.018613	Loss5: 0.018613
+Train Ep: 59 [3200/70000 (2%)]	Loss1: -0.138649	Loss2: 0.069325	Loss3: 0.032805	Loss4: 0.006433	Loss5: 0.006433
+Train Ep: 59 [4000/70000 (2%)]	Loss1: -0.138641	Loss2: 0.069317	Loss3: 0.011392	Loss4: 0.007091	Loss5: 0.007091
+Train Ep: 59 [4800/70000 (3%)]	Loss1: -0.138655	Loss2: 0.069326	Loss3: 0.000770	Loss4: 0.006336	Loss5: 0.006336
+Train Ep: 59 [5600/70000 (4%)]	Loss1: -0.138654	Loss2: 0.069336	Loss3: 0.020689	Loss4: 0.001644	Loss5: 0.001644
+Train Ep: 59 [6400/70000 (4%)]	Loss1: -0.138639	Loss2: 0.069311	Loss3: 0.011678	Loss4: 0.002580	Loss5: 0.002580
+Train Ep: 59 [7200/70000 (4%)]	Loss1: -0.138646	Loss2: 0.069330	Loss3: 0.002899	Loss4: 0.019377	Loss5: 0.019377
+Train Ep: 59 [8000/70000 (5%)]	Loss1: -0.138660	Loss2: 0.069335	Loss3: 0.008043	Loss4: 0.011048	Loss5: 0.011048
+Train Ep: 59 [8800/70000 (6%)]	Loss1: -0.138652	Loss2: 0.069330	Loss3: -0.000232	Loss4: 0.018643	Loss5: 0.018643
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2353003360733693
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.11245144024248088
+Train Ep: 60 [0/70000 (0%)]	Loss1: -0.138660	Loss2: 0.069326	Loss3: 0.013490	Loss4: 0.003066	Loss5: 0.003066
+max_value is:
+47.65342960288809
+
+Test set: Average loss1: -0.8313, Average loss2: -1.3035, Accuracy C: 2104/4432 (47.5%), Accuracy C1: 2119/4432 (47.8%), Accuracy ensemble c2: 2123/4432 (47.9)%, Accuracy ensemble c1c2: 2121/4432 (47.9)%, Accuracy ensemble cc1c2: 2117/4432 (47.8%)
+
+Train Ep: 60 [800/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069342	Loss3: 0.011155	Loss4: 0.017810	Loss5: 0.017810
+Train Ep: 60 [1600/70000 (1%)]	Loss1: -0.138639	Loss2: 0.069314	Loss3: 0.034052	Loss4: 0.008982	Loss5: 0.008982
+Train Ep: 60 [2400/70000 (2%)]	Loss1: -0.138648	Loss2: 0.069322	Loss3: 0.001594	Loss4: 0.020976	Loss5: 0.020976
+Train Ep: 60 [3200/70000 (2%)]	Loss1: -0.138664	Loss2: 0.069324	Loss3: -0.000782	Loss4: 0.014122	Loss5: 0.014122
+Train Ep: 60 [4000/70000 (2%)]	Loss1: -0.138654	Loss2: 0.069321	Loss3: 0.000370	Loss4: 0.017582	Loss5: 0.017582
+Train Ep: 60 [4800/70000 (3%)]	Loss1: -0.138681	Loss2: 0.069334	Loss3: 0.002869	Loss4: 0.019137	Loss5: 0.019137
+Train Ep: 60 [5600/70000 (4%)]	Loss1: -0.138620	Loss2: 0.069328	Loss3: 0.003758	Loss4: 0.007843	Loss5: 0.007843
+Train Ep: 60 [6400/70000 (4%)]	Loss1: -0.138642	Loss2: 0.069331	Loss3: 0.031883	Loss4: 0.010185	Loss5: 0.010185
+Train Ep: 60 [7200/70000 (4%)]	Loss1: -0.138657	Loss2: 0.069314	Loss3: 0.023940	Loss4: 0.003780	Loss5: 0.003780
+Train Ep: 60 [8000/70000 (5%)]	Loss1: -0.138640	Loss2: 0.069324	Loss3: 0.005206	Loss4: 0.015195	Loss5: 0.015195
+Train Ep: 60 [8800/70000 (6%)]	Loss1: -0.138644	Loss2: 0.069324	Loss3: 0.015762	Loss4: 0.002509	Loss5: 0.002509
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.17359890302670966
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.07809342351929827
+Train Ep: 61 [0/70000 (0%)]	Loss1: -0.138649	Loss2: 0.069336	Loss3: 0.035338	Loss4: 0.011047	Loss5: 0.011047
+max_value is:
+47.901624548736464
+
+ max_record buff: Accuracy C:(47.5%), Accuracy C1:(47.8%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(47.9)%, Accuracy ensemble cc1c2:(47.8%)
+
+Train Ep: 61 [800/70000 (0%)]	Loss1: -0.138659	Loss2: 0.069327	Loss3: 0.019691	Loss4: 0.001408	Loss5: 0.001408
+Train Ep: 61 [1600/70000 (1%)]	Loss1: -0.138630	Loss2: 0.069324	Loss3: 0.060471	Loss4: 0.014039	Loss5: 0.014039
+Train Ep: 61 [2400/70000 (2%)]	Loss1: -0.138647	Loss2: 0.069328	Loss3: 0.017206	Loss4: 0.014411	Loss5: 0.014411
+Train Ep: 61 [3200/70000 (2%)]	Loss1: -0.138661	Loss2: 0.069317	Loss3: -0.001144	Loss4: 0.010953	Loss5: 0.010953
+Train Ep: 61 [4000/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069321	Loss3: 0.044685	Loss4: 0.007286	Loss5: 0.007286
+Train Ep: 61 [4800/70000 (3%)]	Loss1: -0.138656	Loss2: 0.069329	Loss3: 0.000407	Loss4: 0.006041	Loss5: 0.006041
+Train Ep: 61 [5600/70000 (4%)]	Loss1: -0.138669	Loss2: 0.069327	Loss3: 0.008041	Loss4: 0.005313	Loss5: 0.005313
+Train Ep: 61 [6400/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069316	Loss3: 0.006503	Loss4: 0.004488	Loss5: 0.004488
+Train Ep: 61 [7200/70000 (4%)]	Loss1: -0.138663	Loss2: 0.069317	Loss3: 0.026182	Loss4: 0.008041	Loss5: 0.008041
+Train Ep: 61 [8000/70000 (5%)]	Loss1: -0.138629	Loss2: 0.069321	Loss3: 0.022611	Loss4: 0.012023	Loss5: 0.012023
+Train Ep: 61 [8800/70000 (6%)]	Loss1: -0.138664	Loss2: 0.069310	Loss3: 0.001055	Loss4: 0.007045	Loss5: 0.007045
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.21300496641095976
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.06213457608299522
+Train Ep: 62 [0/70000 (0%)]	Loss1: -0.138669	Loss2: 0.069331	Loss3: 0.004236	Loss4: 0.004549	Loss5: 0.004549
+max_value is:
+47.901624548736464
+
+ max_record buff: Accuracy C:(47.5%), Accuracy C1:(47.8%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(47.9)%, Accuracy ensemble cc1c2:(47.8%)
+
+Train Ep: 62 [800/70000 (0%)]	Loss1: -0.138696	Loss2: 0.069321	Loss3: 0.032186	Loss4: 0.007517	Loss5: 0.007517
+Train Ep: 62 [1600/70000 (1%)]	Loss1: -0.138653	Loss2: 0.069331	Loss3: 0.006749	Loss4: 0.010286	Loss5: 0.010286
+Train Ep: 62 [2400/70000 (2%)]	Loss1: -0.138657	Loss2: 0.069329	Loss3: 0.024070	Loss4: 0.002138	Loss5: 0.002138
+Train Ep: 62 [3200/70000 (2%)]	Loss1: -0.138641	Loss2: 0.069319	Loss3: 0.006635	Loss4: 0.012897	Loss5: 0.012897
+Train Ep: 62 [4000/70000 (2%)]	Loss1: -0.138625	Loss2: 0.069313	Loss3: 0.005451	Loss4: 0.014747	Loss5: 0.014747
+Train Ep: 62 [4800/70000 (3%)]	Loss1: -0.138676	Loss2: 0.069340	Loss3: 0.006387	Loss4: 0.018413	Loss5: 0.018413
+Train Ep: 62 [5600/70000 (4%)]	Loss1: -0.138710	Loss2: 0.069323	Loss3: 0.004838	Loss4: 0.011704	Loss5: 0.011704
+Train Ep: 62 [6400/70000 (4%)]	Loss1: -0.138640	Loss2: 0.069319	Loss3: 0.063879	Loss4: 0.012303	Loss5: 0.012303
+Train Ep: 62 [7200/70000 (4%)]	Loss1: -0.138639	Loss2: 0.069325	Loss3: 0.036224	Loss4: 0.012489	Loss5: 0.012489
+Train Ep: 62 [8000/70000 (5%)]	Loss1: -0.138635	Loss2: 0.069340	Loss3: 0.003144	Loss4: 0.018229	Loss5: 0.018229
+Train Ep: 62 [8800/70000 (6%)]	Loss1: -0.138637	Loss2: 0.069322	Loss3: 0.003680	Loss4: 0.009248	Loss5: 0.009248
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2220882576370335
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.098613928149338
+Train Ep: 63 [0/70000 (0%)]	Loss1: -0.138644	Loss2: 0.069322	Loss3: 0.021247	Loss4: 0.011010	Loss5: 0.011010
+max_value is:
+47.901624548736464
+
+ max_record buff: Accuracy C:(47.5%), Accuracy C1:(47.8%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(47.9)%, Accuracy ensemble cc1c2:(47.8%)
+
+Train Ep: 63 [800/70000 (0%)]	Loss1: -0.138660	Loss2: 0.069331	Loss3: 0.030360	Loss4: 0.017703	Loss5: 0.017703
+Train Ep: 63 [1600/70000 (1%)]	Loss1: -0.138630	Loss2: 0.069321	Loss3: 0.018457	Loss4: 0.011157	Loss5: 0.011157
+Train Ep: 63 [2400/70000 (2%)]	Loss1: -0.138694	Loss2: 0.069323	Loss3: 0.061192	Loss4: 0.017424	Loss5: 0.017424
+Train Ep: 63 [3200/70000 (2%)]	Loss1: -0.138645	Loss2: 0.069333	Loss3: -0.002996	Loss4: 0.006785	Loss5: 0.006785
+Train Ep: 63 [4000/70000 (2%)]	Loss1: -0.138676	Loss2: 0.069329	Loss3: 0.030949	Loss4: 0.014400	Loss5: 0.014400
+Train Ep: 63 [4800/70000 (3%)]	Loss1: -0.138656	Loss2: 0.069326	Loss3: 0.001122	Loss4: 0.014827	Loss5: 0.014827
+Train Ep: 63 [5600/70000 (4%)]	Loss1: -0.138638	Loss2: 0.069322	Loss3: 0.070959	Loss4: 0.008736	Loss5: 0.008736
+Train Ep: 63 [6400/70000 (4%)]	Loss1: -0.138662	Loss2: 0.069333	Loss3: 0.007217	Loss4: 0.001117	Loss5: 0.001117
+Train Ep: 63 [7200/70000 (4%)]	Loss1: -0.138652	Loss2: 0.069327	Loss3: 0.013016	Loss4: 0.002607	Loss5: 0.002607
+Train Ep: 63 [8000/70000 (5%)]	Loss1: -0.138637	Loss2: 0.069322	Loss3: 0.005732	Loss4: 0.011689	Loss5: 0.011689
+Train Ep: 63 [8800/70000 (6%)]	Loss1: -0.138681	Loss2: 0.069313	Loss3: 0.026592	Loss4: 0.009237	Loss5: 0.009237
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.17877843167692067
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.10694240919706921
+Train Ep: 64 [0/70000 (0%)]	Loss1: -0.138632	Loss2: 0.069319	Loss3: 0.029499	Loss4: 0.006317	Loss5: 0.006317
+max_value is:
+47.901624548736464
+
+ max_record buff: Accuracy C:(47.5%), Accuracy C1:(47.8%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(47.9)%, Accuracy ensemble cc1c2:(47.8%)
+
+Train Ep: 64 [800/70000 (0%)]	Loss1: -0.138632	Loss2: 0.069327	Loss3: 0.014040	Loss4: 0.005486	Loss5: 0.005486
+Train Ep: 64 [1600/70000 (1%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.013680	Loss4: 0.003623	Loss5: 0.003623
+Train Ep: 64 [2400/70000 (2%)]	Loss1: -0.138665	Loss2: 0.069320	Loss3: 0.017891	Loss4: 0.002302	Loss5: 0.002302
+Train Ep: 64 [3200/70000 (2%)]	Loss1: -0.138645	Loss2: 0.069319	Loss3: 0.018537	Loss4: 0.009775	Loss5: 0.009775
+Train Ep: 64 [4000/70000 (2%)]	Loss1: -0.138646	Loss2: 0.069338	Loss3: 0.006056	Loss4: 0.001263	Loss5: 0.001263
+Train Ep: 64 [4800/70000 (3%)]	Loss1: -0.138639	Loss2: 0.069323	Loss3: 0.001930	Loss4: 0.009643	Loss5: 0.009643
+Train Ep: 64 [5600/70000 (4%)]	Loss1: -0.138703	Loss2: 0.069319	Loss3: 0.024218	Loss4: 0.004079	Loss5: 0.004079
+Train Ep: 64 [6400/70000 (4%)]	Loss1: -0.138659	Loss2: 0.069326	Loss3: 0.008237	Loss4: 0.017301	Loss5: 0.017301
+Train Ep: 64 [7200/70000 (4%)]	Loss1: -0.138660	Loss2: 0.069327	Loss3: 0.005994	Loss4: 0.011822	Loss5: 0.011822
+Train Ep: 64 [8000/70000 (5%)]	Loss1: -0.138653	Loss2: 0.069320	Loss3: 0.019189	Loss4: 0.003649	Loss5: 0.003649
+Train Ep: 64 [8800/70000 (6%)]	Loss1: -0.138652	Loss2: 0.069326	Loss3: 0.001746	Loss4: 0.004391	Loss5: 0.004391
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.13243595430652672
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.10545018484259316
+Train Ep: 65 [0/70000 (0%)]	Loss1: -0.138652	Loss2: 0.069331	Loss3: -0.001359	Loss4: 0.011407	Loss5: 0.011407
+max_value is:
+47.901624548736464
+
+ max_record buff: Accuracy C:(47.5%), Accuracy C1:(47.8%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(47.9)%, Accuracy ensemble cc1c2:(47.8%)
+
+Train Ep: 65 [800/70000 (0%)]	Loss1: -0.138676	Loss2: 0.069316	Loss3: 0.012608	Loss4: 0.010984	Loss5: 0.010984
+Train Ep: 65 [1600/70000 (1%)]	Loss1: -0.138649	Loss2: 0.069330	Loss3: 0.011900	Loss4: 0.007841	Loss5: 0.007841
+Train Ep: 65 [2400/70000 (2%)]	Loss1: -0.138665	Loss2: 0.069327	Loss3: -0.002330	Loss4: 0.008680	Loss5: 0.008680
+Train Ep: 65 [3200/70000 (2%)]	Loss1: -0.138657	Loss2: 0.069328	Loss3: 0.011462	Loss4: 0.009243	Loss5: 0.009243
+Train Ep: 65 [4000/70000 (2%)]	Loss1: -0.138641	Loss2: 0.069327	Loss3: 0.007271	Loss4: 0.012259	Loss5: 0.012259
+Train Ep: 65 [4800/70000 (3%)]	Loss1: -0.138664	Loss2: 0.069329	Loss3: 0.011577	Loss4: 0.015520	Loss5: 0.015520
+Train Ep: 65 [5600/70000 (4%)]	Loss1: -0.138634	Loss2: 0.069316	Loss3: 0.009895	Loss4: 0.010748	Loss5: 0.010748
+Train Ep: 65 [6400/70000 (4%)]	Loss1: -0.138629	Loss2: 0.069320	Loss3: 0.007851	Loss4: 0.002830	Loss5: 0.002830
+Train Ep: 65 [7200/70000 (4%)]	Loss1: -0.138675	Loss2: 0.069326	Loss3: 0.019583	Loss4: 0.004163	Loss5: 0.004163
+Train Ep: 65 [8000/70000 (5%)]	Loss1: -0.138655	Loss2: 0.069329	Loss3: -0.001480	Loss4: 0.017828	Loss5: 0.017828
+Train Ep: 65 [8800/70000 (6%)]	Loss1: -0.138635	Loss2: 0.069334	Loss3: 0.035382	Loss4: 0.012262	Loss5: 0.012262
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.21331141643789686
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.10626867139808605
+Train Ep: 66 [0/70000 (0%)]	Loss1: -0.138672	Loss2: 0.069323	Loss3: 0.005600	Loss4: 0.008410	Loss5: 0.008410
+max_value is:
+47.901624548736464
+
+ max_record buff: Accuracy C:(47.5%), Accuracy C1:(47.8%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(47.9)%, Accuracy ensemble cc1c2:(47.8%)
+
+Train Ep: 66 [800/70000 (0%)]	Loss1: -0.138642	Loss2: 0.069319	Loss3: -0.000390	Loss4: 0.005183	Loss5: 0.005183
+Train Ep: 66 [1600/70000 (1%)]	Loss1: -0.138634	Loss2: 0.069316	Loss3: 0.004155	Loss4: 0.008700	Loss5: 0.008700
+Train Ep: 66 [2400/70000 (2%)]	Loss1: -0.138640	Loss2: 0.069328	Loss3: 0.002468	Loss4: 0.013397	Loss5: 0.013397
+Train Ep: 66 [3200/70000 (2%)]	Loss1: -0.138644	Loss2: 0.069316	Loss3: 0.008945	Loss4: 0.003502	Loss5: 0.003502
+Train Ep: 66 [4000/70000 (2%)]	Loss1: -0.138654	Loss2: 0.069343	Loss3: 0.008915	Loss4: 0.008326	Loss5: 0.008326
+Train Ep: 66 [4800/70000 (3%)]	Loss1: -0.138640	Loss2: 0.069344	Loss3: 0.024941	Loss4: 0.004639	Loss5: 0.004639
+Train Ep: 66 [5600/70000 (4%)]	Loss1: -0.138645	Loss2: 0.069331	Loss3: 0.011884	Loss4: 0.003857	Loss5: 0.003857
+Train Ep: 66 [6400/70000 (4%)]	Loss1: -0.138630	Loss2: 0.069318	Loss3: 0.182387	Loss4: 0.007996	Loss5: 0.007996
+Train Ep: 66 [7200/70000 (4%)]	Loss1: -0.138648	Loss2: 0.069319	Loss3: 0.030933	Loss4: 0.003638	Loss5: 0.003638
+Train Ep: 66 [8000/70000 (5%)]	Loss1: -0.138639	Loss2: 0.069318	Loss3: 0.007122	Loss4: 0.011123	Loss5: 0.011123
+Train Ep: 66 [8800/70000 (6%)]	Loss1: -0.138646	Loss2: 0.069323	Loss3: 0.001713	Loss4: 0.014076	Loss5: 0.014076
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.21248876430193542
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.08230001688573574
+Train Ep: 67 [0/70000 (0%)]	Loss1: -0.138648	Loss2: 0.069325	Loss3: 0.005786	Loss4: 0.008142	Loss5: 0.008142
+max_value is:
+47.901624548736464
+
+ max_record buff: Accuracy C:(47.5%), Accuracy C1:(47.8%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(47.9)%, Accuracy ensemble cc1c2:(47.8%)
+
+Train Ep: 67 [800/70000 (0%)]	Loss1: -0.138679	Loss2: 0.069322	Loss3: 0.009738	Loss4: 0.003697	Loss5: 0.003697
+Train Ep: 67 [1600/70000 (1%)]	Loss1: -0.138640	Loss2: 0.069331	Loss3: 0.006741	Loss4: 0.001467	Loss5: 0.001467
+Train Ep: 67 [2400/70000 (2%)]	Loss1: -0.138635	Loss2: 0.069329	Loss3: 0.007598	Loss4: 0.007262	Loss5: 0.007262
+Train Ep: 67 [3200/70000 (2%)]	Loss1: -0.138652	Loss2: 0.069323	Loss3: 0.010586	Loss4: 0.006076	Loss5: 0.006076
+Train Ep: 67 [4000/70000 (2%)]	Loss1: -0.138642	Loss2: 0.069322	Loss3: 0.014760	Loss4: 0.013549	Loss5: 0.013549
+Train Ep: 67 [4800/70000 (3%)]	Loss1: -0.138650	Loss2: 0.069332	Loss3: 0.004128	Loss4: 0.001429	Loss5: 0.001429
+Train Ep: 67 [5600/70000 (4%)]	Loss1: -0.138644	Loss2: 0.069324	Loss3: 0.017687	Loss4: 0.015024	Loss5: 0.015024
+Train Ep: 67 [6400/70000 (4%)]	Loss1: -0.138637	Loss2: 0.069318	Loss3: 0.092472	Loss4: 0.019981	Loss5: 0.019981
+Train Ep: 67 [7200/70000 (4%)]	Loss1: -0.138628	Loss2: 0.069326	Loss3: 0.002934	Loss4: 0.003596	Loss5: 0.003596
+Train Ep: 67 [8000/70000 (5%)]	Loss1: -0.138641	Loss2: 0.069317	Loss3: 0.006711	Loss4: 0.006403	Loss5: 0.006403
+Train Ep: 67 [8800/70000 (6%)]	Loss1: -0.138644	Loss2: 0.069320	Loss3: 0.011300	Loss4: 0.007493	Loss5: 0.007493
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.1074427187555562
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.07784691721560777
+Train Ep: 68 [0/70000 (0%)]	Loss1: -0.138642	Loss2: 0.069318	Loss3: 0.009717	Loss4: 0.007205	Loss5: 0.007205
+max_value is:
+47.901624548736464
+
+Test set: Average loss1: -0.7999, Average loss2: -1.2899, Accuracy C: 2122/4432 (47.9%), Accuracy C1: 2125/4432 (47.9%), Accuracy ensemble c2: 2125/4432 (47.9)%, Accuracy ensemble c1c2: 2124/4432 (47.9)%, Accuracy ensemble cc1c2: 2123/4432 (47.9%)
+
+Train Ep: 68 [800/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069322	Loss3: 0.027321	Loss4: 0.004874	Loss5: 0.004874
+Train Ep: 68 [1600/70000 (1%)]	Loss1: -0.138641	Loss2: 0.069324	Loss3: 0.004035	Loss4: 0.010268	Loss5: 0.010268
+Train Ep: 68 [2400/70000 (2%)]	Loss1: -0.138644	Loss2: 0.069315	Loss3: 0.007022	Loss4: 0.004157	Loss5: 0.004157
+Train Ep: 68 [3200/70000 (2%)]	Loss1: -0.138658	Loss2: 0.069323	Loss3: 0.002435	Loss4: 0.009049	Loss5: 0.009049
+Train Ep: 68 [4000/70000 (2%)]	Loss1: -0.138640	Loss2: 0.069337	Loss3: 0.001402	Loss4: 0.014259	Loss5: 0.014259
+Train Ep: 68 [4800/70000 (3%)]	Loss1: -0.138641	Loss2: 0.069318	Loss3: 0.017005	Loss4: 0.004140	Loss5: 0.004140
+Train Ep: 68 [5600/70000 (4%)]	Loss1: -0.138646	Loss2: 0.069326	Loss3: 0.017902	Loss4: 0.001754	Loss5: 0.001754
+Train Ep: 68 [6400/70000 (4%)]	Loss1: -0.138667	Loss2: 0.069323	Loss3: 0.023056	Loss4: 0.002803	Loss5: 0.002803
+Train Ep: 68 [7200/70000 (4%)]	Loss1: -0.138645	Loss2: 0.069325	Loss3: 0.002614	Loss4: 0.009004	Loss5: 0.009004
+Train Ep: 68 [8000/70000 (5%)]	Loss1: -0.138647	Loss2: 0.069322	Loss3: 0.015356	Loss4: 0.009703	Loss5: 0.009703
+Train Ep: 68 [8800/70000 (6%)]	Loss1: -0.138665	Loss2: 0.069327	Loss3: 0.005009	Loss4: 0.004085	Loss5: 0.004085
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.1796788688520417
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.09617895800516374
+Train Ep: 69 [0/70000 (0%)]	Loss1: -0.138639	Loss2: 0.069325	Loss3: 0.013660	Loss4: 0.013236	Loss5: 0.013236
+max_value is:
+47.94675090252708
+
+ max_record buff: Accuracy C:(47.9%), Accuracy C1:(47.9%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(47.9)%, Accuracy ensemble cc1c2:(47.9%)
+
+Train Ep: 69 [800/70000 (0%)]	Loss1: -0.138642	Loss2: 0.069322	Loss3: 0.005111	Loss4: 0.003893	Loss5: 0.003893
+Train Ep: 69 [1600/70000 (1%)]	Loss1: -0.138635	Loss2: 0.069337	Loss3: 0.002493	Loss4: 0.013331	Loss5: 0.013331
+Train Ep: 69 [2400/70000 (2%)]	Loss1: -0.138643	Loss2: 0.069312	Loss3: 0.035854	Loss4: 0.002090	Loss5: 0.002090
+Train Ep: 69 [3200/70000 (2%)]	Loss1: -0.138633	Loss2: 0.069324	Loss3: 0.021851	Loss4: 0.002276	Loss5: 0.002276
+Train Ep: 69 [4000/70000 (2%)]	Loss1: -0.138651	Loss2: 0.069321	Loss3: 0.003314	Loss4: 0.010013	Loss5: 0.010013
+Train Ep: 69 [4800/70000 (3%)]	Loss1: -0.138703	Loss2: 0.069315	Loss3: 0.012048	Loss4: 0.010319	Loss5: 0.010319
+Train Ep: 69 [5600/70000 (4%)]	Loss1: -0.138644	Loss2: 0.069322	Loss3: 0.007950	Loss4: 0.009920	Loss5: 0.009920
+Train Ep: 69 [6400/70000 (4%)]	Loss1: -0.138650	Loss2: 0.069330	Loss3: 0.018615	Loss4: 0.006592	Loss5: 0.006592
+Train Ep: 69 [7200/70000 (4%)]	Loss1: -0.138639	Loss2: 0.069320	Loss3: 0.007026	Loss4: 0.000492	Loss5: 0.000492
+Train Ep: 69 [8000/70000 (5%)]	Loss1: -0.138643	Loss2: 0.069316	Loss3: 0.002345	Loss4: 0.002415	Loss5: 0.002415
+Train Ep: 69 [8800/70000 (6%)]	Loss1: -0.138653	Loss2: 0.069320	Loss3: 0.008876	Loss4: 0.015908	Loss5: 0.015908
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.25603434970594413
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.092910258992422
+Train Ep: 70 [0/70000 (0%)]	Loss1: -0.138636	Loss2: 0.069318	Loss3: 0.006171	Loss4: 0.013416	Loss5: 0.013416
+max_value is:
+47.94675090252708
+
+Test set: Average loss1: -0.7453, Average loss2: -1.0325, Accuracy C: 2128/4432 (48.0%), Accuracy C1: 2130/4432 (48.1%), Accuracy ensemble c2: 2122/4432 (47.9)%, Accuracy ensemble c1c2: 2130/4432 (48.1)%, Accuracy ensemble cc1c2: 2127/4432 (48.0%)
+
+Train Ep: 70 [800/70000 (0%)]	Loss1: -0.138635	Loss2: 0.069314	Loss3: 0.049227	Loss4: 0.009047	Loss5: 0.009047
+Train Ep: 70 [1600/70000 (1%)]	Loss1: -0.138644	Loss2: 0.069322	Loss3: 0.004175	Loss4: 0.007512	Loss5: 0.007512
+Train Ep: 70 [2400/70000 (2%)]	Loss1: -0.138636	Loss2: 0.069325	Loss3: 0.010685	Loss4: 0.000847	Loss5: 0.000847
+Train Ep: 70 [3200/70000 (2%)]	Loss1: -0.138653	Loss2: 0.069330	Loss3: 0.021016	Loss4: 0.004106	Loss5: 0.004106
+Train Ep: 70 [4000/70000 (2%)]	Loss1: -0.138668	Loss2: 0.069322	Loss3: 0.002502	Loss4: 0.011334	Loss5: 0.011334
+Train Ep: 70 [4800/70000 (3%)]	Loss1: -0.138638	Loss2: 0.069318	Loss3: 0.008420	Loss4: 0.001830	Loss5: 0.001830
+Train Ep: 70 [5600/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069318	Loss3: 0.004740	Loss4: 0.006102	Loss5: 0.006102
+Train Ep: 70 [6400/70000 (4%)]	Loss1: -0.138639	Loss2: 0.069330	Loss3: 0.014566	Loss4: 0.010620	Loss5: 0.010620
+Train Ep: 70 [7200/70000 (4%)]	Loss1: -0.138661	Loss2: 0.069317	Loss3: 0.003151	Loss4: 0.005992	Loss5: 0.005992
+Train Ep: 70 [8000/70000 (5%)]	Loss1: -0.138659	Loss2: 0.069329	Loss3: 0.009617	Loss4: 0.004701	Loss5: 0.004701
+Train Ep: 70 [8800/70000 (6%)]	Loss1: -0.138648	Loss2: 0.069319	Loss3: 0.003853	Loss4: 0.005473	Loss5: 0.005473
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.09614731177064055
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.06464358646271118
+Train Ep: 71 [0/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069318	Loss3: 0.023061	Loss4: 0.004636	Loss5: 0.004636
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 71 [800/70000 (0%)]	Loss1: -0.138643	Loss2: 0.069319	Loss3: 0.031662	Loss4: 0.008750	Loss5: 0.008750
+Train Ep: 71 [1600/70000 (1%)]	Loss1: -0.138640	Loss2: 0.069336	Loss3: 0.004521	Loss4: 0.007481	Loss5: 0.007481
+Train Ep: 71 [2400/70000 (2%)]	Loss1: -0.138655	Loss2: 0.069320	Loss3: 0.041763	Loss4: 0.006787	Loss5: 0.006787
+Train Ep: 71 [3200/70000 (2%)]	Loss1: -0.138636	Loss2: 0.069319	Loss3: 0.001358	Loss4: 0.007492	Loss5: 0.007492
+Train Ep: 71 [4000/70000 (2%)]	Loss1: -0.138655	Loss2: 0.069322	Loss3: 0.015002	Loss4: 0.007004	Loss5: 0.007004
+Train Ep: 71 [4800/70000 (3%)]	Loss1: -0.138651	Loss2: 0.069326	Loss3: 0.007935	Loss4: 0.002593	Loss5: 0.002593
+Train Ep: 71 [5600/70000 (4%)]	Loss1: -0.138644	Loss2: 0.069320	Loss3: 0.008441	Loss4: 0.002857	Loss5: 0.002857
+Train Ep: 71 [6400/70000 (4%)]	Loss1: -0.138643	Loss2: 0.069318	Loss3: 0.021225	Loss4: 0.003063	Loss5: 0.003063
+Train Ep: 71 [7200/70000 (4%)]	Loss1: -0.138649	Loss2: 0.069330	Loss3: 0.003091	Loss4: 0.006971	Loss5: 0.006971
+Train Ep: 71 [8000/70000 (5%)]	Loss1: -0.138636	Loss2: 0.069316	Loss3: 0.028300	Loss4: 0.009876	Loss5: 0.009876
+Train Ep: 71 [8800/70000 (6%)]	Loss1: -0.138630	Loss2: 0.069322	Loss3: 0.001972	Loss4: 0.011452	Loss5: 0.011452
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.18337464026093964
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.10674243280031082
+Train Ep: 72 [0/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069323	Loss3: 0.031581	Loss4: 0.005348	Loss5: 0.005348
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 72 [800/70000 (0%)]	Loss1: -0.138638	Loss2: 0.069323	Loss3: 0.013412	Loss4: 0.004008	Loss5: 0.004008
+Train Ep: 72 [1600/70000 (1%)]	Loss1: -0.138633	Loss2: 0.069322	Loss3: 0.037777	Loss4: 0.001230	Loss5: 0.001230
+Train Ep: 72 [2400/70000 (2%)]	Loss1: -0.138652	Loss2: 0.069353	Loss3: 0.009706	Loss4: 0.005294	Loss5: 0.005294
+Train Ep: 72 [3200/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069325	Loss3: 0.013300	Loss4: 0.011426	Loss5: 0.011426
+Train Ep: 72 [4000/70000 (2%)]	Loss1: -0.138645	Loss2: 0.069322	Loss3: 0.005588	Loss4: 0.018959	Loss5: 0.018959
+Train Ep: 72 [4800/70000 (3%)]	Loss1: -0.138634	Loss2: 0.069324	Loss3: 0.032653	Loss4: 0.003381	Loss5: 0.003381
+Train Ep: 72 [5600/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069324	Loss3: 0.006551	Loss4: 0.001166	Loss5: 0.001166
+Train Ep: 72 [6400/70000 (4%)]	Loss1: -0.138640	Loss2: 0.069317	Loss3: 0.019175	Loss4: 0.006723	Loss5: 0.006723
+Train Ep: 72 [7200/70000 (4%)]	Loss1: -0.138646	Loss2: 0.069315	Loss3: 0.067738	Loss4: 0.003417	Loss5: 0.003417
+Train Ep: 72 [8000/70000 (5%)]	Loss1: -0.138652	Loss2: 0.069326	Loss3: 0.003455	Loss4: 0.005604	Loss5: 0.005604
+Train Ep: 72 [8800/70000 (6%)]	Loss1: -0.138650	Loss2: 0.069327	Loss3: 0.022048	Loss4: 0.002197	Loss5: 0.002197
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.08403136066834757
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.06991910239319576
+Train Ep: 73 [0/70000 (0%)]	Loss1: -0.138643	Loss2: 0.069325	Loss3: 0.007962	Loss4: 0.002069	Loss5: 0.002069
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 73 [800/70000 (0%)]	Loss1: -0.138635	Loss2: 0.069320	Loss3: 0.014553	Loss4: 0.003497	Loss5: 0.003497
+Train Ep: 73 [1600/70000 (1%)]	Loss1: -0.138646	Loss2: 0.069327	Loss3: 0.016014	Loss4: 0.000998	Loss5: 0.000998
+Train Ep: 73 [2400/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069324	Loss3: 0.037264	Loss4: 0.011214	Loss5: 0.011214
+Train Ep: 73 [3200/70000 (2%)]	Loss1: -0.138642	Loss2: 0.069330	Loss3: 0.026796	Loss4: 0.000432	Loss5: 0.000432
+Train Ep: 73 [4000/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069317	Loss3: 0.032915	Loss4: 0.008078	Loss5: 0.008078
+Train Ep: 73 [4800/70000 (3%)]	Loss1: -0.138651	Loss2: 0.069312	Loss3: 0.003542	Loss4: 0.003327	Loss5: 0.003327
+Train Ep: 73 [5600/70000 (4%)]	Loss1: -0.138650	Loss2: 0.069315	Loss3: 0.012795	Loss4: 0.001445	Loss5: 0.001445
+Train Ep: 73 [6400/70000 (4%)]	Loss1: -0.138653	Loss2: 0.069333	Loss3: 0.027675	Loss4: 0.005117	Loss5: 0.005117
+Train Ep: 73 [7200/70000 (4%)]	Loss1: -0.138642	Loss2: 0.069318	Loss3: 0.013764	Loss4: 0.008268	Loss5: 0.008268
+Train Ep: 73 [8000/70000 (5%)]	Loss1: -0.138649	Loss2: 0.069328	Loss3: 0.006648	Loss4: 0.006147	Loss5: 0.006147
+Train Ep: 73 [8800/70000 (6%)]	Loss1: -0.138634	Loss2: 0.069322	Loss3: 0.003983	Loss4: 0.015458	Loss5: 0.015458
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.0968714119213107
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.06736732364046905
+Train Ep: 74 [0/70000 (0%)]	Loss1: -0.138638	Loss2: 0.069317	Loss3: 0.016047	Loss4: 0.010319	Loss5: 0.010319
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 74 [800/70000 (0%)]	Loss1: -0.138630	Loss2: 0.069318	Loss3: 0.011748	Loss4: 0.006933	Loss5: 0.006933
+Train Ep: 74 [1600/70000 (1%)]	Loss1: -0.138641	Loss2: 0.069316	Loss3: 0.000655	Loss4: 0.007534	Loss5: 0.007534
+Train Ep: 74 [2400/70000 (2%)]	Loss1: -0.138635	Loss2: 0.069322	Loss3: 0.005317	Loss4: 0.007663	Loss5: 0.007663
+Train Ep: 74 [3200/70000 (2%)]	Loss1: -0.138685	Loss2: 0.069326	Loss3: 0.008466	Loss4: 0.008289	Loss5: 0.008289
+Train Ep: 74 [4000/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069321	Loss3: 0.007708	Loss4: 0.014608	Loss5: 0.014608
+Train Ep: 74 [4800/70000 (3%)]	Loss1: -0.138631	Loss2: 0.069320	Loss3: 0.005350	Loss4: 0.004722	Loss5: 0.004722
+Train Ep: 74 [5600/70000 (4%)]	Loss1: -0.138635	Loss2: 0.069323	Loss3: 0.009732	Loss4: 0.004874	Loss5: 0.004874
+Train Ep: 74 [6400/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069318	Loss3: 0.013906	Loss4: 0.003043	Loss5: 0.003043
+Train Ep: 74 [7200/70000 (4%)]	Loss1: -0.138645	Loss2: 0.069316	Loss3: 0.005123	Loss4: 0.002131	Loss5: 0.002131
+Train Ep: 74 [8000/70000 (5%)]	Loss1: -0.138637	Loss2: 0.069319	Loss3: 0.021022	Loss4: 0.015300	Loss5: 0.015300
+Train Ep: 74 [8800/70000 (6%)]	Loss1: -0.138637	Loss2: 0.069315	Loss3: 0.000719	Loss4: 0.013235	Loss5: 0.013235
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.0937511465177489
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.10970025403213901
+Train Ep: 75 [0/70000 (0%)]	Loss1: -0.138650	Loss2: 0.069324	Loss3: 0.013032	Loss4: 0.008535	Loss5: 0.008535
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 75 [800/70000 (0%)]	Loss1: -0.138638	Loss2: 0.069335	Loss3: 0.003255	Loss4: 0.006035	Loss5: 0.006035
+Train Ep: 75 [1600/70000 (1%)]	Loss1: -0.138662	Loss2: 0.069322	Loss3: 0.012866	Loss4: 0.005851	Loss5: 0.005851
+Train Ep: 75 [2400/70000 (2%)]	Loss1: -0.138636	Loss2: 0.069319	Loss3: 0.004119	Loss4: 0.004880	Loss5: 0.004880
+Train Ep: 75 [3200/70000 (2%)]	Loss1: -0.138638	Loss2: 0.069313	Loss3: 0.012692	Loss4: 0.010187	Loss5: 0.010187
+Train Ep: 75 [4000/70000 (2%)]	Loss1: -0.138656	Loss2: 0.069323	Loss3: 0.007357	Loss4: 0.007753	Loss5: 0.007753
+Train Ep: 75 [4800/70000 (3%)]	Loss1: -0.138638	Loss2: 0.069320	Loss3: 0.020245	Loss4: 0.005470	Loss5: 0.005470
+Train Ep: 75 [5600/70000 (4%)]	Loss1: -0.138642	Loss2: 0.069324	Loss3: 0.009611	Loss4: 0.008735	Loss5: 0.008735
+Train Ep: 75 [6400/70000 (4%)]	Loss1: -0.138647	Loss2: 0.069319	Loss3: 0.010829	Loss4: 0.008076	Loss5: 0.008076
+Train Ep: 75 [7200/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069317	Loss3: -0.000697	Loss4: 0.016715	Loss5: 0.016715
+Train Ep: 75 [8000/70000 (5%)]	Loss1: -0.138637	Loss2: 0.069319	Loss3: 0.005055	Loss4: 0.009141	Loss5: 0.009141
+Train Ep: 75 [8800/70000 (6%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: -0.000285	Loss4: 0.016545	Loss5: 0.016545
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.3492053508842843
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.07877149090536983
+Train Ep: 76 [0/70000 (0%)]	Loss1: -0.138649	Loss2: 0.069321	Loss3: 0.005294	Loss4: 0.004899	Loss5: 0.004899
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 76 [800/70000 (0%)]	Loss1: -0.138647	Loss2: 0.069319	Loss3: 0.002779	Loss4: 0.009305	Loss5: 0.009305
+Train Ep: 76 [1600/70000 (1%)]	Loss1: -0.138645	Loss2: 0.069318	Loss3: 0.011280	Loss4: 0.009584	Loss5: 0.009584
+Train Ep: 76 [2400/70000 (2%)]	Loss1: -0.138639	Loss2: 0.069319	Loss3: -0.001551	Loss4: 0.005537	Loss5: 0.005537
+Train Ep: 76 [3200/70000 (2%)]	Loss1: -0.138642	Loss2: 0.069321	Loss3: 0.008204	Loss4: 0.009974	Loss5: 0.009974
+Train Ep: 76 [4000/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069330	Loss3: 0.041976	Loss4: 0.006794	Loss5: 0.006794
+Train Ep: 76 [4800/70000 (3%)]	Loss1: -0.138634	Loss2: 0.069322	Loss3: 0.009963	Loss4: 0.001003	Loss5: 0.001003
+Train Ep: 76 [5600/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069317	Loss3: 0.001174	Loss4: 0.005380	Loss5: 0.005380
+Train Ep: 76 [6400/70000 (4%)]	Loss1: -0.138639	Loss2: 0.069318	Loss3: 0.005740	Loss4: 0.008583	Loss5: 0.008583
+Train Ep: 76 [7200/70000 (4%)]	Loss1: -0.138637	Loss2: 0.069319	Loss3: 0.008871	Loss4: 0.007055	Loss5: 0.007055
+Train Ep: 76 [8000/70000 (5%)]	Loss1: -0.138641	Loss2: 0.069322	Loss3: 0.019414	Loss4: 0.003387	Loss5: 0.003387
+Train Ep: 76 [8800/70000 (6%)]	Loss1: -0.138645	Loss2: 0.069325	Loss3: 0.007117	Loss4: 0.008323	Loss5: 0.008323
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.20834805705084436
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.10351091094753684
+Train Ep: 77 [0/70000 (0%)]	Loss1: -0.138642	Loss2: 0.069314	Loss3: 0.005089	Loss4: 0.001213	Loss5: 0.001213
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 77 [800/70000 (0%)]	Loss1: -0.138651	Loss2: 0.069324	Loss3: 0.025934	Loss4: 0.004382	Loss5: 0.004382
+Train Ep: 77 [1600/70000 (1%)]	Loss1: -0.138660	Loss2: 0.069314	Loss3: 0.030739	Loss4: 0.016565	Loss5: 0.016565
+Train Ep: 77 [2400/70000 (2%)]	Loss1: -0.138659	Loss2: 0.069332	Loss3: 0.009664	Loss4: 0.000766	Loss5: 0.000766
+Train Ep: 77 [3200/70000 (2%)]	Loss1: -0.138633	Loss2: 0.069318	Loss3: 0.015035	Loss4: 0.007143	Loss5: 0.007143
+Train Ep: 77 [4000/70000 (2%)]	Loss1: -0.138640	Loss2: 0.069317	Loss3: 0.020566	Loss4: 0.002082	Loss5: 0.002082
+Train Ep: 77 [4800/70000 (3%)]	Loss1: -0.138637	Loss2: 0.069323	Loss3: 0.025737	Loss4: 0.009066	Loss5: 0.009066
+Train Ep: 77 [5600/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069324	Loss3: 0.006861	Loss4: 0.011640	Loss5: 0.011640
+Train Ep: 77 [6400/70000 (4%)]	Loss1: -0.138634	Loss2: 0.069322	Loss3: 0.063205	Loss4: 0.016897	Loss5: 0.016897
+Train Ep: 77 [7200/70000 (4%)]	Loss1: -0.138642	Loss2: 0.069317	Loss3: 0.004393	Loss4: 0.004017	Loss5: 0.004017
+Train Ep: 77 [8000/70000 (5%)]	Loss1: -0.138641	Loss2: 0.069321	Loss3: 0.012895	Loss4: 0.005350	Loss5: 0.005350
+Train Ep: 77 [8800/70000 (6%)]	Loss1: -0.138633	Loss2: 0.069320	Loss3: 0.029474	Loss4: 0.014028	Loss5: 0.014028
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.1316390386223551
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.04865279294596736
+Train Ep: 78 [0/70000 (0%)]	Loss1: -0.138637	Loss2: 0.069324	Loss3: 0.005429	Loss4: 0.008161	Loss5: 0.008161
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 78 [800/70000 (0%)]	Loss1: -0.138636	Loss2: 0.069318	Loss3: -0.001123	Loss4: 0.021295	Loss5: 0.021295
+Train Ep: 78 [1600/70000 (1%)]	Loss1: -0.138657	Loss2: 0.069319	Loss3: 0.008674	Loss4: 0.011522	Loss5: 0.011522
+Train Ep: 78 [2400/70000 (2%)]	Loss1: -0.138646	Loss2: 0.069317	Loss3: 0.046278	Loss4: 0.011888	Loss5: 0.011888
+Train Ep: 78 [3200/70000 (2%)]	Loss1: -0.138636	Loss2: 0.069317	Loss3: 0.008995	Loss4: 0.006062	Loss5: 0.006062
+Train Ep: 78 [4000/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.015973	Loss4: 0.008841	Loss5: 0.008841
+Train Ep: 78 [4800/70000 (3%)]	Loss1: -0.138633	Loss2: 0.069317	Loss3: 0.003737	Loss4: 0.011351	Loss5: 0.011351
+Train Ep: 78 [5600/70000 (4%)]	Loss1: -0.138641	Loss2: 0.069318	Loss3: 0.004807	Loss4: 0.011560	Loss5: 0.011560
+Train Ep: 78 [6400/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069320	Loss3: 0.003604	Loss4: 0.002895	Loss5: 0.002895
+Train Ep: 78 [7200/70000 (4%)]	Loss1: -0.138640	Loss2: 0.069323	Loss3: 0.015954	Loss4: 0.003208	Loss5: 0.003208
+Train Ep: 78 [8000/70000 (5%)]	Loss1: -0.138649	Loss2: 0.069326	Loss3: 0.027066	Loss4: 0.006041	Loss5: 0.006041
+Train Ep: 78 [8800/70000 (6%)]	Loss1: -0.138632	Loss2: 0.069315	Loss3: -0.001520	Loss4: 0.009492	Loss5: 0.009492
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.334920638092102
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.08878358405807518
+Train Ep: 79 [0/70000 (0%)]	Loss1: -0.138633	Loss2: 0.069319	Loss3: 0.019743	Loss4: 0.024175	Loss5: 0.024175
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 79 [800/70000 (0%)]	Loss1: -0.138635	Loss2: 0.069311	Loss3: 0.002583	Loss4: 0.007318	Loss5: 0.007318
+Train Ep: 79 [1600/70000 (1%)]	Loss1: -0.138643	Loss2: 0.069314	Loss3: 0.013529	Loss4: 0.004941	Loss5: 0.004941
+Train Ep: 79 [2400/70000 (2%)]	Loss1: -0.138640	Loss2: 0.069316	Loss3: 0.005591	Loss4: 0.003370	Loss5: 0.003370
+Train Ep: 79 [3200/70000 (2%)]	Loss1: -0.138635	Loss2: 0.069332	Loss3: 0.008125	Loss4: 0.000907	Loss5: 0.000907
+Train Ep: 79 [4000/70000 (2%)]	Loss1: -0.138647	Loss2: 0.069320	Loss3: 0.010390	Loss4: 0.003192	Loss5: 0.003192
+Train Ep: 79 [4800/70000 (3%)]	Loss1: -0.138642	Loss2: 0.069325	Loss3: 0.008688	Loss4: 0.001446	Loss5: 0.001446
+Train Ep: 79 [5600/70000 (4%)]	Loss1: -0.138635	Loss2: 0.069322	Loss3: 0.049609	Loss4: 0.002068	Loss5: 0.002068
+Train Ep: 79 [6400/70000 (4%)]	Loss1: -0.138657	Loss2: 0.069317	Loss3: 0.017341	Loss4: 0.003426	Loss5: 0.003426
+Train Ep: 79 [7200/70000 (4%)]	Loss1: -0.138637	Loss2: 0.069315	Loss3: 0.014479	Loss4: 0.010038	Loss5: 0.010038
+Train Ep: 79 [8000/70000 (5%)]	Loss1: -0.138644	Loss2: 0.069322	Loss3: 0.005168	Loss4: 0.002532	Loss5: 0.002532
+Train Ep: 79 [8800/70000 (6%)]	Loss1: -0.138640	Loss2: 0.069324	Loss3: 0.001014	Loss4: 0.002265	Loss5: 0.002265
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.259486048119743
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.08381429947520513
+Train Ep: 80 [0/70000 (0%)]	Loss1: -0.138630	Loss2: 0.069319	Loss3: 0.002196	Loss4: 0.005734	Loss5: 0.005734
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 80 [800/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069325	Loss3: 0.037667	Loss4: 0.004578	Loss5: 0.004578
+Train Ep: 80 [1600/70000 (1%)]	Loss1: -0.138646	Loss2: 0.069316	Loss3: 0.001111	Loss4: 0.017149	Loss5: 0.017149
+Train Ep: 80 [2400/70000 (2%)]	Loss1: -0.138640	Loss2: 0.069320	Loss3: 0.029953	Loss4: 0.014418	Loss5: 0.014418
+Train Ep: 80 [3200/70000 (2%)]	Loss1: -0.138636	Loss2: 0.069320	Loss3: 0.022145	Loss4: 0.003045	Loss5: 0.003045
+Train Ep: 80 [4000/70000 (2%)]	Loss1: -0.138633	Loss2: 0.069321	Loss3: 0.004954	Loss4: 0.004280	Loss5: 0.004280
+Train Ep: 80 [4800/70000 (3%)]	Loss1: -0.138649	Loss2: 0.069318	Loss3: 0.010028	Loss4: 0.002593	Loss5: 0.002593
+Train Ep: 80 [5600/70000 (4%)]	Loss1: -0.138646	Loss2: 0.069316	Loss3: 0.055967	Loss4: 0.004656	Loss5: 0.004656
+Train Ep: 80 [6400/70000 (4%)]	Loss1: -0.138644	Loss2: 0.069320	Loss3: 0.006325	Loss4: 0.002867	Loss5: 0.002867
+Train Ep: 80 [7200/70000 (4%)]	Loss1: -0.138649	Loss2: 0.069320	Loss3: 0.007812	Loss4: 0.001376	Loss5: 0.001376
+Train Ep: 80 [8000/70000 (5%)]	Loss1: -0.138626	Loss2: 0.069317	Loss3: 0.014248	Loss4: 0.005778	Loss5: 0.005778
+Train Ep: 80 [8800/70000 (6%)]	Loss1: -0.138639	Loss2: 0.069318	Loss3: 0.010034	Loss4: 0.008864	Loss5: 0.008864
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.28005255470129353
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.07748284542180073
+Train Ep: 81 [0/70000 (0%)]	Loss1: -0.138630	Loss2: 0.069318	Loss3: 0.016403	Loss4: 0.007595	Loss5: 0.007595
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 81 [800/70000 (0%)]	Loss1: -0.138636	Loss2: 0.069319	Loss3: 0.018912	Loss4: 0.008546	Loss5: 0.008546
+Train Ep: 81 [1600/70000 (1%)]	Loss1: -0.138640	Loss2: 0.069324	Loss3: 0.013726	Loss4: 0.001970	Loss5: 0.001970
+Train Ep: 81 [2400/70000 (2%)]	Loss1: -0.138641	Loss2: 0.069316	Loss3: 0.012967	Loss4: 0.008032	Loss5: 0.008032
+Train Ep: 81 [3200/70000 (2%)]	Loss1: -0.138629	Loss2: 0.069320	Loss3: 0.044281	Loss4: 0.002176	Loss5: 0.002176
+Train Ep: 81 [4000/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069316	Loss3: 0.005577	Loss4: 0.001792	Loss5: 0.001792
+Train Ep: 81 [4800/70000 (3%)]	Loss1: -0.138646	Loss2: 0.069315	Loss3: 0.007781	Loss4: 0.009795	Loss5: 0.009795
+Train Ep: 81 [5600/70000 (4%)]	Loss1: -0.138646	Loss2: 0.069314	Loss3: 0.008261	Loss4: 0.001256	Loss5: 0.001256
+Train Ep: 81 [6400/70000 (4%)]	Loss1: -0.138638	Loss2: 0.069316	Loss3: 0.022900	Loss4: 0.009532	Loss5: 0.009532
+Train Ep: 81 [7200/70000 (4%)]	Loss1: -0.138648	Loss2: 0.069325	Loss3: 0.021459	Loss4: 0.002273	Loss5: 0.002273
+Train Ep: 81 [8000/70000 (5%)]	Loss1: -0.138635	Loss2: 0.069318	Loss3: 0.009260	Loss4: 0.001059	Loss5: 0.001059
+Train Ep: 81 [8800/70000 (6%)]	Loss1: -0.138630	Loss2: 0.069321	Loss3: 0.005926	Loss4: 0.001637	Loss5: 0.001637
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.24327218508339765
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.07917334957642364
+Train Ep: 82 [0/70000 (0%)]	Loss1: -0.138628	Loss2: 0.069317	Loss3: 0.004465	Loss4: 0.001136	Loss5: 0.001136
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 82 [800/70000 (0%)]	Loss1: -0.138627	Loss2: 0.069318	Loss3: 0.012920	Loss4: 0.002356	Loss5: 0.002356
+Train Ep: 82 [1600/70000 (1%)]	Loss1: -0.138631	Loss2: 0.069315	Loss3: 0.002597	Loss4: 0.002152	Loss5: 0.002152
+Train Ep: 82 [2400/70000 (2%)]	Loss1: -0.138646	Loss2: 0.069319	Loss3: 0.000483	Loss4: 0.010516	Loss5: 0.010516
+Train Ep: 82 [3200/70000 (2%)]	Loss1: -0.138643	Loss2: 0.069317	Loss3: 0.011988	Loss4: 0.010467	Loss5: 0.010467
+Train Ep: 82 [4000/70000 (2%)]	Loss1: -0.138639	Loss2: 0.069325	Loss3: 0.017610	Loss4: 0.008111	Loss5: 0.008111
+Train Ep: 82 [4800/70000 (3%)]	Loss1: -0.138627	Loss2: 0.069317	Loss3: 0.193968	Loss4: 0.008957	Loss5: 0.008957
+Train Ep: 82 [5600/70000 (4%)]	Loss1: -0.138646	Loss2: 0.069322	Loss3: 0.004931	Loss4: 0.005115	Loss5: 0.005115
+Train Ep: 82 [6400/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069318	Loss3: 0.001837	Loss4: 0.008078	Loss5: 0.008078
+Train Ep: 82 [7200/70000 (4%)]	Loss1: -0.138645	Loss2: 0.069318	Loss3: 0.002061	Loss4: 0.016651	Loss5: 0.016651
+Train Ep: 82 [8000/70000 (5%)]	Loss1: -0.138635	Loss2: 0.069311	Loss3: 0.008912	Loss4: 0.008753	Loss5: 0.008753
+Train Ep: 82 [8800/70000 (6%)]	Loss1: -0.138643	Loss2: 0.069318	Loss3: 0.160599	Loss4: 0.008465	Loss5: 0.008465
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2688531345224283
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.0753435388474668
+Train Ep: 83 [0/70000 (0%)]	Loss1: -0.138651	Loss2: 0.069316	Loss3: 0.016802	Loss4: 0.001596	Loss5: 0.001596
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 83 [800/70000 (0%)]	Loss1: -0.138636	Loss2: 0.069321	Loss3: 0.007853	Loss4: 0.006548	Loss5: 0.006548
+Train Ep: 83 [1600/70000 (1%)]	Loss1: -0.138637	Loss2: 0.069322	Loss3: 0.010671	Loss4: 0.007652	Loss5: 0.007652
+Train Ep: 83 [2400/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069315	Loss3: 0.007794	Loss4: 0.007566	Loss5: 0.007566
+Train Ep: 83 [3200/70000 (2%)]	Loss1: -0.138643	Loss2: 0.069320	Loss3: 0.029987	Loss4: 0.010334	Loss5: 0.010334
+Train Ep: 83 [4000/70000 (2%)]	Loss1: -0.138633	Loss2: 0.069317	Loss3: 0.022407	Loss4: 0.000941	Loss5: 0.000941
+Train Ep: 83 [4800/70000 (3%)]	Loss1: -0.138646	Loss2: 0.069315	Loss3: 0.024113	Loss4: 0.016178	Loss5: 0.016178
+Train Ep: 83 [5600/70000 (4%)]	Loss1: -0.138638	Loss2: 0.069314	Loss3: 0.021448	Loss4: 0.011076	Loss5: 0.011076
+Train Ep: 83 [6400/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069316	Loss3: 0.004133	Loss4: 0.004103	Loss5: 0.004103
+Train Ep: 83 [7200/70000 (4%)]	Loss1: -0.138641	Loss2: 0.069315	Loss3: 0.006867	Loss4: 0.003850	Loss5: 0.003850
+Train Ep: 83 [8000/70000 (5%)]	Loss1: -0.138627	Loss2: 0.069317	Loss3: 0.024439	Loss4: 0.000391	Loss5: 0.000391
+Train Ep: 83 [8800/70000 (6%)]	Loss1: -0.138636	Loss2: 0.069318	Loss3: 0.008613	Loss4: 0.005431	Loss5: 0.005431
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.10749692615713856
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.08262543019015445
+Train Ep: 84 [0/70000 (0%)]	Loss1: -0.138638	Loss2: 0.069323	Loss3: 0.004532	Loss4: 0.001021	Loss5: 0.001021
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 84 [800/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069322	Loss3: 0.011713	Loss4: 0.008747	Loss5: 0.008747
+Train Ep: 84 [1600/70000 (1%)]	Loss1: -0.138626	Loss2: 0.069318	Loss3: 0.036994	Loss4: 0.003791	Loss5: 0.003791
+Train Ep: 84 [2400/70000 (2%)]	Loss1: -0.138636	Loss2: 0.069317	Loss3: 0.006355	Loss4: 0.002656	Loss5: 0.002656
+Train Ep: 84 [3200/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069314	Loss3: 0.043074	Loss4: 0.009338	Loss5: 0.009338
+Train Ep: 84 [4000/70000 (2%)]	Loss1: -0.138642	Loss2: 0.069318	Loss3: 0.016481	Loss4: 0.001696	Loss5: 0.001696
+Train Ep: 84 [4800/70000 (3%)]	Loss1: -0.138640	Loss2: 0.069316	Loss3: 0.008378	Loss4: 0.010867	Loss5: 0.010867
+Train Ep: 84 [5600/70000 (4%)]	Loss1: -0.138638	Loss2: 0.069321	Loss3: 0.006091	Loss4: 0.001753	Loss5: 0.001753
+Train Ep: 84 [6400/70000 (4%)]	Loss1: -0.138630	Loss2: 0.069319	Loss3: 0.010027	Loss4: 0.014342	Loss5: 0.014342
+Train Ep: 84 [7200/70000 (4%)]	Loss1: -0.138630	Loss2: 0.069321	Loss3: 0.068333	Loss4: 0.003891	Loss5: 0.003891
+Train Ep: 84 [8000/70000 (5%)]	Loss1: -0.138638	Loss2: 0.069317	Loss3: 0.041783	Loss4: 0.003497	Loss5: 0.003497
+Train Ep: 84 [8800/70000 (6%)]	Loss1: -0.138629	Loss2: 0.069316	Loss3: 0.012220	Loss4: 0.008958	Loss5: 0.008958
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.287104139309197
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.08771454205147855
+Train Ep: 85 [0/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069316	Loss3: 0.047630	Loss4: 0.004074	Loss5: 0.004074
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 85 [800/70000 (0%)]	Loss1: -0.138646	Loss2: 0.069315	Loss3: 0.010575	Loss4: 0.001041	Loss5: 0.001041
+Train Ep: 85 [1600/70000 (1%)]	Loss1: -0.138641	Loss2: 0.069322	Loss3: 0.022314	Loss4: 0.001816	Loss5: 0.001816
+Train Ep: 85 [2400/70000 (2%)]	Loss1: -0.138640	Loss2: 0.069316	Loss3: 0.039993	Loss4: 0.005548	Loss5: 0.005548
+Train Ep: 85 [3200/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069320	Loss3: 0.016248	Loss4: 0.006408	Loss5: 0.006408
+Train Ep: 85 [4000/70000 (2%)]	Loss1: -0.138641	Loss2: 0.069315	Loss3: 0.011673	Loss4: 0.003337	Loss5: 0.003337
+Train Ep: 85 [4800/70000 (3%)]	Loss1: -0.138629	Loss2: 0.069318	Loss3: 0.010034	Loss4: 0.008022	Loss5: 0.008022
+Train Ep: 85 [5600/70000 (4%)]	Loss1: -0.138642	Loss2: 0.069322	Loss3: 0.005024	Loss4: 0.011326	Loss5: 0.011326
+Train Ep: 85 [6400/70000 (4%)]	Loss1: -0.138640	Loss2: 0.069318	Loss3: 0.005567	Loss4: 0.002943	Loss5: 0.002943
+Train Ep: 85 [7200/70000 (4%)]	Loss1: -0.138635	Loss2: 0.069317	Loss3: 0.003916	Loss4: 0.006805	Loss5: 0.006805
+Train Ep: 85 [8000/70000 (5%)]	Loss1: -0.138647	Loss2: 0.069314	Loss3: 0.009851	Loss4: 0.002171	Loss5: 0.002171
+Train Ep: 85 [8800/70000 (6%)]	Loss1: -0.138637	Loss2: 0.069322	Loss3: 0.003233	Loss4: 0.007229	Loss5: 0.007229
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.24972360240831237
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.0881029541753865
+Train Ep: 86 [0/70000 (0%)]	Loss1: -0.138649	Loss2: 0.069321	Loss3: 0.006295	Loss4: 0.006274	Loss5: 0.006274
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 86 [800/70000 (0%)]	Loss1: -0.138639	Loss2: 0.069317	Loss3: 0.010692	Loss4: 0.007879	Loss5: 0.007879
+Train Ep: 86 [1600/70000 (1%)]	Loss1: -0.138635	Loss2: 0.069320	Loss3: 0.019593	Loss4: 0.004761	Loss5: 0.004761
+Train Ep: 86 [2400/70000 (2%)]	Loss1: -0.138628	Loss2: 0.069319	Loss3: 0.011364	Loss4: 0.002307	Loss5: 0.002307
+Train Ep: 86 [3200/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069321	Loss3: 0.018514	Loss4: 0.000944	Loss5: 0.000944
+Train Ep: 86 [4000/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069320	Loss3: -0.000183	Loss4: 0.007829	Loss5: 0.007829
+Train Ep: 86 [4800/70000 (3%)]	Loss1: -0.138633	Loss2: 0.069315	Loss3: 0.022103	Loss4: 0.006761	Loss5: 0.006761
+Train Ep: 86 [5600/70000 (4%)]	Loss1: -0.138629	Loss2: 0.069330	Loss3: 0.006628	Loss4: 0.004746	Loss5: 0.004746
+Train Ep: 86 [6400/70000 (4%)]	Loss1: -0.138623	Loss2: 0.069320	Loss3: 0.002310	Loss4: 0.011956	Loss5: 0.011956
+Train Ep: 86 [7200/70000 (4%)]	Loss1: -0.138630	Loss2: 0.069319	Loss3: 0.003113	Loss4: 0.006748	Loss5: 0.006748
+Train Ep: 86 [8000/70000 (5%)]	Loss1: -0.138637	Loss2: 0.069316	Loss3: 0.007859	Loss4: 0.003214	Loss5: 0.003214
+Train Ep: 86 [8800/70000 (6%)]	Loss1: -0.138640	Loss2: 0.069321	Loss3: 0.016081	Loss4: 0.003782	Loss5: 0.003782
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.3696763278204412
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.04587873056412639
+Train Ep: 87 [0/70000 (0%)]	Loss1: -0.138630	Loss2: 0.069315	Loss3: 0.006625	Loss4: 0.002638	Loss5: 0.002638
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 87 [800/70000 (0%)]	Loss1: -0.138638	Loss2: 0.069317	Loss3: 0.013643	Loss4: 0.013069	Loss5: 0.013069
+Train Ep: 87 [1600/70000 (1%)]	Loss1: -0.138640	Loss2: 0.069321	Loss3: 0.006144	Loss4: 0.002675	Loss5: 0.002675
+Train Ep: 87 [2400/70000 (2%)]	Loss1: -0.138633	Loss2: 0.069316	Loss3: 0.102333	Loss4: 0.010647	Loss5: 0.010647
+Train Ep: 87 [3200/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069318	Loss3: 0.015230	Loss4: 0.006028	Loss5: 0.006028
+Train Ep: 87 [4000/70000 (2%)]	Loss1: -0.138635	Loss2: 0.069317	Loss3: 0.035108	Loss4: 0.011493	Loss5: 0.011493
+Train Ep: 87 [4800/70000 (3%)]	Loss1: -0.138634	Loss2: 0.069318	Loss3: 0.060602	Loss4: 0.003290	Loss5: 0.003290
+Train Ep: 87 [5600/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069317	Loss3: 0.001786	Loss4: 0.009631	Loss5: 0.009631
+Train Ep: 87 [6400/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069318	Loss3: 0.008525	Loss4: 0.007264	Loss5: 0.007264
+Train Ep: 87 [7200/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069317	Loss3: 0.008251	Loss4: 0.003697	Loss5: 0.003697
+Train Ep: 87 [8000/70000 (5%)]	Loss1: -0.138630	Loss2: 0.069332	Loss3: 0.006991	Loss4: 0.002619	Loss5: 0.002619
+Train Ep: 87 [8800/70000 (6%)]	Loss1: -0.138650	Loss2: 0.069319	Loss3: 0.002922	Loss4: 0.010023	Loss5: 0.010023
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.16881202458505554
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.10081720404526673
+Train Ep: 88 [0/70000 (0%)]	Loss1: -0.138632	Loss2: 0.069318	Loss3: 0.020860	Loss4: 0.003972	Loss5: 0.003972
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 88 [800/70000 (0%)]	Loss1: -0.138667	Loss2: 0.069323	Loss3: 0.012719	Loss4: 0.011438	Loss5: 0.011438
+Train Ep: 88 [1600/70000 (1%)]	Loss1: -0.138637	Loss2: 0.069318	Loss3: 0.009871	Loss4: 0.002533	Loss5: 0.002533
+Train Ep: 88 [2400/70000 (2%)]	Loss1: -0.138630	Loss2: 0.069335	Loss3: 0.008468	Loss4: 0.001544	Loss5: 0.001544
+Train Ep: 88 [3200/70000 (2%)]	Loss1: -0.138635	Loss2: 0.069319	Loss3: 0.012265	Loss4: 0.006098	Loss5: 0.006098
+Train Ep: 88 [4000/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069320	Loss3: 0.029767	Loss4: 0.002791	Loss5: 0.002791
+Train Ep: 88 [4800/70000 (3%)]	Loss1: -0.138631	Loss2: 0.069323	Loss3: 0.033900	Loss4: 0.001317	Loss5: 0.001317
+Train Ep: 88 [5600/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069316	Loss3: -0.002469	Loss4: 0.012794	Loss5: 0.012794
+Train Ep: 88 [6400/70000 (4%)]	Loss1: -0.138642	Loss2: 0.069321	Loss3: 0.007900	Loss4: 0.007185	Loss5: 0.007185
+Train Ep: 88 [7200/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069323	Loss3: 0.000275	Loss4: 0.013380	Loss5: 0.013380
+Train Ep: 88 [8000/70000 (5%)]	Loss1: -0.138628	Loss2: 0.069316	Loss3: 0.029429	Loss4: 0.001813	Loss5: 0.001813
+Train Ep: 88 [8800/70000 (6%)]	Loss1: -0.138641	Loss2: 0.069321	Loss3: 0.046026	Loss4: 0.008430	Loss5: 0.008430
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.299476464414632
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.08427760086578717
+Train Ep: 89 [0/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069318	Loss3: 0.001141	Loss4: 0.006101	Loss5: 0.006101
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 89 [800/70000 (0%)]	Loss1: -0.138636	Loss2: 0.069319	Loss3: 0.003266	Loss4: 0.008022	Loss5: 0.008022
+Train Ep: 89 [1600/70000 (1%)]	Loss1: -0.138632	Loss2: 0.069320	Loss3: 0.021676	Loss4: 0.000968	Loss5: 0.000968
+Train Ep: 89 [2400/70000 (2%)]	Loss1: -0.138639	Loss2: 0.069320	Loss3: 0.032959	Loss4: 0.000737	Loss5: 0.000737
+Train Ep: 89 [3200/70000 (2%)]	Loss1: -0.138630	Loss2: 0.069318	Loss3: 0.004544	Loss4: 0.008830	Loss5: 0.008830
+Train Ep: 89 [4000/70000 (2%)]	Loss1: -0.138628	Loss2: 0.069318	Loss3: 0.012016	Loss4: 0.005521	Loss5: 0.005521
+Train Ep: 89 [4800/70000 (3%)]	Loss1: -0.138643	Loss2: 0.069317	Loss3: 0.024042	Loss4: 0.008281	Loss5: 0.008281
+Train Ep: 89 [5600/70000 (4%)]	Loss1: -0.138637	Loss2: 0.069318	Loss3: 0.020561	Loss4: 0.012931	Loss5: 0.012931
+Train Ep: 89 [6400/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069316	Loss3: 0.022900	Loss4: 0.013552	Loss5: 0.013552
+Train Ep: 89 [7200/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069319	Loss3: 0.006594	Loss4: 0.004465	Loss5: 0.004465
+Train Ep: 89 [8000/70000 (5%)]	Loss1: -0.138635	Loss2: 0.069315	Loss3: 0.011735	Loss4: 0.002638	Loss5: 0.002638
+Train Ep: 89 [8800/70000 (6%)]	Loss1: -0.138630	Loss2: 0.069317	Loss3: 0.020124	Loss4: 0.006748	Loss5: 0.006748
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.14881348085800405
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.1040148010049633
+Train Ep: 90 [0/70000 (0%)]	Loss1: -0.138646	Loss2: 0.069317	Loss3: 0.005646	Loss4: 0.004293	Loss5: 0.004293
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 90 [800/70000 (0%)]	Loss1: -0.138630	Loss2: 0.069316	Loss3: 0.004710	Loss4: 0.002976	Loss5: 0.002976
+Train Ep: 90 [1600/70000 (1%)]	Loss1: -0.138631	Loss2: 0.069317	Loss3: 0.000027	Loss4: 0.009702	Loss5: 0.009702
+Train Ep: 90 [2400/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069315	Loss3: 0.018620	Loss4: 0.011933	Loss5: 0.011933
+Train Ep: 90 [3200/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069322	Loss3: 0.006040	Loss4: 0.014997	Loss5: 0.014997
+Train Ep: 90 [4000/70000 (2%)]	Loss1: -0.138638	Loss2: 0.069315	Loss3: 0.000979	Loss4: 0.012472	Loss5: 0.012472
+Train Ep: 90 [4800/70000 (3%)]	Loss1: -0.138630	Loss2: 0.069321	Loss3: -0.001576	Loss4: 0.008521	Loss5: 0.008521
+Train Ep: 90 [5600/70000 (4%)]	Loss1: -0.138648	Loss2: 0.069321	Loss3: -0.002295	Loss4: 0.001723	Loss5: 0.001723
+Train Ep: 90 [6400/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069317	Loss3: 0.008811	Loss4: 0.001255	Loss5: 0.001255
+Train Ep: 90 [7200/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069320	Loss3: 0.040019	Loss4: 0.002145	Loss5: 0.002145
+Train Ep: 90 [8000/70000 (5%)]	Loss1: -0.138636	Loss2: 0.069315	Loss3: 0.012787	Loss4: 0.006360	Loss5: 0.006360
+Train Ep: 90 [8800/70000 (6%)]	Loss1: -0.138635	Loss2: 0.069323	Loss3: 0.006853	Loss4: 0.000875	Loss5: 0.000875
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.193699867672759
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.0847139547705128
+Train Ep: 91 [0/70000 (0%)]	Loss1: -0.138635	Loss2: 0.069325	Loss3: 0.009709	Loss4: 0.001506	Loss5: 0.001506
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 91 [800/70000 (0%)]	Loss1: -0.138637	Loss2: 0.069315	Loss3: 0.003398	Loss4: 0.006371	Loss5: 0.006371
+Train Ep: 91 [1600/70000 (1%)]	Loss1: -0.138634	Loss2: 0.069320	Loss3: 0.014116	Loss4: 0.005622	Loss5: 0.005622
+Train Ep: 91 [2400/70000 (2%)]	Loss1: -0.138642	Loss2: 0.069319	Loss3: 0.013154	Loss4: 0.003452	Loss5: 0.003452
+Train Ep: 91 [3200/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069319	Loss3: 0.010648	Loss4: 0.002601	Loss5: 0.002601
+Train Ep: 91 [4000/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069316	Loss3: 0.018463	Loss4: 0.005850	Loss5: 0.005850
+Train Ep: 91 [4800/70000 (3%)]	Loss1: -0.138628	Loss2: 0.069316	Loss3: 0.040408	Loss4: 0.003317	Loss5: 0.003317
+Train Ep: 91 [5600/70000 (4%)]	Loss1: -0.138637	Loss2: 0.069316	Loss3: 0.017044	Loss4: 0.000907	Loss5: 0.000907
+Train Ep: 91 [6400/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069316	Loss3: 0.004127	Loss4: 0.002746	Loss5: 0.002746
+Train Ep: 91 [7200/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069317	Loss3: -0.001065	Loss4: 0.002030	Loss5: 0.002030
+Train Ep: 91 [8000/70000 (5%)]	Loss1: -0.138628	Loss2: 0.069317	Loss3: 0.009140	Loss4: 0.005567	Loss5: 0.005567
+Train Ep: 91 [8800/70000 (6%)]	Loss1: -0.138634	Loss2: 0.069316	Loss3: 0.009125	Loss4: 0.009270	Loss5: 0.009270
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.16422605978612398
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.0948089321963973
+Train Ep: 92 [0/70000 (0%)]	Loss1: -0.138636	Loss2: 0.069325	Loss3: 0.010823	Loss4: 0.010578	Loss5: 0.010578
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 92 [800/70000 (0%)]	Loss1: -0.138647	Loss2: 0.069317	Loss3: 0.006632	Loss4: 0.022083	Loss5: 0.022083
+Train Ep: 92 [1600/70000 (1%)]	Loss1: -0.138632	Loss2: 0.069317	Loss3: 0.122880	Loss4: 0.006790	Loss5: 0.006790
+Train Ep: 92 [2400/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069318	Loss3: 0.143992	Loss4: 0.004527	Loss5: 0.004527
+Train Ep: 92 [3200/70000 (2%)]	Loss1: -0.138633	Loss2: 0.069323	Loss3: 0.004995	Loss4: 0.005677	Loss5: 0.005677
+Train Ep: 92 [4000/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069317	Loss3: 0.003163	Loss4: 0.007457	Loss5: 0.007457
+Train Ep: 92 [4800/70000 (3%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.002433	Loss4: 0.010461	Loss5: 0.010461
+Train Ep: 92 [5600/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069317	Loss3: 0.004681	Loss4: 0.011558	Loss5: 0.011558
+Train Ep: 92 [6400/70000 (4%)]	Loss1: -0.138637	Loss2: 0.069316	Loss3: 0.007201	Loss4: 0.005301	Loss5: 0.005301
+Train Ep: 92 [7200/70000 (4%)]	Loss1: -0.138630	Loss2: 0.069314	Loss3: 0.004595	Loss4: 0.003532	Loss5: 0.003532
+Train Ep: 92 [8000/70000 (5%)]	Loss1: -0.138632	Loss2: 0.069323	Loss3: 0.008047	Loss4: 0.011494	Loss5: 0.011494
+Train Ep: 92 [8800/70000 (6%)]	Loss1: -0.138635	Loss2: 0.069316	Loss3: 0.001152	Loss4: 0.013534	Loss5: 0.013534
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.09139123241175336
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.047062394416940045
+Train Ep: 93 [0/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.021068	Loss4: 0.007327	Loss5: 0.007327
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 93 [800/70000 (0%)]	Loss1: -0.138629	Loss2: 0.069319	Loss3: 0.006978	Loss4: 0.014272	Loss5: 0.014272
+Train Ep: 93 [1600/70000 (1%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.089136	Loss4: 0.008414	Loss5: 0.008414
+Train Ep: 93 [2400/70000 (2%)]	Loss1: -0.138640	Loss2: 0.069322	Loss3: 0.009560	Loss4: 0.003525	Loss5: 0.003525
+Train Ep: 93 [3200/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069319	Loss3: 0.007034	Loss4: 0.003720	Loss5: 0.003720
+Train Ep: 93 [4000/70000 (2%)]	Loss1: -0.138635	Loss2: 0.069318	Loss3: 0.018462	Loss4: 0.003468	Loss5: 0.003468
+Train Ep: 93 [4800/70000 (3%)]	Loss1: -0.138634	Loss2: 0.069321	Loss3: 0.015035	Loss4: 0.012761	Loss5: 0.012761
+Train Ep: 93 [5600/70000 (4%)]	Loss1: -0.138635	Loss2: 0.069318	Loss3: 0.011757	Loss4: 0.004678	Loss5: 0.004678
+Train Ep: 93 [6400/70000 (4%)]	Loss1: -0.138639	Loss2: 0.069319	Loss3: 0.009971	Loss4: 0.002307	Loss5: 0.002307
+Train Ep: 93 [7200/70000 (4%)]	Loss1: -0.138641	Loss2: 0.069321	Loss3: 0.008132	Loss4: 0.001772	Loss5: 0.001772
+Train Ep: 93 [8000/70000 (5%)]	Loss1: -0.138632	Loss2: 0.069318	Loss3: 0.010281	Loss4: 0.018813	Loss5: 0.018813
+Train Ep: 93 [8800/70000 (6%)]	Loss1: -0.138631	Loss2: 0.069322	Loss3: 0.010717	Loss4: 0.001387	Loss5: 0.001387
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.1218941174027682
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.06396618375685503
+Train Ep: 94 [0/70000 (0%)]	Loss1: -0.138642	Loss2: 0.069319	Loss3: 0.051364	Loss4: 0.003448	Loss5: 0.003448
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 94 [800/70000 (0%)]	Loss1: -0.138633	Loss2: 0.069317	Loss3: 0.011788	Loss4: 0.009025	Loss5: 0.009025
+Train Ep: 94 [1600/70000 (1%)]	Loss1: -0.138632	Loss2: 0.069321	Loss3: 0.031442	Loss4: 0.004029	Loss5: 0.004029
+Train Ep: 94 [2400/70000 (2%)]	Loss1: -0.138636	Loss2: 0.069319	Loss3: 0.018342	Loss4: 0.005634	Loss5: 0.005634
+Train Ep: 94 [3200/70000 (2%)]	Loss1: -0.138634	Loss2: 0.069318	Loss3: 0.031344	Loss4: 0.003237	Loss5: 0.003237
+Train Ep: 94 [4000/70000 (2%)]	Loss1: -0.138633	Loss2: 0.069319	Loss3: 0.009706	Loss4: 0.007217	Loss5: 0.007217
+Train Ep: 94 [4800/70000 (3%)]	Loss1: -0.138631	Loss2: 0.069319	Loss3: 0.015037	Loss4: 0.009466	Loss5: 0.009466
+Train Ep: 94 [5600/70000 (4%)]	Loss1: -0.138638	Loss2: 0.069317	Loss3: 0.003236	Loss4: 0.009628	Loss5: 0.009628
+Train Ep: 94 [6400/70000 (4%)]	Loss1: -0.138634	Loss2: 0.069319	Loss3: 0.014194	Loss4: 0.002099	Loss5: 0.002099
+Train Ep: 94 [7200/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069322	Loss3: 0.007102	Loss4: 0.011638	Loss5: 0.011638
+Train Ep: 94 [8000/70000 (5%)]	Loss1: -0.138633	Loss2: 0.069316	Loss3: 0.014214	Loss4: 0.008927	Loss5: 0.008927
+Train Ep: 94 [8800/70000 (6%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.041432	Loss4: 0.010486	Loss5: 0.010486
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.41022657966926407
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.040390648214013836
+Train Ep: 95 [0/70000 (0%)]	Loss1: -0.138640	Loss2: 0.069315	Loss3: 0.009880	Loss4: 0.010181	Loss5: 0.010181
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 95 [800/70000 (0%)]	Loss1: -0.138633	Loss2: 0.069318	Loss3: 0.013531	Loss4: 0.004959	Loss5: 0.004959
+Train Ep: 95 [1600/70000 (1%)]	Loss1: -0.138635	Loss2: 0.069319	Loss3: 0.011813	Loss4: 0.007465	Loss5: 0.007465
+Train Ep: 95 [2400/70000 (2%)]	Loss1: -0.138629	Loss2: 0.069317	Loss3: 0.009034	Loss4: 0.011110	Loss5: 0.011110
+Train Ep: 95 [3200/70000 (2%)]	Loss1: -0.138634	Loss2: 0.069318	Loss3: 0.041842	Loss4: 0.003748	Loss5: 0.003748
+Train Ep: 95 [4000/70000 (2%)]	Loss1: -0.138636	Loss2: 0.069324	Loss3: 0.001208	Loss4: 0.004444	Loss5: 0.004444
+Train Ep: 95 [4800/70000 (3%)]	Loss1: -0.138642	Loss2: 0.069321	Loss3: 0.009048	Loss4: 0.000811	Loss5: 0.000811
+Train Ep: 95 [5600/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069316	Loss3: 0.016053	Loss4: 0.012411	Loss5: 0.012411
+Train Ep: 95 [6400/70000 (4%)]	Loss1: -0.138644	Loss2: 0.069316	Loss3: 0.004326	Loss4: 0.009401	Loss5: 0.009401
+Train Ep: 95 [7200/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069317	Loss3: 0.024840	Loss4: 0.002573	Loss5: 0.002573
+Train Ep: 95 [8000/70000 (5%)]	Loss1: -0.138631	Loss2: 0.069317	Loss3: 0.001475	Loss4: 0.005552	Loss5: 0.005552
+Train Ep: 95 [8800/70000 (6%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.013872	Loss4: 0.005214	Loss5: 0.005214
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.17728690270444208
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.1151042512784416
+Train Ep: 96 [0/70000 (0%)]	Loss1: -0.138635	Loss2: 0.069324	Loss3: 0.020031	Loss4: 0.001096	Loss5: 0.001096
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 96 [800/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069317	Loss3: 0.004537	Loss4: 0.004768	Loss5: 0.004768
+Train Ep: 96 [1600/70000 (1%)]	Loss1: -0.138630	Loss2: 0.069319	Loss3: 0.010993	Loss4: 0.012562	Loss5: 0.012562
+Train Ep: 96 [2400/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.009533	Loss4: 0.001964	Loss5: 0.001964
+Train Ep: 96 [3200/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069317	Loss3: 0.018994	Loss4: 0.006662	Loss5: 0.006662
+Train Ep: 96 [4000/70000 (2%)]	Loss1: -0.138634	Loss2: 0.069315	Loss3: 0.028463	Loss4: 0.001149	Loss5: 0.001149
+Train Ep: 96 [4800/70000 (3%)]	Loss1: -0.138631	Loss2: 0.069320	Loss3: 0.017804	Loss4: 0.000617	Loss5: 0.000617
+Train Ep: 96 [5600/70000 (4%)]	Loss1: -0.138638	Loss2: 0.069318	Loss3: -0.000596	Loss4: 0.018361	Loss5: 0.018361
+Train Ep: 96 [6400/70000 (4%)]	Loss1: -0.138630	Loss2: 0.069319	Loss3: 0.028611	Loss4: 0.000805	Loss5: 0.000805
+Train Ep: 96 [7200/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069320	Loss3: 0.003621	Loss4: 0.008924	Loss5: 0.008924
+Train Ep: 96 [8000/70000 (5%)]	Loss1: -0.138632	Loss2: 0.069319	Loss3: 0.001624	Loss4: 0.006548	Loss5: 0.006548
+Train Ep: 96 [8800/70000 (6%)]	Loss1: -0.138636	Loss2: 0.069318	Loss3: 0.010019	Loss4: 0.013739	Loss5: 0.013739
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2537347638747691
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.060658766276282305
+Train Ep: 97 [0/70000 (0%)]	Loss1: -0.138639	Loss2: 0.069320	Loss3: 0.007528	Loss4: 0.011818	Loss5: 0.011818
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 97 [800/70000 (0%)]	Loss1: -0.138630	Loss2: 0.069316	Loss3: 0.008036	Loss4: 0.006065	Loss5: 0.006065
+Train Ep: 97 [1600/70000 (1%)]	Loss1: -0.138630	Loss2: 0.069315	Loss3: 0.015462	Loss4: 0.004349	Loss5: 0.004349
+Train Ep: 97 [2400/70000 (2%)]	Loss1: -0.138635	Loss2: 0.069316	Loss3: 0.020973	Loss4: 0.003210	Loss5: 0.003210
+Train Ep: 97 [3200/70000 (2%)]	Loss1: -0.138645	Loss2: 0.069316	Loss3: 0.043782	Loss4: 0.009038	Loss5: 0.009038
+Train Ep: 97 [4000/70000 (2%)]	Loss1: -0.138639	Loss2: 0.069317	Loss3: 0.006121	Loss4: 0.004372	Loss5: 0.004372
+Train Ep: 97 [4800/70000 (3%)]	Loss1: -0.138640	Loss2: 0.069316	Loss3: 0.010101	Loss4: 0.008354	Loss5: 0.008354
+Train Ep: 97 [5600/70000 (4%)]	Loss1: -0.138638	Loss2: 0.069318	Loss3: 0.013557	Loss4: 0.002194	Loss5: 0.002194
+Train Ep: 97 [6400/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.008938	Loss4: 0.000674	Loss5: 0.000674
+Train Ep: 97 [7200/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069317	Loss3: 0.002610	Loss4: 0.005733	Loss5: 0.005733
+Train Ep: 97 [8000/70000 (5%)]	Loss1: -0.138636	Loss2: 0.069315	Loss3: 0.028872	Loss4: 0.007409	Loss5: 0.007409
+Train Ep: 97 [8800/70000 (6%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.010320	Loss4: 0.002866	Loss5: 0.002866
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.09803897484094652
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.0745719577129933
+Train Ep: 98 [0/70000 (0%)]	Loss1: -0.138632	Loss2: 0.069317	Loss3: 0.006633	Loss4: 0.003908	Loss5: 0.003908
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 98 [800/70000 (0%)]	Loss1: -0.138633	Loss2: 0.069318	Loss3: 0.007542	Loss4: 0.003933	Loss5: 0.003933
+Train Ep: 98 [1600/70000 (1%)]	Loss1: -0.138633	Loss2: 0.069314	Loss3: 0.039675	Loss4: 0.004246	Loss5: 0.004246
+Train Ep: 98 [2400/70000 (2%)]	Loss1: -0.138640	Loss2: 0.069318	Loss3: 0.002408	Loss4: 0.008886	Loss5: 0.008886
+Train Ep: 98 [3200/70000 (2%)]	Loss1: -0.138630	Loss2: 0.069317	Loss3: 0.010729	Loss4: 0.007486	Loss5: 0.007486
+Train Ep: 98 [4000/70000 (2%)]	Loss1: -0.138650	Loss2: 0.069318	Loss3: 0.005315	Loss4: 0.004162	Loss5: 0.004162
+Train Ep: 98 [4800/70000 (3%)]	Loss1: -0.138636	Loss2: 0.069318	Loss3: 0.007226	Loss4: 0.001120	Loss5: 0.001120
+Train Ep: 98 [5600/70000 (4%)]	Loss1: -0.138642	Loss2: 0.069317	Loss3: 0.009159	Loss4: 0.001379	Loss5: 0.001379
+Train Ep: 98 [6400/70000 (4%)]	Loss1: -0.138637	Loss2: 0.069318	Loss3: 0.023213	Loss4: 0.007515	Loss5: 0.007515
+Train Ep: 98 [7200/70000 (4%)]	Loss1: -0.138637	Loss2: 0.069320	Loss3: 0.009574	Loss4: 0.009391	Loss5: 0.009391
+Train Ep: 98 [8000/70000 (5%)]	Loss1: -0.138636	Loss2: 0.069316	Loss3: 0.010679	Loss4: 0.009055	Loss5: 0.009055
+Train Ep: 98 [8800/70000 (6%)]	Loss1: -0.138628	Loss2: 0.069316	Loss3: 0.031513	Loss4: 0.003271	Loss5: 0.003271
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.18544838872765876
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.046743005372457236
+Train Ep: 99 [0/70000 (0%)]	Loss1: -0.138630	Loss2: 0.069316	Loss3: 0.007577	Loss4: 0.004601	Loss5: 0.004601
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 99 [800/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.005649	Loss4: 0.000978	Loss5: 0.000978
+Train Ep: 99 [1600/70000 (1%)]	Loss1: -0.138635	Loss2: 0.069319	Loss3: 0.017110	Loss4: 0.013262	Loss5: 0.013262
+Train Ep: 99 [2400/70000 (2%)]	Loss1: -0.138634	Loss2: 0.069319	Loss3: 0.005758	Loss4: 0.007826	Loss5: 0.007826
+Train Ep: 99 [3200/70000 (2%)]	Loss1: -0.138630	Loss2: 0.069318	Loss3: 0.010785	Loss4: 0.002819	Loss5: 0.002819
+Train Ep: 99 [4000/70000 (2%)]	Loss1: -0.138629	Loss2: 0.069319	Loss3: 0.020137	Loss4: 0.001513	Loss5: 0.001513
+Train Ep: 99 [4800/70000 (3%)]	Loss1: -0.138636	Loss2: 0.069316	Loss3: 0.013170	Loss4: 0.009992	Loss5: 0.009992
+Train Ep: 99 [5600/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069318	Loss3: 0.007135	Loss4: 0.006698	Loss5: 0.006698
+Train Ep: 99 [6400/70000 (4%)]	Loss1: -0.138634	Loss2: 0.069320	Loss3: 0.019632	Loss4: 0.007847	Loss5: 0.007847
+Train Ep: 99 [7200/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069317	Loss3: 0.007338	Loss4: 0.006444	Loss5: 0.006444
+Train Ep: 99 [8000/70000 (5%)]	Loss1: -0.138633	Loss2: 0.069319	Loss3: 0.017689	Loss4: 0.006788	Loss5: 0.006788
+Train Ep: 99 [8800/70000 (6%)]	Loss1: -0.138628	Loss2: 0.069321	Loss3: 0.001988	Loss4: 0.007321	Loss5: 0.007321
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.231707341152869
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.10993920930216738
+Train Ep: 100 [0/70000 (0%)]	Loss1: -0.138636	Loss2: 0.069317	Loss3: 0.006989	Loss4: 0.002811	Loss5: 0.002811
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 100 [800/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069315	Loss3: 0.004149	Loss4: 0.002910	Loss5: 0.002910
+Train Ep: 100 [1600/70000 (1%)]	Loss1: -0.138640	Loss2: 0.069316	Loss3: 0.006412	Loss4: 0.011109	Loss5: 0.011109
+Train Ep: 100 [2400/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069318	Loss3: 0.058992	Loss4: 0.001008	Loss5: 0.001008
+Train Ep: 100 [3200/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069321	Loss3: 0.031187	Loss4: 0.002462	Loss5: 0.002462
+Train Ep: 100 [4000/70000 (2%)]	Loss1: -0.138636	Loss2: 0.069317	Loss3: 0.013826	Loss4: 0.004210	Loss5: 0.004210
+Train Ep: 100 [4800/70000 (3%)]	Loss1: -0.138633	Loss2: 0.069317	Loss3: 0.006250	Loss4: 0.004265	Loss5: 0.004265
+Train Ep: 100 [5600/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.026310	Loss4: 0.001937	Loss5: 0.001937
+Train Ep: 100 [6400/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069318	Loss3: 0.018127	Loss4: 0.001719	Loss5: 0.001719
+Train Ep: 100 [7200/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069317	Loss3: 0.005996	Loss4: 0.004117	Loss5: 0.004117
+Train Ep: 100 [8000/70000 (5%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.020109	Loss4: 0.008034	Loss5: 0.008034
+Train Ep: 100 [8800/70000 (6%)]	Loss1: -0.138634	Loss2: 0.069317	Loss3: 0.004580	Loss4: 0.021749	Loss5: 0.021749
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.15268122933323716
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.029363964049090474
+Train Ep: 101 [0/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069318	Loss3: 0.004231	Loss4: 0.006303	Loss5: 0.006303
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 101 [800/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069317	Loss3: 0.011017	Loss4: 0.008655	Loss5: 0.008655
+Train Ep: 101 [1600/70000 (1%)]	Loss1: -0.138632	Loss2: 0.069319	Loss3: 0.005185	Loss4: 0.003047	Loss5: 0.003047
+Train Ep: 101 [2400/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069320	Loss3: 0.016301	Loss4: 0.000892	Loss5: 0.000892
+Train Ep: 101 [3200/70000 (2%)]	Loss1: -0.138634	Loss2: 0.069316	Loss3: 0.056892	Loss4: 0.001789	Loss5: 0.001789
+Train Ep: 101 [4000/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069318	Loss3: 0.005883	Loss4: 0.001729	Loss5: 0.001729
+Train Ep: 101 [4800/70000 (3%)]	Loss1: -0.138634	Loss2: 0.069316	Loss3: 0.039746	Loss4: 0.001482	Loss5: 0.001482
+Train Ep: 101 [5600/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069315	Loss3: 0.008898	Loss4: 0.005911	Loss5: 0.005911
+Train Ep: 101 [6400/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069318	Loss3: 0.009214	Loss4: 0.008342	Loss5: 0.008342
+Train Ep: 101 [7200/70000 (4%)]	Loss1: -0.138628	Loss2: 0.069316	Loss3: 0.006880	Loss4: 0.000434	Loss5: 0.000434
+Train Ep: 101 [8000/70000 (5%)]	Loss1: -0.138631	Loss2: 0.069318	Loss3: 0.009253	Loss4: 0.009785	Loss5: 0.009785
+Train Ep: 101 [8800/70000 (6%)]	Loss1: -0.138633	Loss2: 0.069315	Loss3: 0.012295	Loss4: 0.003186	Loss5: 0.003186
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.37204963504049315
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.13480547931831333
+Train Ep: 102 [0/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.014785	Loss4: 0.012359	Loss5: 0.012359
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 102 [800/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069321	Loss3: 0.014744	Loss4: 0.005121	Loss5: 0.005121
+Train Ep: 102 [1600/70000 (1%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.023613	Loss4: 0.004961	Loss5: 0.004961
+Train Ep: 102 [2400/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069317	Loss3: 0.018133	Loss4: 0.003885	Loss5: 0.003885
+Train Ep: 102 [3200/70000 (2%)]	Loss1: -0.138629	Loss2: 0.069315	Loss3: 0.027580	Loss4: 0.004796	Loss5: 0.004796
+Train Ep: 102 [4000/70000 (2%)]	Loss1: -0.138630	Loss2: 0.069314	Loss3: 0.005921	Loss4: 0.008291	Loss5: 0.008291
+Train Ep: 102 [4800/70000 (3%)]	Loss1: -0.138632	Loss2: 0.069315	Loss3: 0.015229	Loss4: 0.003727	Loss5: 0.003727
+Train Ep: 102 [5600/70000 (4%)]	Loss1: -0.138635	Loss2: 0.069317	Loss3: 0.021366	Loss4: 0.003429	Loss5: 0.003429
+Train Ep: 102 [6400/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069322	Loss3: 0.011123	Loss4: 0.000786	Loss5: 0.000786
+Train Ep: 102 [7200/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.002434	Loss4: 0.011320	Loss5: 0.011320
+Train Ep: 102 [8000/70000 (5%)]	Loss1: -0.138637	Loss2: 0.069316	Loss3: 0.017145	Loss4: 0.006428	Loss5: 0.006428
+Train Ep: 102 [8800/70000 (6%)]	Loss1: -0.138633	Loss2: 0.069316	Loss3: 0.011687	Loss4: 0.002495	Loss5: 0.002495
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.33750982673341745
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.0679964182668279
+Train Ep: 103 [0/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069316	Loss3: 0.025763	Loss4: 0.007206	Loss5: 0.007206
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 103 [800/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.005516	Loss4: 0.002078	Loss5: 0.002078
+Train Ep: 103 [1600/70000 (1%)]	Loss1: -0.138632	Loss2: 0.069317	Loss3: 0.006684	Loss4: 0.013178	Loss5: 0.013178
+Train Ep: 103 [2400/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.015728	Loss4: 0.002478	Loss5: 0.002478
+Train Ep: 103 [3200/70000 (2%)]	Loss1: -0.138637	Loss2: 0.069318	Loss3: -0.005743	Loss4: 0.007723	Loss5: 0.007723
+Train Ep: 103 [4000/70000 (2%)]	Loss1: -0.138634	Loss2: 0.069317	Loss3: 0.072552	Loss4: 0.002020	Loss5: 0.002020
+Train Ep: 103 [4800/70000 (3%)]	Loss1: -0.138629	Loss2: 0.069317	Loss3: 0.001022	Loss4: 0.002107	Loss5: 0.002107
+Train Ep: 103 [5600/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.009253	Loss4: 0.002624	Loss5: 0.002624
+Train Ep: 103 [6400/70000 (4%)]	Loss1: -0.138633	Loss2: 0.069316	Loss3: 0.005897	Loss4: 0.002046	Loss5: 0.002046
+Train Ep: 103 [7200/70000 (4%)]	Loss1: -0.138634	Loss2: 0.069317	Loss3: 0.005814	Loss4: 0.009378	Loss5: 0.009378
+Train Ep: 103 [8000/70000 (5%)]	Loss1: -0.138631	Loss2: 0.069315	Loss3: 0.010525	Loss4: 0.001430	Loss5: 0.001430
+Train Ep: 103 [8800/70000 (6%)]	Loss1: -0.138630	Loss2: 0.069322	Loss3: 0.013337	Loss4: 0.006977	Loss5: 0.006977
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2124595229517768
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.018566564928459095
+Train Ep: 104 [0/70000 (0%)]	Loss1: -0.138633	Loss2: 0.069318	Loss3: 0.007939	Loss4: 0.001192	Loss5: 0.001192
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 104 [800/70000 (0%)]	Loss1: -0.138630	Loss2: 0.069317	Loss3: 0.019604	Loss4: 0.001243	Loss5: 0.001243
+Train Ep: 104 [1600/70000 (1%)]	Loss1: -0.138631	Loss2: 0.069319	Loss3: 0.005084	Loss4: 0.007052	Loss5: 0.007052
+Train Ep: 104 [2400/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069314	Loss3: 0.011432	Loss4: 0.003023	Loss5: 0.003023
+Train Ep: 104 [3200/70000 (2%)]	Loss1: -0.138635	Loss2: 0.069315	Loss3: 0.030257	Loss4: 0.009644	Loss5: 0.009644
+Train Ep: 104 [4000/70000 (2%)]	Loss1: -0.138630	Loss2: 0.069316	Loss3: 0.023502	Loss4: 0.007524	Loss5: 0.007524
+Train Ep: 104 [4800/70000 (3%)]	Loss1: -0.138633	Loss2: 0.069315	Loss3: 0.026353	Loss4: 0.003700	Loss5: 0.003700
+Train Ep: 104 [5600/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.025525	Loss4: 0.002239	Loss5: 0.002239
+Train Ep: 104 [6400/70000 (4%)]	Loss1: -0.138639	Loss2: 0.069316	Loss3: 0.011367	Loss4: 0.008069	Loss5: 0.008069
+Train Ep: 104 [7200/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.005475	Loss4: 0.008795	Loss5: 0.008795
+Train Ep: 104 [8000/70000 (5%)]	Loss1: -0.138630	Loss2: 0.069319	Loss3: 0.009679	Loss4: 0.012045	Loss5: 0.012045
+Train Ep: 104 [8800/70000 (6%)]	Loss1: -0.138635	Loss2: 0.069315	Loss3: 0.044361	Loss4: 0.008074	Loss5: 0.008074
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.23375015508181177
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.1315641026787745
+Train Ep: 105 [0/70000 (0%)]	Loss1: -0.138633	Loss2: 0.069317	Loss3: 0.004786	Loss4: 0.002715	Loss5: 0.002715
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 105 [800/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069315	Loss3: 0.033183	Loss4: 0.007232	Loss5: 0.007232
+Train Ep: 105 [1600/70000 (1%)]	Loss1: -0.138632	Loss2: 0.069315	Loss3: 0.040909	Loss4: 0.002580	Loss5: 0.002580
+Train Ep: 105 [2400/70000 (2%)]	Loss1: -0.138635	Loss2: 0.069318	Loss3: 0.006996	Loss4: 0.006935	Loss5: 0.006935
+Train Ep: 105 [3200/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069318	Loss3: 0.017418	Loss4: 0.009962	Loss5: 0.009962
+Train Ep: 105 [4000/70000 (2%)]	Loss1: -0.138633	Loss2: 0.069318	Loss3: 0.029691	Loss4: 0.011098	Loss5: 0.011098
+Train Ep: 105 [4800/70000 (3%)]	Loss1: -0.138641	Loss2: 0.069317	Loss3: 0.023742	Loss4: 0.006308	Loss5: 0.006308
+Train Ep: 105 [5600/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069315	Loss3: 0.016755	Loss4: 0.003088	Loss5: 0.003088
+Train Ep: 105 [6400/70000 (4%)]	Loss1: -0.138635	Loss2: 0.069316	Loss3: 0.000992	Loss4: 0.003781	Loss5: 0.003781
+Train Ep: 105 [7200/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069315	Loss3: 0.011152	Loss4: 0.000726	Loss5: 0.000726
+Train Ep: 105 [8000/70000 (5%)]	Loss1: -0.138634	Loss2: 0.069319	Loss3: 0.004818	Loss4: 0.006943	Loss5: 0.006943
+Train Ep: 105 [8800/70000 (6%)]	Loss1: -0.138632	Loss2: 0.069317	Loss3: 0.012460	Loss4: 0.007984	Loss5: 0.007984
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2091779390979336
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.09186501935880598
+Train Ep: 106 [0/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069315	Loss3: 0.047534	Loss4: 0.002072	Loss5: 0.002072
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 106 [800/70000 (0%)]	Loss1: -0.138633	Loss2: 0.069318	Loss3: 0.002665	Loss4: 0.010157	Loss5: 0.010157
+Train Ep: 106 [1600/70000 (1%)]	Loss1: -0.138634	Loss2: 0.069315	Loss3: 0.020588	Loss4: 0.007567	Loss5: 0.007567
+Train Ep: 106 [2400/70000 (2%)]	Loss1: -0.138633	Loss2: 0.069316	Loss3: 0.000189	Loss4: 0.007008	Loss5: 0.007008
+Train Ep: 106 [3200/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.025931	Loss4: 0.004835	Loss5: 0.004835
+Train Ep: 106 [4000/70000 (2%)]	Loss1: -0.138629	Loss2: 0.069317	Loss3: 0.003391	Loss4: 0.011242	Loss5: 0.011242
+Train Ep: 106 [4800/70000 (3%)]	Loss1: -0.138629	Loss2: 0.069316	Loss3: 0.013476	Loss4: 0.002792	Loss5: 0.002792
+Train Ep: 106 [5600/70000 (4%)]	Loss1: -0.138634	Loss2: 0.069316	Loss3: 0.016058	Loss4: 0.005255	Loss5: 0.005255
+Train Ep: 106 [6400/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069315	Loss3: 0.005606	Loss4: 0.001820	Loss5: 0.001820
+Train Ep: 106 [7200/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069320	Loss3: 0.007985	Loss4: 0.004757	Loss5: 0.004757
+Train Ep: 106 [8000/70000 (5%)]	Loss1: -0.138635	Loss2: 0.069317	Loss3: 0.025391	Loss4: 0.012050	Loss5: 0.012050
+Train Ep: 106 [8800/70000 (6%)]	Loss1: -0.138632	Loss2: 0.069317	Loss3: 0.017288	Loss4: 0.003727	Loss5: 0.003727
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.19892228476532772
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.06451115875187685
+Train Ep: 107 [0/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069318	Loss3: 0.014116	Loss4: 0.009553	Loss5: 0.009553
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 107 [800/70000 (0%)]	Loss1: -0.138631	Loss2: 0.069314	Loss3: 0.007879	Loss4: 0.000579	Loss5: 0.000579
+Train Ep: 107 [1600/70000 (1%)]	Loss1: -0.138633	Loss2: 0.069317	Loss3: 0.017660	Loss4: 0.002819	Loss5: 0.002819
+Train Ep: 107 [2400/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.002243	Loss4: 0.002993	Loss5: 0.002993
+Train Ep: 107 [3200/70000 (2%)]	Loss1: -0.138634	Loss2: 0.069314	Loss3: 0.004816	Loss4: 0.000850	Loss5: 0.000850
+Train Ep: 107 [4000/70000 (2%)]	Loss1: -0.138634	Loss2: 0.069317	Loss3: 0.005643	Loss4: 0.000954	Loss5: 0.000954
+Train Ep: 107 [4800/70000 (3%)]	Loss1: -0.138635	Loss2: 0.069317	Loss3: 0.012840	Loss4: 0.003856	Loss5: 0.003856
+Train Ep: 107 [5600/70000 (4%)]	Loss1: -0.138634	Loss2: 0.069315	Loss3: 0.006260	Loss4: 0.006626	Loss5: 0.006626
+Train Ep: 107 [6400/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.006941	Loss4: 0.001396	Loss5: 0.001396
+Train Ep: 107 [7200/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069319	Loss3: 0.007075	Loss4: 0.000621	Loss5: 0.000621
+Train Ep: 107 [8000/70000 (5%)]	Loss1: -0.138634	Loss2: 0.069316	Loss3: 0.005735	Loss4: 0.008429	Loss5: 0.008429
+Train Ep: 107 [8800/70000 (6%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.011705	Loss4: 0.000441	Loss5: 0.000441
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.48568511131453806
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.0796376677220102
+Train Ep: 108 [0/70000 (0%)]	Loss1: -0.138634	Loss2: 0.069317	Loss3: 0.005068	Loss4: 0.008740	Loss5: 0.008740
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 108 [800/70000 (0%)]	Loss1: -0.138632	Loss2: 0.069319	Loss3: 0.014716	Loss4: 0.003132	Loss5: 0.003132
+Train Ep: 108 [1600/70000 (1%)]	Loss1: -0.138630	Loss2: 0.069317	Loss3: 0.010921	Loss4: 0.003568	Loss5: 0.003568
+Train Ep: 108 [2400/70000 (2%)]	Loss1: -0.138630	Loss2: 0.069315	Loss3: 0.017906	Loss4: 0.004811	Loss5: 0.004811
+Train Ep: 108 [3200/70000 (2%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.008539	Loss4: 0.001291	Loss5: 0.001291
+Train Ep: 108 [4000/70000 (2%)]	Loss1: -0.138634	Loss2: 0.069317	Loss3: 0.039935	Loss4: 0.002627	Loss5: 0.002627
+Train Ep: 108 [4800/70000 (3%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.020842	Loss4: 0.007025	Loss5: 0.007025
+Train Ep: 108 [5600/70000 (4%)]	Loss1: -0.138630	Loss2: 0.069320	Loss3: 0.006792	Loss4: 0.001377	Loss5: 0.001377
+Train Ep: 108 [6400/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069317	Loss3: 0.029933	Loss4: 0.008664	Loss5: 0.008664
+Train Ep: 108 [7200/70000 (4%)]	Loss1: -0.138636	Loss2: 0.069318	Loss3: 0.009708	Loss4: 0.004794	Loss5: 0.004794
+Train Ep: 108 [8000/70000 (5%)]	Loss1: -0.138634	Loss2: 0.069316	Loss3: 0.012735	Loss4: 0.001207	Loss5: 0.001207
+Train Ep: 108 [8800/70000 (6%)]	Loss1: -0.138633	Loss2: 0.069316	Loss3: 0.009308	Loss4: 0.000467	Loss5: 0.000467
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.2109395314954438
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.025899157707578113
+Train Ep: 109 [0/70000 (0%)]	Loss1: -0.138633	Loss2: 0.069315	Loss3: 0.006988	Loss4: 0.006768	Loss5: 0.006768
+max_value is:
+48.05956678700361
+
+ max_record buff: Accuracy C:(48.0%), Accuracy C1:(48.1%), Accuracy c2:(47.9)%, Accuracy ensemble c1c2:(48.1)%, Accuracy ensemble cc1c2:(48.0%)
+
+Train Ep: 109 [800/70000 (0%)]	Loss1: -0.138633	Loss2: 0.069317	Loss3: 0.007862	Loss4: 0.003787	Loss5: 0.003787
+Train Ep: 109 [1600/70000 (1%)]	Loss1: -0.138632	Loss2: 0.069315	Loss3: 0.493184	Loss4: 0.008181	Loss5: 0.008181
+Train Ep: 109 [2400/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.007963	Loss4: 0.008147	Loss5: 0.008147
+Train Ep: 109 [3200/70000 (2%)]	Loss1: -0.138633	Loss2: 0.069319	Loss3: 0.009880	Loss4: 0.001178	Loss5: 0.001178
+Train Ep: 109 [4000/70000 (2%)]	Loss1: -0.138631	Loss2: 0.069315	Loss3: 0.008717	Loss4: 0.004222	Loss5: 0.004222
+Train Ep: 109 [4800/70000 (3%)]	Loss1: -0.138633	Loss2: 0.069316	Loss3: 0.040796	Loss4: 0.001732	Loss5: 0.001732
+Train Ep: 109 [5600/70000 (4%)]	Loss1: -0.138631	Loss2: 0.069316	Loss3: 0.005145	Loss4: 0.008161	Loss5: 0.008161
+Train Ep: 109 [6400/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069315	Loss3: 0.004425	Loss4: 0.002235	Loss5: 0.002235
+Train Ep: 109 [7200/70000 (4%)]	Loss1: -0.138632	Loss2: 0.069315	Loss3: 0.004458	Loss4: 0.004682	Loss5: 0.004682
+Train Ep: 109 [8000/70000 (5%)]	Loss1: -0.138634	Loss2: 0.069317	Loss3: 0.015041	Loss4: 0.011375	Loss5: 0.011375
+Train Ep: 109 [8800/70000 (6%)]	Loss1: -0.138631	Loss2: 0.069317	Loss3: 0.029875	Loss4: 0.010388	Loss5: 0.010388
+A_st_norm//A_st_norm//A_st_norm//A_st_norm//A_st_norm//
+0.25635603842144106
+1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//1-J_W_norm//
+0.05512988358620974
+Train Ep: 110 [0/70000 (0%)]	Loss1: -0.138632	Loss2: 0.069316	Loss3: 0.004421	Loss4: 0.006263	Loss5: 0.006263
