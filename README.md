@@ -13,12 +13,14 @@
 Train on CDAN on Digits dataset
 ```  
 cd CDAN+SGH/demo_digital
-python train_mnistusps_CDAN.py
+python train_mnistusps_CDAN.py CDAN
 ```
 Train on CDAN on image dataset (Office-31/Office-home/VisDA-2017)
 ```  
 cd CDAN+SGH/demo_images
-python train_image_AW.py
+python train_image_AW.py CDAN
 ```
+Train on DWL on Digits dataset
+
 ## Contact  
 If you have any problem about our code, feel free to contact jkhuang@cqu.edu.cn
