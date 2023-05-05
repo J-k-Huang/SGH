@@ -21,6 +21,14 @@ cd CDAN+SGH/demo_images
 python train_image_AW.py CDAN
 ```
 Train on DWL on Digits dataset
-
+```  
+cd DWL+SGH/demo_digital
+python main_grad.py
+```
+Train on DWL on image dataset
+```  
+cd DWL+SGH/demo_office31
+python main_DW.py
+```
 ## Contact  
 If you have any problem about our code, feel free to contact jkhuang@cqu.edu.cn
